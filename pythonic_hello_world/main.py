@@ -91,3 +91,5 @@ city = 'Bucuresti'
 # my_string = f'Am cumparat o gogoasa cu {price} lei, de la magazinul din strada {address}, {city}'
 my_string = f'Am cumparat o gogoasa cu {price:.2f} lei, de la magazinul din strada {address}, {city}'
 print(my_string)
+
+print('EVERYTHING IS ON GITHUB!')
