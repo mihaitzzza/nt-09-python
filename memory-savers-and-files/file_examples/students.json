@@ -1,0 +1,22 @@
+[
+  {
+    "first_name": "Dan",
+    "last_name": "Popescu",
+    "grade": 7.25
+  },
+  {
+    "first_name": "Vio",
+    "last_name": "Ionescu",
+    "grade": 3.75
+  },
+  {
+    "first_name": "George",
+    "last_name": "Popescu",
+    "grade": 8.25
+  },
+  {
+    "first_name": "Grigore",
+    "last_name": "Ionescu",
+    "grade": 9.0
+  }
+]
