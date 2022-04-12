@@ -112,6 +112,9 @@ class Person(Animal, ABC):
     def introduce_yourself(self):
         print(f'My name is {self._first_name} {self._last_name}')
 
+    def my_function(self):
+        print('[Person] my_function')
+
     def __str__(self):
         return f'{self._first_name} {self._last_name}'
 
@@ -128,10 +131,19 @@ class Male(Person):
     def talk():
         print('Hai la bere!')
 
+    def my_function(self):
+        # super().my_function()
+        super(Person, self).my_function()
+        print('[Male] my_function')
+
 
 class Female(Person):
     gender = 'F'
     has_long_hair = True
+
+    def __init__(self, first_name, last_name, color):
+        super().__init__(first_name, last_name)
+        self.color = color
 
     @staticmethod
     def what_are_your():
@@ -140,6 +152,9 @@ class Female(Person):
     @staticmethod
     def talk():
         print('Hai la gin!')
+
+    def my_function(self):
+        print('[Female] my_function')
 
 
 # male = Male('Ion', 'Popescu')
@@ -157,5 +172,11 @@ class Female(Person):
 # print(female.eat())
 
 
-x = Elephant()
-x.my_function()
+# x = Elephant()
+# x.my_function()
+
+# male = Male(first_name='Ion', last_name='Popescu')
+# male.my_function()
+
+female = Female(first_name='Dana', last_name='Grigore', color='red')
+print(female)
