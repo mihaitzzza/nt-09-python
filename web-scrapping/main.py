@@ -1,6 +1,10 @@
 import time
 import json
+import os
+import requests
+import uuid
 
+from PIL import Image
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.support.wait import WebDriverWait
@@ -18,6 +22,7 @@ if __name__ == '__main__':
     driver.maximize_window()
 
     driver.get('https://www.emag.ro/')
+    # time.sleep(30)
 
     top_categories = driver.find_elements(by=By.XPATH, value='//*[contains(@class, "js-megamenu-list-department-link")]')
     for top_category in top_categories:
@@ -47,9 +52,15 @@ if __name__ == '__main__':
 
                     main_subcategories_data.append(main_subcategory_data)
 
-                    for link in category_container.find_elements(By.TAG_NAME, 'a'):
+                    for index, link in enumerate(category_container.find_elements(By.TAG_NAME, 'a')):
+                        if index == 0:
+                            name = link.text
+                        elif index == 1:
+                            name = 'Laptopuri cu Windows'
+                        else:
+                            name = 'Laptopuri Gaming'
                         category_data = {
-                            "name": link.text,
+                            "name": name,
                             "products": []
                         }
 
@@ -60,19 +71,72 @@ if __name__ == '__main__':
                         products_container = driver.find_element(By.ID, "card_grid")
                         product_cards = products_container.find_elements(By.XPATH, '*[contains(@class, "card-item")]')
                         for product_card in product_cards:
-                            title = product_card.find_element(By.XPATH, "//*[contains(@class, 'card-v2-title')]").text
-                            price = product_card.find_element(By.XPATH, "//*[contains(@class, 'product-new-price')]").text
+                            product_link = product_card.find_element(By.TAG_NAME, 'a').get_attribute('href')
+
+                            driver.execute_script(f"window.open(\"{product_link}\")")
+                            driver.switch_to.window(driver.window_handles[-1])
+
+                            unique_id = uuid.uuid4()
+                            title = driver.find_element(By.XPATH, '//h1[@class="page-title"]').text
+                            print('title', title)
+
+                            image_src = driver.find_element(
+                                By.XPATH,
+                                "//div[@id='product-gallery']//div[contains(@class, 'thumbnail-wrapper')]//img"
+                            ).get_attribute('src')
+                            image_content = requests.get(image_src, stream=True).raw
+
+                            image = Image.open(image_content)
+                            image.save(os.path.join("images", f"{unique_id}.jpg"))
+
+                            price = None
+                            try:
+                                price = driver.find_element(
+                                    By.XPATH,
+                                    "//div[@class='product-highlight product-page-pricing']//p[@class='product-new-price']"
+                                ).text
+                            except Exception as e:
+                                print('e', e)
+
+                            driver.find_element(
+                                By.XPATH,
+                                "//a[@href='#specification-section']"
+                            ).click()
+
+                            driver.find_element(
+                                By.XPATH,
+                                "//div[@class='specifications-body']//button"
+                            ).click()
+
+                            processor_owner = driver.find_element(
+                                By.XPATH,
+                                "//div[@id='specifications-body']//table[contains(@class, 'specifications-table')]//td[text()='Producator procesor']/../td[2]"
+                            ).text
+
                             category_data["products"].append({
+                                "id": str(unique_id),
                                 "title": title,
                                 "price": price,
+                                "specifications": {
+                                    "processor_owner": processor_owner
+                                }
                             })
 
+                            driver.close()
+                            driver.switch_to.window(driver.window_handles[1])
+
+                            break
+
+                        driver.close()
                         driver.switch_to.window(driver.window_handles[0])
 
                         main_subcategory_data["categories"].append(category_data)
 
-                        break
+                        if index == 2:
+                            break
                 break
+
+            break
 
         top_category_data["main_subcategories"] = main_subcategories_data
 
