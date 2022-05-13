@@ -1,0 +1,16 @@
+<html>
+<head>
+    <title>Products page</title>
+</head>
+    <body>
+        <h1>Available products</h1>
+        <ul>
+            {% for product in products %}
+                <li>
+                    {{ product.name }}
+                    <a href="/products/{{ product.id }}">View details</a>
+                </li>
+            {% endfor %}
+        </ul>
+    </body>
+</html>
