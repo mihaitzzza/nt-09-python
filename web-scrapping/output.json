@@ -1,50 +1,2536 @@
 [
   {
-    "name": "Laptop, Tablete & Telefoane",
-    "main_subcategories": [
+    "name": "Laptopuri",
+    "products": [
       {
-        "name": "Laptopuri si accesorii",
-        "categories": [
-          {
-            "name": "Laptopuri",
-            "products": [
-              {
-                "id": "9ae601a7-e0e3-4754-b048-934e0d1cd212",
-                "title": "Laptop Apple MacBook Air 13-inch, True Tone, procesor Apple M1 , 8 nuclee CPU si 7 nuclee GPU, 8GB, 256GB, Space Grey, INT KB",
-                "price": null,
-                "specifications": {
-                  "processor_owner": "Apple"
-                }
-              }
-            ]
-          },
-          {
-            "name": "Laptopuri cu Windows",
-            "products": [
-              {
-                "id": "3c4313a0-9cf9-4686-ab83-681bce4687bb",
-                "title": "Laptop ultraportabil Huawei MateBook D14 cu procesor Intel Core i5-10210U, 14\", Full HD, 8GB, 512GB SSD, Intel UHD Graphics, Windows 10 Home, Mystic Silver",
-                "price": null,
-                "specifications": {
-                  "processor_owner": "Intel\u00ae"
-                }
-              }
-            ]
-          },
-          {
-            "name": "Laptopuri Gaming",
-            "products": [
-              {
-                "id": "4988f0a6-77e3-44de-924c-57d43b4f039d",
-                "title": "Laptop Gaming Lenovo IdeaPad 3 15ACH6 cu procesor AMD Ryzen 7 5800H, 15.6\", Full HD, 16GB, 512GB SSD, NVIDIA GeForce RTX 3050 4GB, No OS, Shadow Black",
-                "price": null,
-                "specifications": {
-                  "processor_owner": "AMD"
-                }
-              }
-            ]
-          }
-        ]
+        "id": "af130ee4-f0ad-434c-90be-e7ed2460dbbf",
+        "title": "Laptop HP 250 G8 cu procesor Intel Celeron N4020, 15.6\", HD, 4GB, 256GB SSD, Intel UHD Graphics, Free DOS, Dark Ash Silver",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "2",
+          "processor_technology": "14 nm",
+          "memory_capacity": "4 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "1.74 Kg"
+        }
+      },
+      {
+        "id": "36e057fb-a07a-472d-93bd-03648f3396c8",
+        "title": "Laptop Apple MacBook Pro 13-inch, True Tone, procesor Apple M1, 8 nuclee CPU si 8 nuclee GPU, 8GB, 256GB SSD, Silver, INT KB",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Apple",
+          "cores_number": "8",
+          "processor_technology": "5 nm",
+          "memory_capacity": "8 GB",
+          "memory_type": "LPDDR4X",
+          "hdd_type": "SSD",
+          "weight": "1.4 Kg"
+        }
+      },
+      {
+        "id": "c2223070-a56f-4c1a-a81f-d64c8ccfb89a",
+        "title": "Laptop Apple MacBook Air 13-inch, True Tone, procesor Apple M1 , 8 nuclee CPU si 7 nuclee GPU, 8GB, 256GB, Space Grey, INT KB",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Apple",
+          "cores_number": "8",
+          "processor_technology": "5 nm",
+          "memory_capacity": "8 GB",
+          "memory_type": "LPDDR4X",
+          "hdd_type": "SSD",
+          "weight": "1.29 Kg"
+        }
+      },
+      {
+        "id": "579746c7-dcc3-4f7f-983e-7f983fdd74f6",
+        "title": "Laptop HP 17-cn0042nq cu procesor Intel Celeron N4020, 17.3\", Full HD, 4GB, 256GB SSD, Intel UHD Graphics, Windows 11 Home, Natural silver",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "2",
+          "processor_technology": "14 nm",
+          "memory_capacity": "4 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "2.05 Kg"
+        }
+      },
+      {
+        "id": "9d8e0f12-af51-43aa-a2a8-eed3c5229de9",
+        "title": "Laptop Huawei MateBook D14, Intel Core i5-1135G7 pana la 4.2GHz, 14\" Full HD, 8GB, SSD 512GB, Intel UHD Graphics, Windows 11 Home, Silver",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "4",
+          "processor_technology": "10 nm",
+          "memory_capacity": "8 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "1.38 Kg"
+        }
+      },
+      {
+        "id": "d359f1a7-f1fe-4aa3-a7e0-6efa969c21dc",
+        "title": "Laptop Gaming ASUS ROG Strix G15 G513IC cu procesor AMD Ryzen\u2122 7 4800H, 15.6\", Full HD, 144Hz, 16GB, 512GB SSD, NVIDIA\u00ae GeForce RTX\u2122 3050 4GB, Free DOS, Eclipse Gray",
+        "price": "",
+        "specifications": {
+          "processor_owner": "AMD",
+          "cores_number": "8",
+          "processor_technology": "7 nm",
+          "memory_capacity": "16 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "2.1 Kg"
+        }
+      },
+      {
+        "id": "d4f76df7-cd7c-47c1-8f15-7bea1a66f0aa",
+        "title": "Laptop Apple MacBook Air 13-inch, True Tone, procesor Apple M1 , 8 nuclee CPU si 7 nuclee GPU, 8GB, 256GB, Gold, INT KB",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Apple",
+          "cores_number": "8",
+          "processor_technology": "5 nm",
+          "memory_capacity": "8 GB",
+          "memory_type": "LPDDR4X",
+          "hdd_type": "SSD",
+          "weight": "1.29 Kg"
+        }
+      },
+      {
+        "id": "d87ae07a-34b4-493e-a8a1-7e3105de6692",
+        "title": "Laptop ultraportabil Huawei MateBook D14 cu procesor Intel Core i5-10210U, 14\", Full HD, 8GB, 512GB SSD, Intel UHD Graphics, Windows 10 Home, Mystic Silver",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "4",
+          "processor_technology": "14 nm",
+          "memory_capacity": "8 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "1.38 Kg"
+        }
+      },
+      {
+        "id": "62904ccd-7bd5-4712-91a2-11d6af439d35",
+        "title": "Laptop HP 15-dw1018nq cu procesor Intel Celeron N4020 pana la 2.80 GHz, 15.6\", HD, 4GB, 256GB SSD, Intel UHD Graphics, Free DOS, Jet Black",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "2",
+          "processor_technology": "14 nm",
+          "memory_capacity": "4 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "1.78 Kg"
+        }
+      },
+      {
+        "id": "1ba1a44a-6757-49ee-a888-17dd8c463ef7",
+        "title": "Laptop Huawei MateBook D15, Intel Core i3-10110U pana la 4.1GHz, 15.6\" Full HD, 8GB, SSD 256GB, Intel UHD Graphics, Windows 10 Home, Silver",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "2",
+          "processor_technology": "14 nm",
+          "memory_capacity": "8 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "1.62 Kg"
+        }
+      },
+      {
+        "id": "d5606141-276f-4e8b-b179-d9d34968b6e7",
+        "title": "Laptop HP 15s-fq3033nq cu procesor Intel\u00ae Pentium\u00ae Silver N6000, 15.6\" HD, 4GB, 256GB SSD, Intel UHD Graphics, Windows 11 Home, Jet Black",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "4",
+          "processor_technology": "10 nm",
+          "memory_capacity": "4 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "1.65 Kg"
+        }
+      },
+      {
+        "id": "9a18a9e0-2fe3-4c7b-9fc0-c0f7f11e5d78",
+        "title": "Laptop HP Pavilion Laptop 15-eh1002nq cu procesor AMD Ryzen\u2122 7 5700U, 15.6\", Full HD, 16GB, 512GB SSD, AMD Radeon\u2122 Graphics, Windows 11 Home, Fog Blue",
+        "price": "",
+        "specifications": {
+          "processor_owner": "AMD",
+          "cores_number": "8",
+          "processor_technology": "7 nm",
+          "memory_capacity": "16 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "1.75 Kg"
+        }
+      },
+      {
+        "id": "b04cfe1d-69f6-439c-a7db-a50f72f4f69d",
+        "title": "Laptop Apple MacBook Air 13-inch, True Tone, procesor Apple M1 , 8 nuclee CPU si 7 nuclee GPU, 8GB, 256GB, Silver, INT KB",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Apple",
+          "cores_number": "8",
+          "processor_technology": "5 nm",
+          "memory_capacity": "8 GB",
+          "memory_type": "LPDDR4X",
+          "hdd_type": "SSD",
+          "weight": "1.29 Kg"
+        }
+      },
+      {
+        "id": "24c70c57-eca1-4f06-bc30-ec4ad129d651",
+        "title": "Laptop Lenovo IdeaPad 3 15IGL05 cu procesor Intel Celeron N4020, 15.6\", Full HD, 4GB, 256GB SSD, Intel UHD Graphics 600, No OS, Platinum Grey",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "2",
+          "processor_technology": "14 nm",
+          "memory_capacity": "4 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "1.7 Kg"
+        }
+      },
+      {
+        "id": "5a6b10fb-ea5b-4ada-9fa8-4deef4bd453a",
+        "title": "Laptop ultraportabil ASUS VivoBook 14 K413EA cu procesor Intel\u00ae Core\u2122 i5-1135G7, 14\", Full HD, 8GB, 512GB SSD, Intel Iris X\u1d49 Graphics, No OS, Indie Black",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "4",
+          "processor_technology": "10 nm",
+          "memory_capacity": "8 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "1.4 Kg"
+        }
+      },
+      {
+        "id": "f947bf0c-54bd-44e4-9715-e1011150cf1f",
+        "title": "Laptop ultraportabil Acer Aspire One 14 cu procesor Intel\u00ae Pentium\u00ae Gold 4415U 2.30 GHz, 14\", HD, 4GB, 1TB HDD, Intel\u00ae HD Graphics, Windows 10 Home, Silver",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "2",
+          "processor_technology": "14 nm",
+          "memory_capacity": "4 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "HDD",
+          "weight": "1.7 Kg"
+        }
+      },
+      {
+        "id": "fed65586-625b-4863-a408-b230b84b3b83",
+        "title": "Laptop Huawei MateBook D15, Intel Core i5-10210U pana la 4.2GHz, 15.6\" Full HD, 8GB, SSD 512GB, Intel UHD Graphics, Windows 10 Home, Silver",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "4",
+          "processor_technology": "14 nm",
+          "memory_capacity": "8 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "1.62 Kg"
+        }
+      },
+      {
+        "id": "dc9f8067-79ab-476b-aed3-1f172ce1ab70",
+        "title": "Laptop Acer Aspire 3 A315-35 cu procesor Intel\u00ae Celeron\u00ae N4500, 15.6\", Full HD, 8GB, 256GB SSD, Intel UHD Graphics, Windows 10 Home, Blue",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "2",
+          "processor_technology": "10 nm",
+          "memory_capacity": "8 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "1.9 Kg"
+        }
+      },
+      {
+        "id": "a4bbefc2-a91d-4d48-b6c7-64c9b78e625c",
+        "title": "Laptop Gaming ASUS ROG Strix G15 G513RC cu procesor AMD Ryzen\u2122 7 6800H, 15.6\", Full HD, 144Hz, 8GB RAM DDR5, 512GB SSD, NVIDIA\u00ae GeForce RTX\u2122 3050 4GB, No OS, Eclipse Gray",
+        "price": "",
+        "specifications": {
+          "processor_owner": "AMD",
+          "cores_number": "8",
+          "processor_technology": "6 nm",
+          "memory_capacity": "8 GB",
+          "memory_type": "DDR5",
+          "hdd_type": "SSD",
+          "weight": "2.1 Kg"
+        }
+      },
+      {
+        "id": "6b2ca270-33a1-4238-bdf2-35517cde2d21",
+        "title": "Laptop ASUS X515EA cu procesor Intel\u00ae Core\u2122 i3-1115G4, 15.6\", Full HD, 8GB, 256GB SSD, Intel\u00ae UHD Graphics, No OS, Transparent Silver",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "2",
+          "processor_technology": "10 nm",
+          "memory_capacity": "8 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "1.8 Kg"
+        }
+      },
+      {
+        "id": "1d784a5f-56ca-499f-a492-2ef9ad82cf3f",
+        "title": "Laptop Apple MacBook Air 13-inch, True Tone, procesor Apple M1 , 8 nuclee CPU si 8 nuclee GPU, 8GB, 512GB, Gold, INT KB",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Apple",
+          "cores_number": "8",
+          "processor_technology": "5 nm",
+          "memory_capacity": "8 GB",
+          "memory_type": "LPDDR4X",
+          "hdd_type": "SSD",
+          "weight": "1.29 Kg"
+        }
+      },
+      {
+        "id": "177fc3fd-3b91-4099-a11f-7bb02e806b2c",
+        "title": "Laptop Apple MacBook Pro 13-inch,True Tone, procesor Apple M1, 8 nuclee CPU si 8 nuclee GPU, 8GB, 256GB SSD, Space Grey, INT KB",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Apple",
+          "cores_number": "8",
+          "processor_technology": "5 nm",
+          "memory_capacity": "8 GB",
+          "memory_type": "LPDDR4X",
+          "hdd_type": "SSD",
+          "weight": "1.4 Kg"
+        }
+      },
+      {
+        "id": "5c672309-a75e-41cf-a7b9-cd1b68b4bb1d",
+        "title": "Laptop HP 255 G8 cu procesor AMD 3020e, 15.6\", Full HD, 8GB, 256GB SSD, AMD Radeon Graphcis, Free DOS, Black",
+        "price": "",
+        "specifications": {
+          "processor_owner": "AMD",
+          "cores_number": "2",
+          "processor_technology": "14 nm",
+          "memory_capacity": "8 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "1.74 Kg"
+        }
+      },
+      {
+        "id": "195eada6-7216-435c-bb8f-f3f48c23fde0",
+        "title": "Laptop Gaming Lenovo IdeaPad 3 15IHU6 cu procesor Intel Core i5-11300H, 15.6\", Full HD, 16GB, 512GB SSD, NVIDIA GeForce GTX 1650 4GB, No OS, Shadow Black",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "4",
+          "processor_technology": "10 nm",
+          "memory_capacity": "16 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "2.25 Kg"
+        }
+      },
+      {
+        "id": "fdf0a8f8-e933-4c24-b1fb-b0f92de21816",
+        "title": "Laptop Lenovo IdeaPad 3 15ITL6 cu procesor Intel Celeron 6305, 15.6\", Full HD, IPS, 4GB, 256GB SSD, Intel UHD Graphics, No OS, Arctic Grey",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "2",
+          "processor_technology": "10 nm",
+          "memory_capacity": "4 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "1.65 Kg"
+        }
+      },
+      {
+        "id": "725727a3-e0e8-46dc-a0d6-4da628262e8e",
+        "title": "Laptop Gaming Acer Nitro 5 AN515-57 cu procesor Intel\u00ae Core\u2122 i5-11400H, 15.6\", Full HD, 8GB, 512GB SSD, NVIDIA\u00ae GeForce\u00ae RTX\u2122 3050Ti 4GB, No OS, Black",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "6",
+          "processor_technology": "10 nm",
+          "memory_capacity": "8 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "2.2 Kg"
+        }
+      },
+      {
+        "id": "5afeeb6e-75f9-4b3d-8486-38cf7bbdd7af",
+        "title": "Laptop ultraportabil ASUS X415EA cu procesor Intel\u00ae Core\u2122 i3-1115G4, 14\", Full HD, 8GB, 256GB, Intel\u00ae UHD Graphics, No OS, Slate Grey",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "2",
+          "processor_technology": "10 nm",
+          "memory_capacity": "8 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "1.6 Kg"
+        }
+      },
+      {
+        "id": "ff89cd64-a2b4-494b-839c-27087a1cd122",
+        "title": "Laptop Lenovo IdeaPad 3 15ITL6 cu procesor Intel Core i3-1115G4, 15.6\", Full HD, 8GB, 512GB SSD, Intel UHD Graphics, No OS, Sand",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "2",
+          "processor_technology": "10 nm",
+          "memory_capacity": "8 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "1.65 Kg"
+        }
+      },
+      {
+        "id": "99f0f591-4c98-4f69-a8c8-c20a3d521f78",
+        "title": "Laptop Huawei MateBook D15, Intel Core i5-1135G7 pana la 4.2GHz, 15.6\" Full HD, 8GB, SSD 512GB, Intel Iris Xe Graphics, Windows 11 Home, Silver",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "4",
+          "processor_technology": "10 nm",
+          "memory_capacity": "8 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "1.62 Kg"
+        }
+      },
+      {
+        "id": "2ee62cbe-5342-4955-b9f1-99d1a17d7c5c",
+        "title": "Laptop ASUS VivoBook 15 M513UA cu procesor AMD Ryzen\u2122 7 5700U, 15.6\", OLED, Full HD, 16GB, 512GB SSD, AMD Radeon\u2122 Graphics, Windows 11 Home, Indie Black",
+        "price": "",
+        "specifications": {
+          "processor_owner": "AMD",
+          "cores_number": "8",
+          "processor_technology": "7 nm",
+          "memory_capacity": "16 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "1.8 Kg"
+        }
+      },
+      {
+        "id": "8f96d306-8b77-4692-9b88-aafa7944dc20",
+        "title": "Laptop HP Pavilion 15-eg1003nq cu procesor Intel Core i7-1195G7 15.6\", Full HD, 16GB, 1TB SSD, Intel Iris Xe Graphics, Widows 11 Home, Natural silver",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "4",
+          "processor_technology": "10 nm",
+          "memory_capacity": "16 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "1.74 Kg"
+        }
+      },
+      {
+        "id": "ec2c8b49-f152-492b-bf29-317b16969a89",
+        "title": "Laptop Gaming Lenovo IdeaPad 3 15ACH6 cu procesor AMD Ryzen 5 5600H pana la 4.2GHz, 15.6\", Full HD, IPS, 8GB, 512GB SSD, NVIDIA GeForce GTX 1650 4GB, No OS, Shadow Black",
+        "price": "",
+        "specifications": {
+          "processor_owner": "AMD",
+          "cores_number": "6",
+          "processor_technology": "7 nm",
+          "memory_capacity": "8 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "2.25 Kg"
+        }
+      },
+      {
+        "id": "b4709ef3-db3a-4c31-8e99-831d9b23f42c",
+        "title": "Laptop ultraportabil Lenovo IdeaPad 5 14ITL05 cu procesor Intel Core i7-1165G7, 14\", Full HD, 16GB, 512GB SSD, Intel Iris Xe Graphics, No OS, Platinum Grey",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "4",
+          "processor_technology": "10 nm",
+          "memory_capacity": "16 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "1.39 Kg"
+        }
+      },
+      {
+        "id": "47d6e8a9-b3d4-4974-be53-ecc342b85a8f",
+        "title": "Laptop Huawei MateBook D15 cu procesor Intel\u00ae Core i3-10110U, 15.6\", Full HD, 8GB, 256GB SSD, Intel\u00ae UHD Graphics 620, Windows 10 Home, Silver",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "2",
+          "processor_technology": "14 nm",
+          "memory_capacity": "8 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "1.62 Kg"
+        }
+      },
+      {
+        "id": "cb03e395-6cbf-4205-abec-31940d72cd40",
+        "title": "Laptop Apple MacBook Pro 14 (2021) cu procesor Apple M1 Pro, 10 nuclee CPU and 16 nuclee GPU, 16GB, 1TB SSD, Space Grey, Int KB",
+        "price": "11.999,99 Lei",
+        "specifications": {
+          "processor_owner": "Apple",
+          "cores_number": "10",
+          "processor_technology": "5 nm",
+          "memory_capacity": "16 GB",
+          "memory_type": null,
+          "hdd_type": "SSD",
+          "weight": "1.6 Kg"
+        }
+      },
+      {
+        "id": "a05a6fc0-1603-4628-a276-77fef69b73a4",
+        "title": "Laptop HP 255 G8 cu procesor AMD Ryzen\u2122 3 3250U, 15.6\", Full HD, 8GB, 256Gb SSD, AMD Radeon Graphics, Free DOS, Dark Ash Silver",
+        "price": "",
+        "specifications": {
+          "processor_owner": "AMD",
+          "cores_number": "2",
+          "processor_technology": "14 nm",
+          "memory_capacity": "8 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "1.74 Kg"
+        }
+      },
+      {
+        "id": "1701e8a6-28d7-4b72-bc5e-7370ea9eddd8",
+        "title": "Laptop Gaming ASUS TUF F17 FX706HE cu procesor Intel\u00ae Core\u2122 i7-11800H, 17.3\", Full HD, 144Hz, 16GB, 512GB SSD, NVIDIA\u00ae GeForce RTX\u2122 3050 Ti 4GB, No OS, Eclipse Gray",
+        "price": "8.434,00 Lei",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "8",
+          "processor_technology": "10 nm",
+          "memory_capacity": "16 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": ""
+        }
+      },
+      {
+        "id": "b8842a27-d28e-4787-97e1-95c4d2ca5bc9",
+        "title": "Laptop Gaming HP Pavilion 15-ec2023nq cu procesor AMD Ryzen\u2122 7 5800H, 15.6\", Full HD, 8GB, 256GB SSD, NVIDIA GeForce GTX 1650 4GB, Free DOS, Shadow Black",
+        "price": "",
+        "specifications": {
+          "processor_owner": "AMD",
+          "cores_number": "8",
+          "processor_technology": "7 nm",
+          "memory_capacity": "8 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "1.98 Kg"
+        }
+      },
+      {
+        "id": "072741c9-d68e-4caa-9b85-cb27bd164be8",
+        "title": "Laptop ultraportabil Winnovo K146 cu procesor Intel\u00ae Celeron\u00ae N3350, 14\u201d, Full HD, 6GB, 64GB eMMC, 5G WiFi, Intel\u00ae HD Graphics 500, Windows 10 Home S, Argintiu",
+        "price": "146,40 Lei",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "2",
+          "processor_technology": "14 nm",
+          "memory_capacity": "6 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "eMMC",
+          "weight": "2.02 Kg"
+        }
+      },
+      {
+        "id": "3b219d88-8bc4-4328-a66d-1e1c5f26aa65",
+        "title": "Laptop Lenovo IdeaPad 3 15ITL6 cu procesor Intel Core i5-1135G7, 15.6\", Full HD, 8GB, 512GB SSD,Intel Iris Xe Graphics, No OS, Arctic Grey",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "4",
+          "processor_technology": "10 nm",
+          "memory_capacity": "8 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "1.65 Kg"
+        }
+      },
+      {
+        "id": "45edc4f7-57ca-4605-a3ee-394c09ce3ca3",
+        "title": "Laptop ultraportabil Lenovo IdeaPad 3 15ITL6 cu procesor Intel Pentium Gold 7505, 15.6\", Full HD, 8GB, 256GB SSD, Intel UHD Graphics, Free DOS, Arctic Grey",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "2",
+          "processor_technology": "10 nm",
+          "memory_capacity": "8 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "1.65 Kg"
+        }
+      },
+      {
+        "id": "77c3c7ff-4295-4b19-9e89-bd9521175cbc",
+        "title": "Laptop ultraportabil Lenovo IdeaPad 5 14ITL05 cu procesor Intel Core i5-1135G7, 14\", Full HD, 16GB, 512GB SSD, Intel Iris Xe Graphics, No OS, Platinum Grey",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "4",
+          "processor_technology": "10 nm",
+          "memory_capacity": "16 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "1.38 Kg"
+        }
+      },
+      {
+        "id": "58fd82df-a2d6-4abd-a0a1-306f0f9e29db",
+        "title": "Laptop ultraportabil ASUS E210MA cu procesor Intel\u00ae Celeron\u00ae N4020, 11.6\", HD, 4GB, 128GB eMMC, Intel\u00ae UHD Graphics 600, Windows 11 Home S, Star Black",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "2",
+          "processor_technology": "14 nm",
+          "memory_capacity": "4 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "eMMC",
+          "weight": "1.05 Kg"
+        }
+      },
+      {
+        "id": "29a940fb-66b7-474f-854f-5147d959fc99",
+        "title": "Laptop ASUS X515MA cu procesor Intel\u00ae Celeron\u00ae N4020, 15.6\", Full HD, 4GB, 256GB SSD, Intel\u00ae UHD Graphics 600, No OS, Transparent Silver",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "2",
+          "processor_technology": "14 nm",
+          "memory_capacity": "4 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "1.8 Kg"
+        }
+      },
+      {
+        "id": "584c3c5a-bf14-4376-93ed-b7d0edbdd1dd",
+        "title": "Laptop HP 250 G8 cu procesor Intel\u00ae Celeron\u00ae N4020, 15.6\", Full HD, 8GB, 1TB HDD, Intel UHD Graphics 600, Free DOS, Black",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "2",
+          "processor_technology": "14 nm",
+          "memory_capacity": "8 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "HDD",
+          "weight": "1.74 Kg"
+        }
+      },
+      {
+        "id": "7152db77-be0a-4ec2-8e08-9fe23bd3d6e3",
+        "title": "Laptop ultraportabil ASUS Vivobook 14 K413EA cu procesor Intel\u00ae Core\u2122 i5-1135G7, 14\", Full HD, 16GB, 512GB SSD, Intel Iris X\u1d49 Graphics, No OS, Indie Black",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "4",
+          "processor_technology": "10 nm",
+          "memory_capacity": "16 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "1.4 Kg"
+        }
+      },
+      {
+        "id": "8329d204-6dd4-450c-8ac0-219795e4a7a1",
+        "title": "Laptop Apple MacBook Pro 14 (2021) cu procesor Apple M1 Pro, 8 nuclee CPU and 14 nuclee GPU, 16GB, 512GB SSD, Space Grey, Int KB",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Apple",
+          "cores_number": "8",
+          "processor_technology": "5 nm",
+          "memory_capacity": "16 GB",
+          "memory_type": null,
+          "hdd_type": "SSD",
+          "weight": "1.6 Kg"
+        }
+      },
+      {
+        "id": "75c125cf-a7d5-49fb-8ae6-9f8c46243a83",
+        "title": "Laptop Lenovo V15 IML cu procesor Intel Core i3-10110U, 15.6\", Full HD, 8GB, 256GB SSD, Intel UHD Graphics, No OS, Iron Grey",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "2",
+          "processor_technology": "14 nm",
+          "memory_capacity": "8 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "1.85 Kg"
+        }
+      },
+      {
+        "id": "210539cc-9b4c-4ad6-b5a0-96313c5386e4",
+        "title": "Laptop Gaming ASUS TUF Dash F15 FX516PC cu procesor Intel\u00ae Core\u2122 i5-11300H, 15.6\", Full HD, 144Hz, 8GB, 512GB SSD, NVIDIA\u00ae GeForce RTX\u2122 3050 4GB, No OS, Eclipse Gray",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "4",
+          "processor_technology": "10 nm",
+          "memory_capacity": "8 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "2 Kg"
+        }
+      },
+      {
+        "id": "f9d91ac5-ca13-4d4b-b272-f814f551af6b",
+        "title": "Laptop ASUS X515KA cu procesor Intel\u00ae Pentium\u00ae Silver N6000, 15.6\", Full HD, 4GB, 256GB SSD, Intel\u00ae UHD Graphics, No OS, Slate Grey",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "4",
+          "processor_technology": "10 nm",
+          "memory_capacity": "4 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "1.8 Kg"
+        }
+      },
+      {
+        "id": "0b3961e6-ba18-46b1-864c-42534f3f7e69",
+        "title": "Laptop Gaming ASUS TUF Gaming F17 FX706HC cu procesor Intel\u00ae Core\u2122 i7-11800H, 17.3\", Full HD, 144Hz, 16GB, 1TB SSD, NVIDIA\u00ae GeForce RTX\u2122 3050 4GB, No OS, Graphite Black",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "8",
+          "processor_technology": "10 nm",
+          "memory_capacity": "16 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "2.6 Kg"
+        }
+      },
+      {
+        "id": "5a386eb3-ae58-4b84-91f8-c82672cde6e5",
+        "title": "Laptop Gaming Lenovo IdeaPad 3 15ACH6 cu procesor AMD Ryzen 5 5600H, 15.6\", Full HD, 16GB, 512GB SSD, NVIDIA GeForce RTX 3050 4GB No OS, Shadow Black",
+        "price": "",
+        "specifications": {
+          "processor_owner": "AMD",
+          "cores_number": "6",
+          "processor_technology": "",
+          "memory_capacity": "",
+          "memory_type": "",
+          "hdd_type": "SSD",
+          "weight": ""
+        }
+      },
+      {
+        "id": "aee0e203-2f0e-4ab9-a3f4-1ae6f37c1d6f",
+        "title": "Laptop HP 250 G8 cu procesor Intel Core i5-1135G7, 15.6\", Full HD, 8GB, 512GB SSD, Intel Iris Xe Graphics, Windows 10 Pro, Asteroid Silver",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "4",
+          "processor_technology": "",
+          "memory_capacity": "",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "1.74 Kg"
+        }
+      },
+      {
+        "id": "980b1775-9232-4911-af72-2dbbe97c4bd4",
+        "title": "Laptop Gaming ASUS ASUS TUF Dash F15 FX516PE cu procesor Intel\u00ae Core\u2122 i7-11370H pana la 4.80 GHz, 15.6\", Full HD, 144Hz, 16GB, 1TB SSD, NVIDIA\u00ae GeForce RTX\u2122 3050 Ti 4GB, Free DOS, Eclipse Gray",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "4",
+          "processor_technology": "10 nm",
+          "memory_capacity": "",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": ""
+        }
+      },
+      {
+        "id": "3d762ca3-e935-45a2-b117-337892b74f43",
+        "title": "Laptop ASUS Vivobook 15 M513UA cu procesor AMD Ryzen\u2122 5 5500U, 15.6\", Full HD, 8GB, 512GB SSD, AMD Radeon\u2122 Graphics, No OS, Hearty Gold",
+        "price": "",
+        "specifications": {
+          "processor_owner": "AMD",
+          "cores_number": "6",
+          "processor_technology": "",
+          "memory_capacity": "",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": ""
+        }
+      },
+      {
+        "id": "6538a49b-3684-47ed-a9e1-4f067d13eb3b",
+        "title": "Laptop ultraportabil ASUS E410MA cu procesor Intel\u00ae Celeron\u00ae N4020, 14\", Full HD, 4GB, 256GB SSD, Intel\u00ae UHD Graphics 600, No OS, Peacock Blue",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "2",
+          "processor_technology": "",
+          "memory_capacity": "",
+          "memory_type": "",
+          "hdd_type": "SSD",
+          "weight": ""
+        }
+      },
+      {
+        "id": "9367a281-067f-4501-b4fd-69a244424b73",
+        "title": "Laptop ASUS VivoBook 17 X712EA cu procesor Intel\u00ae Core\u2122 i5-1135G7, 17.3\", HD+, 16GB, 512GB SSD, Intel Iris X\u1d49 Graphics, No OS, Transparent Silver",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "4",
+          "processor_technology": "10 nm",
+          "memory_capacity": "",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "2.3 Kg"
+        }
+      },
+      {
+        "id": "1e98683e-fe64-4d69-a75b-d49fcd5efa7f",
+        "title": "Laptop ASUS X515KA cu procesor Intel Celeron N4500, 15.6\", Full HD, 4GB, 256GB SSD, Intel UHD Graphics, No OS, Slate Grey",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "2",
+          "processor_technology": "",
+          "memory_capacity": "",
+          "memory_type": "",
+          "hdd_type": "SSD",
+          "weight": ""
+        }
+      },
+      {
+        "id": "a9a5962c-183d-4a36-bc8f-a0e7cecedd46",
+        "title": "Laptop Gaming Lenovo IdeaPad 3 15ACH6 cu procesor AMD Ryzen\u2122 7 5800H, 15.6\", Full HD, 165Hz, 16GB, 512GB SSD, NVIDIA GeForce RTX 3050 Ti 4GB, Free DOS, Shadow Black",
+        "price": "",
+        "specifications": {
+          "processor_owner": "AMD",
+          "cores_number": "8",
+          "processor_technology": "",
+          "memory_capacity": "",
+          "memory_type": "",
+          "hdd_type": "SSD",
+          "weight": ""
+        }
+      },
+      {
+        "id": "3361d27e-4c05-415b-a2f4-d68089575508",
+        "title": "Laptop Gaming Lenovo Legion 5 17ITH6 cu procesor Intel Core i5-11400H, 17.3\", Full HD, 144Hz, 16GB, 1TB HDD + 256GB SSD, NVIDIA GeForce RTX 3050 4GB, No Os, Phantom Blue",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "6",
+          "processor_technology": "10 nm",
+          "memory_capacity": "16 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "HDD + SSD",
+          "weight": "2.98 Kg"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Laptopuri cu Windows",
+    "products": [
+      {
+        "id": "fd032ef9-f5f4-419f-9df4-4de3c3f1f6e0",
+        "title": "Laptop HP 17-cn0042nq cu procesor Intel Celeron N4020, 17.3\", Full HD, 4GB, 256GB SSD, Intel UHD Graphics, Windows 11 Home, Natural silver",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "2",
+          "processor_technology": "14 nm",
+          "memory_capacity": "4 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "2.05 Kg"
+        }
+      },
+      {
+        "id": "b4bc193b-8072-43c2-b0f3-217a9b632c9b",
+        "title": "Laptop Huawei MateBook D14, Intel Core i5-1135G7 pana la 4.2GHz, 14\" Full HD, 8GB, SSD 512GB, Intel UHD Graphics, Windows 11 Home, Silver",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "4",
+          "processor_technology": "10 nm",
+          "memory_capacity": "8 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "1.38 Kg"
+        }
+      },
+      {
+        "id": "e1dfccd8-270e-465b-ad3a-c14a939f2970",
+        "title": "Laptop ultraportabil Huawei MateBook D14 cu procesor Intel Core i5-10210U, 14\", Full HD, 8GB, 512GB SSD, Intel UHD Graphics, Windows 10 Home, Mystic Silver",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "4",
+          "processor_technology": "14 nm",
+          "memory_capacity": "8 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "1.38 Kg"
+        }
+      },
+      {
+        "id": "053c89ee-cea7-453e-9740-3d83e15fa395",
+        "title": "Laptop Huawei MateBook D15, Intel Core i3-10110U pana la 4.1GHz, 15.6\" Full HD, 8GB, SSD 256GB, Intel UHD Graphics, Windows 10 Home, Silver",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "2",
+          "processor_technology": "14 nm",
+          "memory_capacity": "8 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "1.62 Kg"
+        }
+      },
+      {
+        "id": "2b7f9494-1302-484d-bda4-d5f2920778da",
+        "title": "Laptop HP 15s-fq3033nq cu procesor Intel\u00ae Pentium\u00ae Silver N6000, 15.6\" HD, 4GB, 256GB SSD, Intel UHD Graphics, Windows 11 Home, Jet Black",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "4",
+          "processor_technology": "10 nm",
+          "memory_capacity": "4 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "1.65 Kg"
+        }
+      },
+      {
+        "id": "77894928-85c3-405a-b685-3d8d507a5065",
+        "title": "Laptop HP Pavilion Laptop 15-eh1002nq cu procesor AMD Ryzen\u2122 7 5700U, 15.6\", Full HD, 16GB, 512GB SSD, AMD Radeon\u2122 Graphics, Windows 11 Home, Fog Blue",
+        "price": "",
+        "specifications": {
+          "processor_owner": "AMD",
+          "cores_number": "8",
+          "processor_technology": "",
+          "memory_capacity": "16 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "1.75 Kg"
+        }
+      },
+      {
+        "id": "be611423-d48e-497a-862f-64e50bf2ddab",
+        "title": "Laptop ultraportabil Acer Aspire One 14 cu procesor Intel\u00ae Pentium\u00ae Gold 4415U 2.30 GHz, 14\", HD, 4GB, 1TB HDD, Intel\u00ae HD Graphics, Windows 10 Home, Silver",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "2",
+          "processor_technology": "14 nm",
+          "memory_capacity": "4 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "HDD",
+          "weight": "1.7 Kg"
+        }
+      },
+      {
+        "id": "80179895-0bbe-4ea7-9ab4-35d089b56af0",
+        "title": "Laptop Huawei MateBook D15, Intel Core i5-10210U pana la 4.2GHz, 15.6\" Full HD, 8GB, SSD 512GB, Intel UHD Graphics, Windows 10 Home, Silver",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "4",
+          "processor_technology": "14 nm",
+          "memory_capacity": "8 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "1.62 Kg"
+        }
+      },
+      {
+        "id": "d5182a2c-8598-4788-875c-3e059cc603f9",
+        "title": "Laptop Huawei MateBook D15, Intel Core i5-1135G7 pana la 4.2GHz, 15.6\" Full HD, 8GB, SSD 512GB, Intel Iris Xe Graphics, Windows 11 Home, Silver",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "4",
+          "processor_technology": "",
+          "memory_capacity": "8 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "1.62 Kg"
+        }
+      },
+      {
+        "id": "4ef840c5-c4dd-4018-9ba4-d20ddf5dfbde",
+        "title": "Laptop ASUS VivoBook 15 M513UA cu procesor AMD Ryzen\u2122 7 5700U, 15.6\", OLED, Full HD, 16GB, 512GB SSD, AMD Radeon\u2122 Graphics, Windows 11 Home, Indie Black",
+        "price": "",
+        "specifications": {
+          "processor_owner": "AMD",
+          "cores_number": "8",
+          "processor_technology": "7 nm",
+          "memory_capacity": "16 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "1.8 Kg"
+        }
+      },
+      {
+        "id": "50959b0f-1a22-40f5-ad0a-327ef7632c9a",
+        "title": "Laptop HP Pavilion 15-eg1003nq cu procesor Intel Core i7-1195G7 15.6\", Full HD, 16GB, 1TB SSD, Intel Iris Xe Graphics, Widows 11 Home, Natural silver",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "4",
+          "processor_technology": "10 nm",
+          "memory_capacity": "16 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "1.74 Kg"
+        }
+      },
+      {
+        "id": "5bf87267-e978-4309-9577-2ae72baa04ea",
+        "title": "Laptop Huawei MateBook D15 cu procesor Intel\u00ae Core i3-10110U, 15.6\", Full HD, 8GB, 256GB SSD, Intel\u00ae UHD Graphics 620, Windows 10 Home, Silver",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "2",
+          "processor_technology": "14 nm",
+          "memory_capacity": "8 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "1.62 Kg"
+        }
+      },
+      {
+        "id": "1730cf79-582f-4057-9d34-7388f81ea2a3",
+        "title": "Laptop ultraportabil Winnovo K146 cu procesor Intel\u00ae Celeron\u00ae N3350, 14\u201d, Full HD, 6GB, 64GB eMMC, 5G WiFi, Intel\u00ae HD Graphics 500, Windows 10 Home S, Argintiu",
+        "price": "146,40 Lei",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "2",
+          "processor_technology": "14 nm",
+          "memory_capacity": "6 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "eMMC",
+          "weight": "2.02 Kg"
+        }
+      },
+      {
+        "id": "745e7258-87dd-417e-b789-daf1334e7628",
+        "title": "Laptop HP 250 G8 cu procesor Intel Core i5-1135G7, 15.6\", Full HD, 8GB, 512GB SSD, Intel Iris Xe Graphics, Windows 10 Pro, Asteroid Silver",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "4",
+          "processor_technology": "10 nm",
+          "memory_capacity": "8 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "1.74 Kg"
+        }
+      },
+      {
+        "id": "bb40fcac-9cfb-4e70-b5aa-16c43d9106aa",
+        "title": "Laptop Gaming Acer Predator Helios 300 PH315-54 cu procesor Intel\u00ae Core\u2122 i9-11900H, 15.6\", Full HD, 144Hz, 16GB, 512GB SSD, NVIDIA\u00ae GeForce RTX\u2122 3070 8GB, Windows 11 Home, Black",
+        "price": "13.067,00 Lei",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "8",
+          "processor_technology": "",
+          "memory_capacity": "",
+          "memory_type": "",
+          "hdd_type": "",
+          "weight": ""
+        }
+      },
+      {
+        "id": "f6c221f9-e773-45e5-84e8-99198cb0e94c",
+        "title": "Laptop Huawei MateBook D15, Intel Core i5-1135G7 pana la 4.2GHz, 15.6\" Full HD, 8GB, SSD 512GB, Intel Iris Xe Graphics, Windows 11 Home, Silver",
+        "price": "2.779,98 Lei",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "4",
+          "processor_technology": "",
+          "memory_capacity": "",
+          "memory_type": "",
+          "hdd_type": "",
+          "weight": ""
+        }
+      },
+      {
+        "id": "6e4bdf15-8d72-4680-bc52-8c2d1e4c0dd1",
+        "title": "Laptop 2 in 1 Lenovo Yoga 6 13ALC6 cu procesor AMD Ryzen\u2122 5 5500U, 13.3\", Full HD, Touch, 16GB, 1TB SSD, AMD Radeon Graphics, Windows 10 Home, Abyss Blue",
+        "price": "",
+        "specifications": {
+          "processor_owner": "AMD",
+          "cores_number": "6",
+          "processor_technology": "",
+          "memory_capacity": "",
+          "memory_type": "",
+          "hdd_type": "",
+          "weight": ""
+        }
+      },
+      {
+        "id": "fe09459e-8fe9-4a73-b440-59605d976546",
+        "title": "Laptop ASUS Zenbook Pro Duo 15 OLED UX582HS cu procesor Intel\u00ae Core\u2122 i9-11900H, 15.6\", 4K, 32GB, 1TB SSD, NVIDIA\u00ae GeForce\u00ae RTX\u2122 3080 8GB, Windows 11 Pro, Celestial Blue",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "8",
+          "processor_technology": "",
+          "memory_capacity": "",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "2.34 Kg"
+        }
+      },
+      {
+        "id": "e02a2969-7485-4090-87e3-f5ccf9b5f8f0",
+        "title": "Laptop ultraportabil Lenovo IdeaPad 3 14ITL6 cu procesor Intel Celeron 6305, 14\", Full HD, 4GB, 128GB SSD, Intel UHD Graphics, Windows 10 Home, Abyss Blue",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "2",
+          "processor_technology": "10 nm",
+          "memory_capacity": "",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "1.41 Kg"
+        }
+      },
+      {
+        "id": "1bcbd9fa-0eaa-4420-998e-47ddfed12313",
+        "title": "Laptop ultraportabil ASUS Vivobook Pro 14 K3400PH cu procesor Intel\u00ae Core\u2122 i5-11300H, 14\", 2.8K, OLED, 8GB, 512GB SSD, NVIDIA\u00ae GeForce\u00ae GTX 1650 4GB, Windows 10 Home, Quiet Blue",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "4",
+          "processor_technology": "10 nm",
+          "memory_capacity": "",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": ""
+        }
+      },
+      {
+        "id": "5643ceb6-227c-4916-8302-8713c62d0cff",
+        "title": "Laptop ultraportabil Dell Latitude 3410 cu procesor Intel Celeron 5205U, 14\u201d Full HD, Memorie RAM 4GB DDR4, Stocare 128GB SSD, Intel UHD Graphics, Windows 10 Pro, Grey",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "2",
+          "processor_technology": "14 nm",
+          "memory_capacity": "",
+          "memory_type": "",
+          "hdd_type": "",
+          "weight": ""
+        }
+      },
+      {
+        "id": "fff06ef9-270d-4a54-89d5-2b6a8e311782",
+        "title": "Laptop ASUS X515FA cu procesor Intel\u00ae Core\u2122 i3-10110U, 15.6\", Full HD, 8GB, 256GB SSD, Intel\u00ae UHD Graphics, Windows 11 Home S, Slate grey",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "2",
+          "processor_technology": "",
+          "memory_capacity": "",
+          "memory_type": "",
+          "hdd_type": "SSD",
+          "weight": "1.8 Kg"
+        }
+      },
+      {
+        "id": "a3c6edc7-38ce-4bdb-9f2c-09db17bd39be",
+        "title": "Laptop Gaming Acer Nitro 5 AN515-57 cu procesor Intel Core i7-11800H, 15\", QHD, 165Hz, 16GB, 1TB SSSD, Nvidia RTX 3060 6GB, Windows 11 Home, Shale Black",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "8",
+          "processor_technology": "10 nm",
+          "memory_capacity": "",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "2.2 Kg"
+        }
+      },
+      {
+        "id": "9be57b74-2138-42e9-8798-f5b07c822c00",
+        "title": "Laptop HP 250 G8 cu procesor Intel Core i5-1135G7, 15.6\", Full HD , 16GB , 512GB SSD, Intel Iris Xe Graphics, Windows 10 Pro, Asteroid Silver",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "4",
+          "processor_technology": "",
+          "memory_capacity": "",
+          "memory_type": "",
+          "hdd_type": "SSD",
+          "weight": "1.74 Kg"
+        }
+      },
+      {
+        "id": "176f1f7a-e81b-4fed-8c7b-47bdc57a0e4d",
+        "title": "Laptop ultraportabil Weigo cu procesor Intel Core i3-5005U 2.00 GHz, 14.1\" Full HD, 8GB, 256GB SSD, Intel HD Graphics 5500, Windows 10 Pro, Grey",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "2",
+          "processor_technology": "14 nm",
+          "memory_capacity": "",
+          "memory_type": null,
+          "hdd_type": "SSD",
+          "weight": ""
+        }
+      },
+      {
+        "id": "bce0e2e3-6d09-4537-85c2-8c1b6bb4af03",
+        "title": "Laptop ultraportabil Lenovo IdeaPad 3 14ITL6 cu procesor Intel Pentium Gold 7505, 14\", Full HD, 4GB, 128GB SSD, Intel UHD Graphics, Windows 10 Home S, Sand",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "2",
+          "processor_technology": "10 nm",
+          "memory_capacity": "4 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": ""
+        }
+      },
+      {
+        "id": "b7f20b20-ea95-49d4-99a5-d5e73b5f197f",
+        "title": "Laptop ASUS Vivobook Pro 16X OLED N7600PC cu procesor Intel\u00ae Core\u2122 i7-11370H, 16\", 4K, 16GB, 1TB SSD, NVIDIA\u00ae GeForce\u00ae RTX\u2122 3050 4GB, Windows 11 Pro, Comet Grey",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "4",
+          "processor_technology": "10 nm",
+          "memory_capacity": "16 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "1.95 Kg"
+        }
+      },
+      {
+        "id": "04dba254-c3f9-4d71-9cef-5d1628a857e5",
+        "title": "Laptop HP 17-cp0004nq cu procesor AMD Ryzen\u2122 7-5700U, 17.3\", Full HD, 8GB, 512GB SSD, AMD Radeon Integrated Graphics, Windows 11 Home, Natural silver",
+        "price": "",
+        "specifications": {
+          "processor_owner": "AMD",
+          "cores_number": "8",
+          "processor_technology": "7 nm",
+          "memory_capacity": "8 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "2.07 Kg"
+        }
+      },
+      {
+        "id": "206244db-0c3e-45e4-a400-0f287339273f",
+        "title": "Laptop ultraportabil ASUS K3400PH cu procesor Intel\u00ae Core\u2122 i7-11370H, 14\", OLED, 2.8K, 8GB, 512GB SSD, NVIDIA\u00ae GeForce\u00ae GTX 1650 4GB, Windows 10 Home, Quiet Blue",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "4",
+          "processor_technology": "",
+          "memory_capacity": "",
+          "memory_type": "",
+          "hdd_type": "",
+          "weight": ""
+        }
+      },
+      {
+        "id": "8f649abc-bc27-45ba-b3ab-2d7015a9fd9f",
+        "title": "Laptop Lenovo IdeaPad 3 15ALC6 cu procesor AMD Ryzen 5 5500U, 15.6\", Full HD, 8GB, 512GB SSD, AMD Radeon Graphics, Windows 11 Home, Abyss Blue",
+        "price": "",
+        "specifications": {
+          "processor_owner": "AMD",
+          "cores_number": "6",
+          "processor_technology": "",
+          "memory_capacity": "8 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "1.65 Kg"
+        }
+      },
+      {
+        "id": "d29c58ae-b14b-4cd0-9034-31072fb2bb6e",
+        "title": "Laptop Huawei MateBook 14, Intel Core i5-1135G7 pana la 4.8GHz, 14\" 2K, 16GB, SSD 512GB, Intel Iris Xe, Windows 11 Home, Gray",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "4",
+          "processor_technology": "",
+          "memory_capacity": "",
+          "memory_type": "",
+          "hdd_type": "SSD",
+          "weight": "1.49 Kg"
+        }
+      },
+      {
+        "id": "2d50ead0-fd8b-4992-befc-b48dba6beb63",
+        "title": "Laptop ultraportabil ASUS ZenBook 13 UX325EA cu procesor Intel\u00ae Core\u2122 i7-1165G7, 13.3\", Full HD, OLED, 8GB, 512GB SSD, Intel\u00ae Iris Xe Graphics, Windows 11 Home, Pine Grey",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "4",
+          "processor_technology": "",
+          "memory_capacity": "8 GB",
+          "memory_type": "LPDDR4X",
+          "hdd_type": "SSD",
+          "weight": "1.14 Kg"
+        }
+      },
+      {
+        "id": "b7d7bcf2-6600-4ec2-8499-b769f7cf4f5e",
+        "title": "Laptop ASUS X515EA cu procesor cu procesor Intel\u00ae Core\u2122 i5-1135G7, 15.6\", Full HD, 8GB, 512GB SSD, Intel Iris X\u1d49 Graphics, Windows 11 Home, Slate Grey",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "4",
+          "processor_technology": "",
+          "memory_capacity": "",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": ""
+        }
+      },
+      {
+        "id": "39795c03-3e92-4127-8661-253376233e0b",
+        "title": "Laptop HP 250 G8 cu procesor Intel Core i3-1005G1, 15.6\", Full HD, 8GB, 256GB SSD, Intel UHD Graphics, Windows 10 Home, Dark Ash",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "2",
+          "processor_technology": "",
+          "memory_capacity": "",
+          "memory_type": "",
+          "hdd_type": "",
+          "weight": ""
+        }
+      },
+      {
+        "id": "4363eec5-768c-4dd7-8e3d-4f9a24ad22f9",
+        "title": "Laptop Gaming Acer Nitro 5 AN517-54 cu procesor Intel\u00ae Core\u2122 i7-11800H, 17.3\", Full HD, 144Hz, 16GB, 512GB SSD, NVIDIA\u00ae GeForce RTX\u2122 3070, No OS, Black",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "8",
+          "processor_technology": "",
+          "memory_capacity": "16 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "2.7 Kg"
+        }
+      },
+      {
+        "id": "9d58a5c9-53ce-46e7-92f2-260feca85103",
+        "title": "Laptop ultraportabil ASUS ZenBook 13 UX325EA cu procesor Intel\u00ae Core\u2122 i7-1165G7, 13.3\", Full HD, OLED, 8GB, 512GB SSD, Intel\u00ae Iris Xe Graphics, Windows 11 Home, Lilac Mist",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "4",
+          "processor_technology": "10 nm",
+          "memory_capacity": "8 GB",
+          "memory_type": "LPDDR4X",
+          "hdd_type": "SSD",
+          "weight": "1.14 Kg"
+        }
+      },
+      {
+        "id": "95cb5522-f9c4-478b-8ce0-b5759d00d0d1",
+        "title": "Laptop Huawei Matebook 14s cu procesor Intel\u00ae Core\u2122 i5-11300H, 14\", 2.5K, Touch Display, 16 GB, 512GB SSD, Intel\u00ae Iris\u00ae Xe Graphics, Windows 10 Home, Grey",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "4",
+          "processor_technology": "10 nm",
+          "memory_capacity": "",
+          "memory_type": "",
+          "hdd_type": "SSD",
+          "weight": ""
+        }
+      },
+      {
+        "id": "7811d4a8-7d42-4776-a0de-28858d6828dd",
+        "title": "Laptop ultraportabil Lenovo Yoga Slim 7 Pro 14ACH5 cu procesor AMD Ryzen\u2122 7 5800H, 14\", 2.8K, OLED, 16GB, 1TB SSD, AMD Radeon Graphics, Windows 11 Pro, Light Silver",
+        "price": "",
+        "specifications": {
+          "processor_owner": "AMD",
+          "cores_number": "8",
+          "processor_technology": "",
+          "memory_capacity": "",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": ""
+        }
+      },
+      {
+        "id": "34df9fca-091e-4f97-ab9c-236d2454c4ce",
+        "title": "Laptop 2 in 1 ASUS Vivobook Go 14 Flip TP1400KA cu procesor Intel\u00ae Celeron\u00ae N4500, 14\", HD, 4GB, 256GB SSD, Intel\u00ae UHD Graphics, Windows 11 Home S, Quiet Blue",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "2",
+          "processor_technology": "10 nm",
+          "memory_capacity": "4 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "1.5 Kg"
+        }
+      },
+      {
+        "id": "0ba0a9e6-1b0a-47e8-8852-c10d30b5c1b6",
+        "title": "Laptop 2 in 1 Lenovo IdeaPad Flex 5 14ITL05 cu procesor Intel Core i5-1135G7, 14\", Full HD, 16GB, 512GB SSD, Intel Iris Xe Graphics, Windows 11 Home, Platinum Grey",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "4",
+          "processor_technology": "",
+          "memory_capacity": "",
+          "memory_type": "",
+          "hdd_type": "",
+          "weight": ""
+        }
+      },
+      {
+        "id": "6126a6fb-c015-4430-9b08-c2c3e350a486",
+        "title": "Laptop ASUS ZenBook Pro 15 OLED UM5500QE cu procesor AMD Ryzen\u2122 7 5800H, 15.6\", Full HD, 16GB, 1TB SSD, NVIDIA\u00ae GeForce\u00ae RTX\u2122 3050 Ti, Windows 11 Pro, Pine Grey",
+        "price": "",
+        "specifications": {
+          "processor_owner": "AMD",
+          "cores_number": "8",
+          "processor_technology": "",
+          "memory_capacity": "",
+          "memory_type": "",
+          "hdd_type": "SSD",
+          "weight": "2 Kg"
+        }
+      },
+      {
+        "id": "93175abd-5520-41fb-9dcd-d3e3e700e36c",
+        "title": "Laptop Huawei MateBook D15, Ryzen 5 5500U pana la 4.0GHz, 15.6\" Full HD, 8GB, SSD 512GB, AMD Radeon\u2122 Graphics, Windows 11 Home, Silver",
+        "price": "",
+        "specifications": {
+          "processor_owner": "AMD",
+          "cores_number": "6",
+          "processor_technology": "7 nm",
+          "memory_capacity": "",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "1.62 Kg"
+        }
+      },
+      {
+        "id": "470c4683-fbe9-45b4-8dd4-a5a8ae81ad04",
+        "title": "Laptop ultraportabil ASUS Zenbook 14X OLED UX5400EA cu procesor Intel\u00ae Core\u2122 i7-1165G7, 16GB, 1TB SSD, 14\", 2.8K, Touch, 16GB, 1TB SSD, Intel Iris X\u1d49 Graphics, Windows 10 Pro, Pine grey",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "4",
+          "processor_technology": "10 nm",
+          "memory_capacity": "16 GB",
+          "memory_type": "LPDDR4X",
+          "hdd_type": "SSD",
+          "weight": "1.4 Kg"
+        }
+      },
+      {
+        "id": "8eff2340-98f9-4665-9cfd-7b2948ee58b2",
+        "title": "Laptop Gaming Acer Nitro 5 AN515-57 cu procesor Intel\u00ae Core\u2122 i5-11400H, 15.6\", Full HD, 144Hz, 16GB, 512GB SSD, NVIDIA\u00ae GeForce\u00ae RTX\u2122 3050Ti 4GB, Windows 11 Home, Black",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "6",
+          "processor_technology": "",
+          "memory_capacity": "16 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "2.2 Kg"
+        }
+      },
+      {
+        "id": "7146963d-1147-4734-a1b5-7c92ba6ae119",
+        "title": "Laptop 2 in 1 Lenovo Yoga 6 13ALC6 cu procesor AMD Ryzen\u2122 5 5500U, 13.3\", Full HD, 8GB, 512GB SSD, AMD Radeon Graphics, Abyss Blue, Windows 10 Home",
+        "price": "",
+        "specifications": {
+          "processor_owner": "AMD",
+          "cores_number": "6",
+          "processor_technology": "7 nm",
+          "memory_capacity": "8 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": ""
+        }
+      },
+      {
+        "id": "f4197b80-4404-4c00-a4c6-b787de62233e",
+        "title": "Laptop ultraportabil ASUS Zenbook 14X OLED UX5400EG cu procesor Intel\u00ae Core\u2122 i7-1165G7, 14\", 2.8K, 16GB, 1TB SSD, NVIDIA\u00ae GeForce\u00ae MX450 2GB, Windows 10 Home, Pine Grey",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "4",
+          "processor_technology": "",
+          "memory_capacity": "",
+          "memory_type": "",
+          "hdd_type": "",
+          "weight": ""
+        }
+      },
+      {
+        "id": "26544f43-2241-4e75-a319-79b1ccd40980",
+        "title": "Laptop ultraportabil ASUS ZenBook Duo 14 UX482EA cu procesor Intel\u00ae Core\u2122 i7-1165G7, 14\", Full HD, 16GB, 1TB SSD, Intel Iris X\u1d49 Graphics, Windows 10 Pro, Celestial Blue",
+        "price": "6.859,97 Lei",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "4",
+          "processor_technology": "",
+          "memory_capacity": "",
+          "memory_type": "",
+          "hdd_type": "SSD",
+          "weight": ""
+        }
+      },
+      {
+        "id": "a9cab916-5d69-45fc-83a9-318b6c5e787f",
+        "title": "Laptop 2 in 1 Lenovo IdeaPad Flex 5 14ITL05 cu procesor Intel Core i5-1135G7, 14\", Full HD, 16GB, 512GB SSD, Intel Iris Xe Graphics, Windows 10 Home, Platinum Grey",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "4",
+          "processor_technology": "",
+          "memory_capacity": "",
+          "memory_type": "",
+          "hdd_type": "",
+          "weight": ""
+        }
+      },
+      {
+        "id": "ca10e9f8-e69d-4b83-a5a7-c79c90c95304",
+        "title": "Laptop ASUS Vivobook Pro 16X N7600PC cu procesor Intel\u00ae Core\u2122 i7-11370H, 16\", WQXGA, 120Hz, 16GB, 1TB SSD, NVIDIA\u00ae GeForce\u00ae RTX\u2122 3050 4GB, Windows 11 Pro, Cool Silver",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "4",
+          "processor_technology": "",
+          "memory_capacity": "",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "1.95 Kg"
+        }
+      },
+      {
+        "id": "ebd0fd27-915c-4639-86c4-d1f379a5d78c",
+        "title": "Laptop ultraportabil HP 14s-dq2007nq cu procesor Intel Core i5-1135G7, 14\", Full HD, 8GB, 512GB SSD, Intel Iris Xe, Windows 11 Home, Natural silver",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "4",
+          "processor_technology": "",
+          "memory_capacity": "",
+          "memory_type": "",
+          "hdd_type": "SSD",
+          "weight": ""
+        }
+      },
+      {
+        "id": "9407918b-81a8-489d-9791-ab9727683297",
+        "title": "Laptop Lenovo ThinkBook 15 G2 cu procesor Intel Core i5-1135G7 pana la 4.20 GHz, 15.6\", Full HD, 8GB, 512GB SSD, Intel Iris Xe Graphics, Windows 10 Pro, Mineral Grey",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "4",
+          "processor_technology": "10 nm",
+          "memory_capacity": "",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": ""
+        }
+      },
+      {
+        "id": "b4127ba9-f86d-42ef-99c1-8b84ccf46b43",
+        "title": "Laptop ASUS Vivobook Pro 16X OLED M7600QE cu procesor AMD Ryzen\u2122 7 5800H, 16\", 4K, 16GB, 1TB SSD, NVIDIA\u00ae GeForce\u00ae RTX\u2122 3050 Ti 4GB, Windows 11 Pro, Earl Grey",
+        "price": "",
+        "specifications": {
+          "processor_owner": "AMD",
+          "cores_number": "8",
+          "processor_technology": "",
+          "memory_capacity": "",
+          "memory_type": "",
+          "hdd_type": "",
+          "weight": ""
+        }
+      },
+      {
+        "id": "86501d0a-c33e-43af-ba4e-a84aa9f5422e",
+        "title": "Laptop ultraportabil ASUS Zenbook 14X OLED UX5401EA cu procesor Intel\u00ae Core\u2122 i7-1165G7, 14\", 4K, 16GB, 1TB SSD, Intel\u00ae Iris Xe Graphics, Windows 11 Pro, Pine Grey",
+        "price": "6.959,97 Lei",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "4",
+          "processor_technology": "",
+          "memory_capacity": "16 GB",
+          "memory_type": "LPDDR4X",
+          "hdd_type": "SSD",
+          "weight": "1.4 Kg"
+        }
+      },
+      {
+        "id": "963e535f-9060-4972-8b41-8fd0c201e1db",
+        "title": "Laptop HP ENVY 17-ch1009nq cu procesor Intel\u00ae Core\u2122 i5-1155G7, 17.3\", Full HD, 16GB, 1TB SSD, Intel\u00ae Iris\u00ae X\u1d49 Graphics, Windows 11 Home, Silver",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "4",
+          "processor_technology": "",
+          "memory_capacity": "",
+          "memory_type": "",
+          "hdd_type": "",
+          "weight": ""
+        }
+      },
+      {
+        "id": "245cfd60-5c40-43b2-a5aa-30d9a3d3e3e1",
+        "title": "Laptop HP ENVY 17-ch1002nq cu procesor Intel Core i7-1195G7, 17.3\", Full HD, 16GB, 1TB SSD, Intel Iris Xe Graphics, Windows 11 Home, Natural silver",
+        "price": "6.444,97 Lei",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "4",
+          "processor_technology": "10 nm",
+          "memory_capacity": "16 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "2.54 Kg"
+        }
+      },
+      {
+        "id": "2374bb1c-7171-4fdf-9a2c-1647c8ccfeac",
+        "title": "Laptop 2 in 1 Dell Inspiron 14 5406 cu procesor I3-1115G4, 14\" FHD Touch, 4GB, 256GB SSD, Intel UHD, Windows 10 Home S, Titan Grey",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "2",
+          "processor_technology": "10 nm",
+          "memory_capacity": "4 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "1.72 Kg"
+        }
+      },
+      {
+        "id": "b5ef8615-d3f2-44ff-8483-d5c41ba3fccc",
+        "title": "Laptop Gaming Acer Predator Triton 300 PT315-53 cu procesor Intel\u00ae Core\u2122 i5-11400H, 15.6\", QHD, 165Hz, 16GB, 512GB SSD, NVIDIA\u00ae GeForce RTX\u2122 3060 6GB, Windows 10 Home, Black",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "6",
+          "processor_technology": "10 nm",
+          "memory_capacity": "16 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": ""
+        }
+      },
+      {
+        "id": "1a96e26e-1538-47d7-84cc-ea6254d9b34e",
+        "title": "Laptop ultraportabil Lenovo IdeaPad 5 14ITL05 cu procesor Intel Core i5-1135G7, 14\", Full HD, 16GB, 512GB SSD, Intel Iris Xe Graphics, Windows 10 Home, Abyss Blue",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "4",
+          "processor_technology": "10 nm",
+          "memory_capacity": "",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "1.38 Kg"
+        }
+      },
+      {
+        "id": "be82a7c9-ac40-4908-9de0-2dfd088b8802",
+        "title": "Laptop Lenovo ThinkBook 15 G3 ACL cu procesor AMD Ryzen 7 5700U, 15.6\", Full HD, 16GB, 512GB SSD, AMD Radeon Graphics, Windows 10 Pro, Mineral Grey",
+        "price": "",
+        "specifications": {
+          "processor_owner": "AMD",
+          "cores_number": "8",
+          "processor_technology": "",
+          "memory_capacity": "",
+          "memory_type": "",
+          "hdd_type": "",
+          "weight": ""
+        }
+      },
+      {
+        "id": "3281716c-c02c-4377-bd68-d2b72b8ee0f5",
+        "title": "Laptop Gaming Acer Nitro 5 AN515-57 cu procesor Intel\u00ae Core\u2122 i7-11800H, 15.6\", Full HD, 16GB, 512GB SSD, NVIDIA\u00ae GeForce\u00ae RTX\u2122 3050Ti 4GB, Windows 11 Home, Black",
+        "price": "5.370,97 Lei",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "8",
+          "processor_technology": "10 nm",
+          "memory_capacity": "",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "2.2 Kg"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Laptopuri Gaming",
+    "products": [
+      {
+        "id": "c8e391d2-4010-4aa9-97c1-6db5a2aac5ca",
+        "title": "Laptop Gaming ASUS ROG Strix G15 G513IC cu procesor AMD Ryzen\u2122 7 4800H, 15.6\", Full HD, 144Hz, 16GB, 512GB SSD, NVIDIA\u00ae GeForce RTX\u2122 3050 4GB, Free DOS, Eclipse Gray",
+        "price": "",
+        "specifications": {
+          "processor_owner": "AMD",
+          "cores_number": "8",
+          "processor_technology": "7 nm",
+          "memory_capacity": "16 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "2.1 Kg"
+        }
+      },
+      {
+        "id": "9d5b2a25-67a1-491c-8d32-8e51ddf38840",
+        "title": "Laptop Gaming ASUS ROG Strix G15 G513RC cu procesor AMD Ryzen\u2122 7 6800H, 15.6\", Full HD, 144Hz, 8GB RAM DDR5, 512GB SSD, NVIDIA\u00ae GeForce RTX\u2122 3050 4GB, No OS, Eclipse Gray",
+        "price": "",
+        "specifications": {
+          "processor_owner": "AMD",
+          "cores_number": "8",
+          "processor_technology": "6 nm",
+          "memory_capacity": "8 GB",
+          "memory_type": "DDR5",
+          "hdd_type": "SSD",
+          "weight": "2.1 Kg"
+        }
+      },
+      {
+        "id": "b803e514-5124-4df9-96d8-0f997f109f4e",
+        "title": "Laptop Gaming Lenovo IdeaPad 3 15IHU6 cu procesor Intel Core i5-11300H, 15.6\", Full HD, 16GB, 512GB SSD, NVIDIA GeForce GTX 1650 4GB, No OS, Shadow Black",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "4",
+          "processor_technology": "10 nm",
+          "memory_capacity": "16 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "2.25 Kg"
+        }
+      },
+      {
+        "id": "b288ab52-30f4-411a-b394-454dc46efb37",
+        "title": "Laptop Gaming Acer Nitro 5 AN515-57 cu procesor Intel\u00ae Core\u2122 i5-11400H, 15.6\", Full HD, 8GB, 512GB SSD, NVIDIA\u00ae GeForce\u00ae RTX\u2122 3050Ti 4GB, No OS, Black",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "6",
+          "processor_technology": "10 nm",
+          "memory_capacity": "8 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "2.2 Kg"
+        }
+      },
+      {
+        "id": "26578f06-73b5-4ea5-a155-023ca4dc6ea0",
+        "title": "Laptop Gaming Lenovo IdeaPad 3 15ACH6 cu procesor AMD Ryzen 5 5600H pana la 4.2GHz, 15.6\", Full HD, IPS, 8GB, 512GB SSD, NVIDIA GeForce GTX 1650 4GB, No OS, Shadow Black",
+        "price": "",
+        "specifications": {
+          "processor_owner": "AMD",
+          "cores_number": "6",
+          "processor_technology": "7 nm",
+          "memory_capacity": "8 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "2.25 Kg"
+        }
+      },
+      {
+        "id": "d101e073-7e3c-4940-9007-c068563c30ac",
+        "title": "Laptop Gaming ASUS TUF F17 FX706HE cu procesor Intel\u00ae Core\u2122 i7-11800H, 17.3\", Full HD, 144Hz, 16GB, 512GB SSD, NVIDIA\u00ae GeForce RTX\u2122 3050 Ti 4GB, No OS, Eclipse Gray",
+        "price": "8.434,00 Lei",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "8",
+          "processor_technology": "10 nm",
+          "memory_capacity": "16 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "2.6 Kg"
+        }
+      },
+      {
+        "id": "ce52b6b8-c74c-4faf-8071-cda48572f1d0",
+        "title": "Laptop Gaming HP Pavilion 15-ec2023nq cu procesor AMD Ryzen\u2122 7 5800H, 15.6\", Full HD, 8GB, 256GB SSD, NVIDIA GeForce GTX 1650 4GB, Free DOS, Shadow Black",
+        "price": "",
+        "specifications": {
+          "processor_owner": "AMD",
+          "cores_number": "8",
+          "processor_technology": "7 nm",
+          "memory_capacity": "8 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "1.98 Kg"
+        }
+      },
+      {
+        "id": "5b1929a2-be7b-42c1-bf08-44e5fa65570c",
+        "title": "Laptop Gaming ASUS TUF Dash F15 FX516PC cu procesor Intel\u00ae Core\u2122 i5-11300H, 15.6\", Full HD, 144Hz, 8GB, 512GB SSD, NVIDIA\u00ae GeForce RTX\u2122 3050 4GB, No OS, Eclipse Gray",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "4",
+          "processor_technology": "10 nm",
+          "memory_capacity": "8 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "2 Kg"
+        }
+      },
+      {
+        "id": "d827930f-7638-4981-9622-8f840f5b2885",
+        "title": "Laptop Gaming ASUS TUF Gaming F17 FX706HC cu procesor Intel\u00ae Core\u2122 i7-11800H, 17.3\", Full HD, 144Hz, 16GB, 1TB SSD, NVIDIA\u00ae GeForce RTX\u2122 3050 4GB, No OS, Graphite Black",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "8",
+          "processor_technology": "10 nm",
+          "memory_capacity": "16 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": ""
+        }
+      },
+      {
+        "id": "744205c3-0cf1-4892-b589-45c65f4eebff",
+        "title": "Laptop Gaming Lenovo IdeaPad 3 15ACH6 cu procesor AMD Ryzen 5 5600H, 15.6\", Full HD, 16GB, 512GB SSD, NVIDIA GeForce RTX 3050 4GB No OS, Shadow Black",
+        "price": "",
+        "specifications": {
+          "processor_owner": "AMD",
+          "cores_number": "6",
+          "processor_technology": "7 nm",
+          "memory_capacity": "16 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "2.25 Kg"
+        }
+      },
+      {
+        "id": "05e287fe-b7d0-4fb3-8f54-9caba722de26",
+        "title": "Laptop Gaming ASUS ASUS TUF Dash F15 FX516PE cu procesor Intel\u00ae Core\u2122 i7-11370H pana la 4.80 GHz, 15.6\", Full HD, 144Hz, 16GB, 1TB SSD, NVIDIA\u00ae GeForce RTX\u2122 3050 Ti 4GB, Free DOS, Eclipse Gray",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "4",
+          "processor_technology": "10 nm",
+          "memory_capacity": "16 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "2 Kg"
+        }
+      },
+      {
+        "id": "230d2124-e352-4b1f-8d06-22364d1b4a2f",
+        "title": "Laptop Gaming Lenovo IdeaPad 3 15ACH6 cu procesor AMD Ryzen\u2122 7 5800H, 15.6\", Full HD, 165Hz, 16GB, 512GB SSD, NVIDIA GeForce RTX 3050 Ti 4GB, Free DOS, Shadow Black",
+        "price": "",
+        "specifications": {
+          "processor_owner": "AMD",
+          "cores_number": "8",
+          "processor_technology": "7 nm",
+          "memory_capacity": "16 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "2.25 Kg"
+        }
+      },
+      {
+        "id": "db12c433-15fc-48ed-8d89-56848de83837",
+        "title": "Laptop Gaming Lenovo Legion 5 17ITH6 cu procesor Intel Core i5-11400H, 17.3\", Full HD, 144Hz, 16GB, 1TB HDD + 256GB SSD, NVIDIA GeForce RTX 3050 4GB, No Os, Phantom Blue",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "6",
+          "processor_technology": "10 nm",
+          "memory_capacity": "16 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "HDD + SSD",
+          "weight": "2.98 Kg"
+        }
+      },
+      {
+        "id": "cfb9e6fd-282a-4180-9af8-33bda87742a2",
+        "title": "Laptop Gaming Acer Predator Helios 300 PH315-54 cu procesor Intel\u00ae Core\u2122 i9-11900H, 15.6\", Full HD, 144Hz, 16GB, 512GB SSD, NVIDIA\u00ae GeForce RTX\u2122 3070 8GB, Windows 11 Home, Black",
+        "price": "13.067,00 Lei",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "8",
+          "processor_technology": "10 nm",
+          "memory_capacity": "16 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "2.3 Kg"
+        }
+      },
+      {
+        "id": "210e5d5e-2fb2-42ef-a827-b016238f64bb",
+        "title": "Laptop Gaming HP Pavilion 15-dk2032nq cu procesor Core i5-11300H, 15.6\", Full HD, 144Hz, 8GB, 512GB SSD, NVIDIA GeForce RTX 3050 4GB, Free DOS, Shadow Black",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "4",
+          "processor_technology": "10 nm",
+          "memory_capacity": "",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": ""
+        }
+      },
+      {
+        "id": "499d9277-4701-40ac-a4c5-02b355ecf072",
+        "title": "Laptop Gaming Lenovo Legion 5 Pro 16ACH6H cu procesor AMD Ryzen 7 5800H, 16\", WQXGA, 165Hz, 16GB, 1TB SSD, NVIDIA GeForce RTX 3070 8GB, No OS, Stingray",
+        "price": "",
+        "specifications": {
+          "processor_owner": "AMD",
+          "cores_number": "8",
+          "processor_technology": "7 nm",
+          "memory_capacity": "",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "2.45 Kg"
+        }
+      },
+      {
+        "id": "164b0461-f4c1-4197-8cd0-68b91770e653",
+        "title": "Laptop Gaming ASUS TUF A15 FA506IHR cu procesor AMD Ryzen\u2122 5 4600H, 15.6\", Full HD, 144Hz, 16GB, 512GB SSD, NVIDIA\u00ae GeForce GTX\u2122 1650 4GB, No OS, Graphite Black",
+        "price": "5.932,00 Lei",
+        "specifications": {
+          "processor_owner": "AMD",
+          "cores_number": "6",
+          "processor_technology": "7 nm",
+          "memory_capacity": "",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": ""
+        }
+      },
+      {
+        "id": "e5b6efae-5813-47f6-bd06-248f879dcefd",
+        "title": "Laptop Gaming Acer Nitro 5 AN515-57 cu procesor Intel Core i7-11800H, 15\", QHD, 165Hz, 16GB, 1TB SSSD, Nvidia RTX 3060 6GB, Windows 11 Home, Shale Black",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "8",
+          "processor_technology": "10 nm",
+          "memory_capacity": "16 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "2.2 Kg"
+        }
+      },
+      {
+        "id": "c9bd941a-f55d-4d1d-abb6-2225f7a24dbf",
+        "title": "Laptop Gaming IdeaPad 3 15ACH6 cu procesor AMD Ryzen 7 5800H, 15.6\", Full HD, 120Hz, 8GB, 512GB SSD, NVIDIA GeForce RTX 3050 4GB, No OS, Shadow Black",
+        "price": "",
+        "specifications": {
+          "processor_owner": "AMD",
+          "cores_number": "8",
+          "processor_technology": "",
+          "memory_capacity": "",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "2.25 Kg"
+        }
+      },
+      {
+        "id": "09b11e5e-fddc-4984-9977-b0240071bcab",
+        "title": "Laptop Gaming Lenovo IdeaPad 3 15IHU6 cu procesor Intel Core i5-11300H, 15.6\", Full HD, 8GB, 512GB SSD, NVIDIA GeForce GTX 1650 4GB, No OS, Shadow Black",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "4",
+          "processor_technology": "",
+          "memory_capacity": "",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": ""
+        }
+      },
+      {
+        "id": "2211a158-a9c5-4e7d-a999-1dd907b6c078",
+        "title": "Laptop Gaming Lenovo Legion 5 17ITH6 cu procesor Intel Core i7-11800H pana la 4.60 GHz, 17.3\", Full HD, 144 Hz, IPS, 8GB, 1TB HDD + 256 GB SSD, NVIDIA GeForce RTX 3050 4GB, Free DOS, Phantom Black",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "8",
+          "processor_technology": "",
+          "memory_capacity": "",
+          "memory_type": "",
+          "hdd_type": "",
+          "weight": ""
+        }
+      },
+      {
+        "id": "01475df4-30bf-4a5f-b2a5-3525cf52aae4",
+        "title": "Laptop Gaming Lenovo IdeaPad 3 15ACH6 cu procesor AMD Ryzen 5 5600H, 15.6\", Full HD, 8GB, 256GB SSD, NVIDIA GeForce GTX 1650 4GB, No OS, Shadow Black",
+        "price": "",
+        "specifications": {
+          "processor_owner": "AMD",
+          "cores_number": "6",
+          "processor_technology": "7 nm",
+          "memory_capacity": "8 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "2.25 Kg"
+        }
+      },
+      {
+        "id": "6912882d-1ebf-4494-94b9-36833989ffc1",
+        "title": "Laptop Lenovo IdeaPad Gaming 3 15ACH6 cu procesor AMD Ryzen 5 5600H, 15.6\", Full HD, 8GB, 512GB SSD, NVIDIA GeForce RTX 3050 4GB, No OS, Shadow Black",
+        "price": "",
+        "specifications": {
+          "processor_owner": "AMD",
+          "cores_number": "6",
+          "processor_technology": "",
+          "memory_capacity": "",
+          "memory_type": "",
+          "hdd_type": "",
+          "weight": ""
+        }
+      },
+      {
+        "id": "93bee106-06fb-4976-8f2b-372caa4b26a1",
+        "title": "Laptop Gaming Lenovo Legion 5 17ITH6H cu procesor Intel Core i5-11400H, 17.3\", Full HD, 144Hz, 16GB, 1TB SSD, NVIDIA GeForce RTX 3060 6GB, No OS, Phantom Blue",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "6",
+          "processor_technology": "10 nm",
+          "memory_capacity": "",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": ""
+        }
+      },
+      {
+        "id": "09d80842-6bb5-4e95-9ff5-038b75697e6e",
+        "title": "Laptop Gaming Lenovo Legion 5 17ITH6H cu procesor Intel Core i7-11800H, 17.3\", Full HD, IPS, 144Hz, 16GB, 1TB SSD, NVIDIA GeForce RTX 3060 6GB, No OS, Phantom Blue",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "8",
+          "processor_technology": "",
+          "memory_capacity": "",
+          "memory_type": "",
+          "hdd_type": "",
+          "weight": ""
+        }
+      },
+      {
+        "id": "a55b67e0-7142-4160-9f79-a4969b326098",
+        "title": "Laptop Gaming Lenovo IdeaPad 3 15ACH6 cu procesor AMD Ryzen 7 5800H, 15.6\", Full HD, 8GB, 512GB SSD, NVIDIA GeForce GTX 1650 4GB, No OS, Shadow Black",
+        "price": "",
+        "specifications": {
+          "processor_owner": "AMD",
+          "cores_number": "8",
+          "processor_technology": "7 nm",
+          "memory_capacity": "8 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "2.25 Kg"
+        }
+      },
+      {
+        "id": "19ba29f7-0c7b-4379-b904-6127153d651a",
+        "title": "Laptop Gaming OMEN by HP Laptop 17-ck0009nq cu procesor Intel\u00ae Core\u2122 i7-11800H, 17.3\", Full Hd, 144Hz, 16GB, 512GB SSD, NVIDIA\u00ae GeForce RTX\u2122 3060 6GB, Free DOS, Black",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "8",
+          "processor_technology": "10 nm",
+          "memory_capacity": "16 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": ""
+        }
+      },
+      {
+        "id": "a352b97d-4d72-4a33-bc28-a89fc4c38d75",
+        "title": "Laptop Gaming MSI GF63 Thin 11UC-400XRO cu procesor Intel Core i5-11400H, 15.6\", Full HD, 144Hz, 8GB, 512GB SSD, NVIDIA\u00ae GeForce RTX\u2122 3050 4GB, No OS, Black",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "6",
+          "processor_technology": "10 nm",
+          "memory_capacity": "",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": ""
+        }
+      },
+      {
+        "id": "0cc9e83e-ec76-4a1a-a2a5-af515eb36cf5",
+        "title": "Laptop Gaming Acer Nitro 5 AN517-54 cu procesor Intel\u00ae Core\u2122 i7-11800H, 17.3\", Full HD, 144Hz, 16GB, 512GB SSD, NVIDIA\u00ae GeForce RTX\u2122 3070, No OS, Black",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "8",
+          "processor_technology": "10 nm",
+          "memory_capacity": "16 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "2.7 Kg"
+        }
+      },
+      {
+        "id": "de2067af-4b51-498a-871c-491b5da4bf7a",
+        "title": "Laptop Gaming Lenovo IdeaPad 3 15ACH cu procersor AMD Ryzen 5 5600H, 15.6\", Full HD, 8GB, 512GB SSD, NVIDIA GeForce RTX 3050 4GB, Free DOS, Shadow Black",
+        "price": "",
+        "specifications": {
+          "processor_owner": "AMD",
+          "cores_number": "6",
+          "processor_technology": "",
+          "memory_capacity": "",
+          "memory_type": "",
+          "hdd_type": "",
+          "weight": ""
+        }
+      },
+      {
+        "id": "f69357d4-424f-4b09-b4dc-cc5410a176ad",
+        "title": "Laptop Gaming HP Pavilion 15-ec2011nq cu procesor AMD Ryzen\u2122 5 5600H, 15.6\", Full HD, 144Hz, 8GB, 512GB SSD, NVIDIA\u00ae GeForce RTX\u2122 3050 Ti 4GB, Free DOS, Black",
+        "price": "",
+        "specifications": {
+          "processor_owner": "AMD",
+          "cores_number": "6",
+          "processor_technology": "",
+          "memory_capacity": "",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "1.98 Kg"
+        }
+      },
+      {
+        "id": "9b414da0-89fe-47d3-a70c-971ba05f9a4d",
+        "title": "Laptop Gaming ASUS ROG Strix SCAR 17 G733ZW cu procesor Intel\u00ae Core\u2122 i9-12900H, 17.3\", Full HD, 360Hz, 32GB RAM DDR5, 1TB SSD, NVIDIA\u00ae GeForce RTX\u2122 3070 Ti 8GB, No OS, Off Black",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "14",
+          "processor_technology": "",
+          "memory_capacity": "",
+          "memory_type": "DDR5",
+          "hdd_type": "SSD",
+          "weight": ""
+        }
+      },
+      {
+        "id": "18a38d11-b7db-4b92-9a29-a26bfe6f6cbd",
+        "title": "Laptop Gaming Lenovo Legion 5 17ITH6 cu procesor Intel Core i5-11400H, 17.3\", 144Hz, Full HD, 8GB, 1TB HDD + 256GB SSD, NVIDIA GeForce RTX 3050 4GB, No OS, Phantom Blue",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "6",
+          "processor_technology": "10 nm",
+          "memory_capacity": "",
+          "memory_type": "DDR4",
+          "hdd_type": "HDD + SSD",
+          "weight": ""
+        }
+      },
+      {
+        "id": "1a235904-a8ce-4ceb-bfb8-eeb4043f3d39",
+        "title": "Laptop Gaming ASUS TUF Gaming A17 FA706IC cu procesor AMD Ryzen\u2122 7 4800H, 17.3\", Full HD, 144Hz, 16GB, 1TB SSD, NVIDIA\u00ae GeForce RTX\u2122 3050, No OS, Graphite Black",
+        "price": "",
+        "specifications": {
+          "processor_owner": "AMD",
+          "cores_number": "8",
+          "processor_technology": "",
+          "memory_capacity": "",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "2.6 Kg"
+        }
+      },
+      {
+        "id": "7e2180fd-63e8-491b-b4af-97aa2d9f77ec",
+        "title": "Laptop Gaming Lenovo Legion 5 Pro 16ACH6H cu procesor AMD Ryzen 7 5800H, 16\", WQXGA, 165Hz, 16GB, 1TB SSD, NVIDIA GeForce RTX 3070 8GB, No OS, Storm Grey",
+        "price": "",
+        "specifications": {
+          "processor_owner": "AMD",
+          "cores_number": "8",
+          "processor_technology": "",
+          "memory_capacity": "",
+          "memory_type": "",
+          "hdd_type": "",
+          "weight": ""
+        }
+      },
+      {
+        "id": "4cb2ff8a-0e18-4281-9356-4ab5a990af8a",
+        "title": "Laptop Gaming MSI GF63 Thin 11UD-298XRO cu procesor Intel Core i5-11400H, 15.6\", Full HD, 144Hz,8GB, 512GB SSD, NVIDIA\u00ae GeForce RTX\u2122 3050Ti 4GB, No OS, Black",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "6",
+          "processor_technology": "",
+          "memory_capacity": "",
+          "memory_type": "",
+          "hdd_type": "SSD",
+          "weight": "1.86 Kg"
+        }
+      },
+      {
+        "id": "cf0b2ec2-08b0-41d5-b991-74da3163d642",
+        "title": "Laptop Gaming ASUS TUF F15 FX507ZM cu procesor Intel\u00ae Core\u2122 i7-12700H, 15.6\", Full HD, 144Hz, 16GB RAM DDR5, 512GB SSD, NVIDIA\u00ae GeForce RTX\u2122 3060 6GB, No OS, Jaeger Gray",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "14",
+          "processor_technology": "10 nm",
+          "memory_capacity": "",
+          "memory_type": "DDR5",
+          "hdd_type": "SSD",
+          "weight": ""
+        }
+      },
+      {
+        "id": "17a81228-24b7-4ae7-8e86-9433548a3ddc",
+        "title": "Laptop Gaming ASUS TUF F17 FX706HCB cu procesor Intel\u00ae Core\u2122 i5-11400H, 17.3\"Full HD, 8GB, 1TB SSD, NVIDIA\u00ae GeForce RTX\u2122 3050 4GB, No OS, Eclipse Gray",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "6",
+          "processor_technology": "",
+          "memory_capacity": "",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": ""
+        }
+      },
+      {
+        "id": "f8fb2360-5d5c-4b35-b7e9-5d9495903f19",
+        "title": "Laptop Gaming Acer Nitro 5 AN515-57 cu procesor Intel\u00ae Core\u2122 i5-11400H, 15.6\", Full HD, 144Hz, 16GB, 512GB SSD, NVIDIA\u00ae GeForce\u00ae RTX\u2122 3050Ti 4GB, Windows 11 Home, Black",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "6",
+          "processor_technology": "10 nm",
+          "memory_capacity": "16 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "2.2 Kg"
+        }
+      },
+      {
+        "id": "eb2e868b-84ff-4911-ba52-32a7b7689295",
+        "title": "Laptop Gaming Acer Nitro 5 AN515-45 cu procesor AMD Ryzen\u2122 7 5800H, 15.6\", Full HD, 144Hz, 16GB, 1TB SSD, NVIDIA\u00ae GeForce RTX\u2122 3060, No OS, Black",
+        "price": "",
+        "specifications": {
+          "processor_owner": "AMD",
+          "cores_number": "8",
+          "processor_technology": "",
+          "memory_capacity": "",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "2.3 Kg"
+        }
+      },
+      {
+        "id": "7ce9ca6b-2572-4d3d-8812-21d49d1547af",
+        "title": "Laptop Gaming ASUS ROG Zephyrus G14 GA401IHR cu procesor AMD Ryzen\u2122 7 4800HS, 14\", WQHD, 120Hz, 8GB, 1TB SSD, NVIDIA\u00ae GeForce GTX\u2122 1650 4GB, No OS, Eclipse Gray",
+        "price": "",
+        "specifications": {
+          "processor_owner": "AMD",
+          "cores_number": "8",
+          "processor_technology": "7 nm",
+          "memory_capacity": "8 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "1.6 Kg"
+        }
+      },
+      {
+        "id": "0d6e02c7-7813-42b7-98e7-4d3f4ee88bf1",
+        "title": "Laptop Gaming MSI Pulse GL66 11UEK-246XRO cu procesor Intel Core \u00ae i7-11800H, 15.6\u201d QHD 165Hz, 16 GB DDR4, 1TB SSD, RTX\u2122 3060 Laptop GPU 6GB GDDR6, MS DOS, Gray",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "8",
+          "processor_technology": "",
+          "memory_capacity": "",
+          "memory_type": "",
+          "hdd_type": "",
+          "weight": ""
+        }
+      },
+      {
+        "id": "2e62eb0a-c923-483e-a2a0-324d26d47688",
+        "title": "Laptop Gaming Lenovo Legion 5 Pro 16ACH6H cu procesor AMD Ryzen 5 5600H, 16\", WQXGA, 16GB, 512GB SSD, NVIDIA GeForce RTX 3060 6GB, No OS, Stingray",
+        "price": "",
+        "specifications": {
+          "processor_owner": "AMD",
+          "cores_number": "6",
+          "processor_technology": "7 nm",
+          "memory_capacity": "16 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": ""
+        }
+      },
+      {
+        "id": "b41dbb02-8b9c-48dd-973c-6c064c905852",
+        "title": "Laptop Gaming HP Pavilion 15-dk2096nq cu procesor Intel\u00ae Core\u2122 i5-11300H, 15.6\", Full HD, 8GB, 1TB HDD + 256GB SSD, NVIDIA\u00ae GeForce RTX\u2122 3050 Ti 4GB, Free DOS, Black",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "4",
+          "processor_technology": "",
+          "memory_capacity": "",
+          "memory_type": "",
+          "hdd_type": "",
+          "weight": "2.28 Kg"
+        }
+      },
+      {
+        "id": "70e9f900-f810-4bd1-b7da-82cb91f604a5",
+        "title": "Laptop Gaming ASUS ROG Strix SCAR 15 G533ZS cu procesor Intel\u00ae Core\u2122 i9-12900H, 15.6\", WQHD, 240Hz, 32GB RAM DDR5, 1TB SSD, NVIDIA\u00ae GeForce RTX\u2122 3080 8GB, No OS, Off Black",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "14",
+          "processor_technology": "10 nm",
+          "memory_capacity": "",
+          "memory_type": "DDR5",
+          "hdd_type": "SSD",
+          "weight": "2.3 Kg"
+        }
+      },
+      {
+        "id": "e39570f0-7e8a-45e6-b9ca-8ef200d7bff5",
+        "title": "Laptop Gaming ASUS ROG Zephyrus G14 GA402RK cu procesor AMD Ryzen 7 6800HS pana la 4.7GHz, 14\" WUXGA, 16GB, SSD 1TB, AMD Radeon RX 6800S 8GB, Free Dos, grey",
+        "price": "",
+        "specifications": {
+          "processor_owner": "AMD",
+          "cores_number": "8",
+          "processor_technology": "",
+          "memory_capacity": "16 GB",
+          "memory_type": "DDR5",
+          "hdd_type": "SSD",
+          "weight": "1.72 Kg"
+        }
+      },
+      {
+        "id": "578c234a-424f-4c95-a949-fd3485b5be00",
+        "title": "Laptop Gaming ASUS TUF Gaming A17 FA706IE cu procesor AMD Ryzen\u2122 7 4800H , 17.3\", Full HD, 144Hz, 16GB, 1TB SSD, NVIDIA\u00ae GeForce RTX\u2122 3050 Ti, No OS, Graphite Black",
+        "price": "",
+        "specifications": {
+          "processor_owner": "AMD",
+          "cores_number": "8",
+          "processor_technology": "",
+          "memory_capacity": "16 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "2.6 Kg"
+        }
+      },
+      {
+        "id": "18e0993f-def5-4485-bb42-e24b9d6bd9cd",
+        "title": "Laptop Gaming Acer Nitro 5 AN515-45 cu procesor AMD Ryzen\u2122 5 5600H, 15.6\", Full HD, 144Hz, 8GB, 512GB SSD, NVIDIA\u00ae GeForce RTX\u2122 3060, No OS, Black",
+        "price": "",
+        "specifications": {
+          "processor_owner": "AMD",
+          "cores_number": "6",
+          "processor_technology": "7 nm",
+          "memory_capacity": "8 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "2.3 Kg"
+        }
+      },
+      {
+        "id": "17b7d267-d00e-42b5-88be-c1f7bc3b3282",
+        "title": "Laptop Gaming Acer Nitro 5 AN515-57 cu procesor Intel\u00ae Core\u2122 i7-11800H, 15.6\" Full HD, 144Hz, 16GB, 1TB SSD, NVIDIA\u00ae GeForce RTX\u2122 3060, No OS, Black",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "8",
+          "processor_technology": "",
+          "memory_capacity": "",
+          "memory_type": "",
+          "hdd_type": "",
+          "weight": ""
+        }
+      },
+      {
+        "id": "07e0ee45-469b-456d-93d0-2d59aaa53729",
+        "title": "Laptop Gaming HP Omen cu procesor AMD Ryzen\u2122 9-5900H, 15.6\", Full HD, 16GB, 1TB SSD, NVIDIA GeForce RTX 3070 8GB, Free DOS, Mica Silver",
+        "price": "",
+        "specifications": {
+          "processor_owner": "AMD",
+          "cores_number": "8",
+          "processor_technology": "",
+          "memory_capacity": "",
+          "memory_type": "",
+          "hdd_type": "",
+          "weight": ""
+        }
+      },
+      {
+        "id": "dc8d6ad2-824c-477c-925f-7ac8b0805825",
+        "title": "Laptop Gaming Lenovo Legion 5 15ACH6A cu procesor AMD Ryzen 7 5800H, 15.6\", Full HD, 16GB, 1TB SSD, AMD Radeon RX 6600M 8GB, No OS, Phantom Blue",
+        "price": "",
+        "specifications": {
+          "processor_owner": "AMD",
+          "cores_number": "8",
+          "processor_technology": "7 nm",
+          "memory_capacity": "",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": ""
+        }
+      },
+      {
+        "id": "3c531ed8-1060-4512-8769-d7c60107f91f",
+        "title": "Laptop Gaming ASUS ROG Strix SCAR 15 G533ZW cu procesor Intel\u00ae Core\u2122 i9-12900H, 15.6\", WQHD 240Hz, 32GB RAM DDR5, 1TB SSD, NVIDIA\u00ae GeForce RTX\u2122 3070 Ti 8GB, NO OS, Black",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "14",
+          "processor_technology": "",
+          "memory_capacity": "",
+          "memory_type": "DDR5",
+          "hdd_type": "SSD",
+          "weight": "2.3 Kg"
+        }
+      },
+      {
+        "id": "5b36d6ce-7c63-4f71-a802-e135af25c485",
+        "title": "Laptop Gaming HP Pavilion 15-dk2042nq cu procesor Intel\u00ae Core\u2122 i7-11370H, 15.6\", Full HD, 8GB, 512GB SSD, NVIDIA\u00ae GeForce RTX\u2122 3050 4GB, Free DOS, Black",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "4",
+          "processor_technology": "10 nm",
+          "memory_capacity": "8 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": "2.23 Kg"
+        }
+      },
+      {
+        "id": "f8b18e34-177a-47f0-8045-dd2fa1c74268",
+        "title": "Laptop Gaming Lenovo Legion 5 17ITH6H cu procesor Intel Core i5-11400H, 17.3\", Full HD, 8GB, 512GB SSD, NVIDIA GeForce RTX 3060 6GB, Free DOS, Phantom Blue",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "6",
+          "processor_technology": "10 nm",
+          "memory_capacity": "",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": ""
+        }
+      },
+      {
+        "id": "cd462693-0091-4856-aba5-73f0e01133cf",
+        "title": "Laptop Gaming ASUS TUF Gaming A15 cu procesor AMD Ryzen\u2122 7 6800H, 15.6\", Full HD, 144Hz, 16GB RAM DDR5, 1TB SSD, NVIDIA\u00ae GeForce RTX\u2122 3050 Ti 4GB, No OS, Mecha Gray",
+        "price": "5.799,99 Lei",
+        "specifications": {
+          "processor_owner": "AMD",
+          "cores_number": "8",
+          "processor_technology": "",
+          "memory_capacity": "",
+          "memory_type": "DDR5",
+          "hdd_type": "SSD",
+          "weight": "2.2 Kg"
+        }
+      },
+      {
+        "id": "c5d5c040-86d3-40b9-8e11-bf50a476d0fb",
+        "title": "Laptop Gaming Acer Predator Triton 300 PT315-53 cu procesor Intel\u00ae Core\u2122 i5-11400H, 15.6\", QHD, 165Hz, 16GB, 512GB SSD, NVIDIA\u00ae GeForce RTX\u2122 3060 6GB, Windows 10 Home, Black",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "6",
+          "processor_technology": "10 nm",
+          "memory_capacity": "16 GB",
+          "memory_type": "DDR4",
+          "hdd_type": "SSD",
+          "weight": ""
+        }
+      },
+      {
+        "id": "15cd797e-6df6-467c-a0cc-efa2e60563c4",
+        "title": "Laptop Gaming Lenovo IdeaPad 3 15ACH6 cu procesor AMD Ryzen\u2122 5 5600H, 15.6\", Full HD, 8GB, 512GB SSD, NVIDIA GeForce RTX 3050 Ti 4GB, No OS, Shadow Black",
+        "price": "",
+        "specifications": {
+          "processor_owner": "AMD",
+          "cores_number": "6",
+          "processor_technology": "",
+          "memory_capacity": "",
+          "memory_type": "",
+          "hdd_type": "SSD",
+          "weight": "2.25 Kg"
+        }
+      },
+      {
+        "id": "6739ba6c-fc11-4d5b-beb3-863df8dd8bd5",
+        "title": "Laptop Gaming HP Pavilion 15-dk2031nq cu procesor Intel\u00ae Core\u2122 i5-11300H, 15.6\", 8GB, 256GB SSD, NVIDIA\u00ae GeForce RTX\u2122 3050 Ti 4GB, Free DOS, Black",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "4",
+          "processor_technology": "",
+          "memory_capacity": "",
+          "memory_type": "",
+          "hdd_type": "",
+          "weight": "2.23 Kg"
+        }
+      },
+      {
+        "id": "605a3fb8-e398-46a9-9430-ac311fad268a",
+        "title": "Laptop Gaming HP VICTUS 16-d0038nq cu procesor Intel Core i5-11400, Full Voltage, 16.1\", Full HD, 144Hz, 16GB, 512GB SSD, NVIDIA GeForce RTX 3050 4GB, Free DOS, Ceramic White",
+        "price": "",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "6",
+          "processor_technology": "",
+          "memory_capacity": "",
+          "memory_type": "",
+          "hdd_type": "SSD",
+          "weight": "2.46 Kg"
+        }
+      },
+      {
+        "id": "57ab0817-d798-4f95-b656-4a359af9b400",
+        "title": "Laptop Gaming ASUS ROG Zephyrus M16 GU603ZE cu procesor Intel\u00ae Core\u2122 i7-12700H, 16\", WUXGA, 165Hz, 16GB RAM DDR5, 512GB SSD, NVIDIA\u00ae GeForce RTX\u2122 3050 Ti 4GB, Free DOS, Off Black",
+        "price": "7.499,88 Lei",
+        "specifications": {
+          "processor_owner": "Intel\u00ae",
+          "cores_number": "14",
+          "processor_technology": "",
+          "memory_capacity": "16 GB",
+          "memory_type": "DDR5",
+          "hdd_type": "SSD",
+          "weight": "1.9 Kg"
+        }
       }
     ]
   }

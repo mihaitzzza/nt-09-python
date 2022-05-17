@@ -3,7 +3,7 @@
     <title>Products page</title>
 </head>
 <body>
-    <a href="/products">View all products</a>
+    <a href="{% url 'products:all_products' %}">View all products</a>
     <br/>
     <strong>ID: </strong> {{ product.id }}
     <br/>
