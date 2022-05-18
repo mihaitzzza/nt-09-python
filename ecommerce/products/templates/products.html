@@ -1,16 +1,15 @@
-<html>
-<head>
-    <title>Products page</title>
-</head>
-    <body>
-        <h1>Available products</h1>
-        <ul>
-            {% for product in products %}
-                <li>
-                    {{ product.name }}
-                    <a href="{% url 'products:product_details' product.id %}">View details</a>
-                </li>
-            {% endfor %}
-        </ul>
-    </body>
-</html>
+{% extends 'base.html' %}
+
+{% block page_title %}Products page{% endblock %}
+
+{% block content %}
+    <h1>Available products</h1>
+    <ul>
+        {% for product in products %}
+            <li>
+                {{ product.name }}
+                <a href="{% url 'products:product_details' product.id %}">View details</a>
+            </li>
+        {% endfor %}
+    </ul>
+{% endblock %}

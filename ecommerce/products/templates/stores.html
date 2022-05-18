@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block page_title %}Stores page{% endblock %}
+
+{% block content %}
+    <h1>Available stores</h1>
+    <ul>
+        {% for store in stores %}
+            <li>
+                <p>
+                    <strong>Name:</strong>
+                    {{ store.name }}
+                </p>
+                <p>
+                    <strong>Owner:</strong>
+                    {{ store.owner.first_name }} {{ store.owner.last_name }} ({{ store.owner.email }})
+                </p>
+                <a href="{% url 'stores:store_details' store.id %}">View details</a>
+            </li>
+        {% endfor %}
+    </ul>
+{% endblock %}

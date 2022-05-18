@@ -1,0 +1,23 @@
+[
+  {
+    "model": "products.store",
+    "fields": {
+      "owner_id": 2,
+      "name": "Altex"
+    }
+  },
+  {
+    "model": "products.store",
+    "fields": {
+      "owner_id": 3,
+      "name": "Flanco"
+    }
+  },
+  {
+    "model": "products.store",
+    "fields": {
+      "owner_id": 4,
+      "name": "eMag"
+    }
+  }
+]

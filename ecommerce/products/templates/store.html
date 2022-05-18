@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block page_title %}Store {{ store.name }}{% endblock %}
+
+{% block content %}
+    <h1>{{ store.name }}</h1>
+    <p>
+        <strong>Owner:</strong>
+        {{ store.owner.first_name }} {{ store.owner.last_name }}
+    </p>
+    <p>
+        <strong>Contact:</strong>
+        {{ store.owner.email }}
+    </p>
+{% endblock %}

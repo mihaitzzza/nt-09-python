@@ -1,12 +1,9 @@
-<html>
-<head>
-    <title>Products page</title>
-</head>
-<body>
-    <a href="{% url 'products:all_products' %}">View all products</a>
-    <br/>
+{% extends 'base.html' %}
+
+{% block page_title %}Product page{% endblock %}
+
+{% block content %}
     <strong>ID: </strong> {{ product.id }}
     <br/>
     <strong>Name: </strong> {{ product.name }}
-</body>
-</html>
+{% endblock %}
