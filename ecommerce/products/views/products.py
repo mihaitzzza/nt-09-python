@@ -1,25 +1,17 @@
-from django.shortcuts import render, HttpResponse, Http404
-
-products = [
-    {
-        "id": index,
-        "name": f"Product #{index}"
-    } for index in range(1, 61)
-]
+from django.shortcuts import render, Http404, get_object_or_404
+from products.models import Product
 
 
-# Create your views here.
 def get_all_products(request):
+    products = Product.objects.all()
+
     return render(request, 'products.html', {
         "products": products
     })
 
 
 def get_product(request, product_id):
-    try:
-        product = [p for p in products if p["id"] == product_id][0]
-    except IndexError:
-        raise Http404('This product is not available.')
+    product = get_object_or_404(Product, id=product_id)
 
     return render(request, 'product.html', {
         "product": product

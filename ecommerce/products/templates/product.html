@@ -3,7 +3,6 @@
 {% block page_title %}Product page{% endblock %}
 
 {% block content %}
-    <strong>ID: </strong> {{ product.id }}
-    <br/>
+    <img src="{{ product.image_url }}" width="200" />
     <strong>Name: </strong> {{ product.name }}
 {% endblock %}

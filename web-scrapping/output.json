@@ -848,20 +848,6 @@
     "name": "Laptopuri cu Windows",
     "products": [
       {
-        "id": "fd032ef9-f5f4-419f-9df4-4de3c3f1f6e0",
-        "title": "Laptop HP 17-cn0042nq cu procesor Intel Celeron N4020, 17.3\", Full HD, 4GB, 256GB SSD, Intel UHD Graphics, Windows 11 Home, Natural silver",
-        "price": "",
-        "specifications": {
-          "processor_owner": "Intel\u00ae",
-          "cores_number": "2",
-          "processor_technology": "14 nm",
-          "memory_capacity": "4 GB",
-          "memory_type": "DDR4",
-          "hdd_type": "SSD",
-          "weight": "2.05 Kg"
-        }
-      },
-      {
         "id": "b4bc193b-8072-43c2-b0f3-217a9b632c9b",
         "title": "Laptop Huawei MateBook D14, Intel Core i5-1135G7 pana la 4.2GHz, 14\" Full HD, 8GB, SSD 512GB, Intel UHD Graphics, Windows 11 Home, Silver",
         "price": "",
