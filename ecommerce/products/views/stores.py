@@ -5,7 +5,7 @@ from products.models import Store
 def get_all_stores(request):
     stores = Store.objects.all()
 
-    return render(request, 'stores.html', {
+    return render(request, 'products/stores.html', {
         'stores': stores
     })
 
@@ -18,6 +18,6 @@ def get_store(request, store_id):
     #     raise Http404('Unavailable store.')
     store = get_object_or_404(Store, id=store_id)
 
-    return render(request, 'store.html', {
+    return render(request, 'products/store.html', {
         'store': store
     })

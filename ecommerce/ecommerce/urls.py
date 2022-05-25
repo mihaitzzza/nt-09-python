@@ -20,9 +20,10 @@ from django.conf.urls.static import static
 from ecommerce.views import homepage
 
 urlpatterns = [
-    path('', homepage),
+    path('', homepage, name='homepage'),
     path('admin/', admin.site.urls),
-    path('', include('products.urls'))
+    path('', include('products.urls')),
+    path('', include('users.urls')),
 ]
 
 if settings.DEBUG is True:
