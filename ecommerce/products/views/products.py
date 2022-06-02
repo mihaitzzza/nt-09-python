@@ -3,7 +3,7 @@ from products.models import Product
 
 
 def get_all_products(request):
-    products = Product.objects.all()
+    products = Product.objects.order_by('-price').all()
 
     print('--- HTTP method:', request.method)
     if request.method == 'GET':

@@ -7,6 +7,8 @@
     <ul>
         {% for product in products %}
             <li>
+                {{ product.price  }}
+                -
                 {{ product.name }}
                 <a href="{% url 'products:product_details' product.id %}">View details</a>
             </li>

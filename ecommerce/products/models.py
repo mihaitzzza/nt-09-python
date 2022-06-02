@@ -1,9 +1,14 @@
 from django.db import models
 from django.conf import global_settings
 from django.templatetags.static import static
+from django.utils.translation import gettext_lazy as _
 
 
 class Category(models.Model):
+    class Meta:
+        verbose_name_plural = _('categories')
+        ordering = ('-id',)
+
     name = models.CharField(max_length=128, unique=True, null=False, blank=False)
 
     def __str__(self):
@@ -15,8 +20,14 @@ class Store(models.Model):
     name = models.CharField(max_length=128, unique=True, null=False, blank=False)
     logo = models.ImageField(upload_to='stores/', null=True, default=None)
 
+    def __str__(self):
+        return f'{self.name} ({self.id})'
+
 
 class Product(models.Model):
+    class Meta:
+        ordering = ('name',)
+
     category = models.ForeignKey(
         Category,
         on_delete=models.SET_NULL,
@@ -57,3 +68,6 @@ class Product(models.Model):
             return self.image.url
 
         return static('images/defaultProductImage.png')
+
+    def __str__(self):
+        return f'{self.name} ({self.id})'
