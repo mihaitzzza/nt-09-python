@@ -63,7 +63,6 @@ class Product(models.Model):
 
     @property
     def image_url(self):
-        print('self.image', self.image)
         if self.image:
             return self.image.url
 

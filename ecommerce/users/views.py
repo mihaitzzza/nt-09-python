@@ -1,7 +1,7 @@
 from django.shortcuts import render, redirect, reverse, HttpResponse
 from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.decorators import login_required
-from users.forms import RegisterForm
+from users.forms import RegisterForm, ProfileAvatarForm
 
 
 def login_view(request):
@@ -44,5 +44,14 @@ def profile_view(request):
     #     return HttpResponse('This is the profile route.')
     #
     # return redirect(reverse('users:login'))
+    if request.method == 'GET':
+        form = ProfileAvatarForm()
+    else:
+        form = ProfileAvatarForm(files=request.FILES, instance=request.user.profile)
+        if form.is_valid():
+            form.save()
+            return redirect(reverse('users:profile'))
 
-    return HttpResponse('This is the profile route.')
+    return render(request, 'users/profile.html', {
+        'form': form
+    })

@@ -1,6 +1,7 @@
 from django import forms
 from django.contrib.auth import get_user_model
 from django.contrib.auth.password_validation import validate_password, password_validators_help_text_html
+from users.models import Profile
 
 AuthUser = get_user_model()
 
@@ -139,3 +140,9 @@ class RegisterForm(forms.ModelForm):
             user.save()
 
         return user
+
+
+class ProfileAvatarForm(forms.ModelForm):
+    class Meta:
+        model = Profile
+        fields = ['avatar']
