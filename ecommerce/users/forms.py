@@ -96,7 +96,7 @@ class RegisterForm(forms.ModelForm):
     class Meta:
         model = AuthUser
         # exclude = []  # exclude no field => use all fields from the model
-        fields = ['first_name', 'last_name', 'username', 'email']
+        fields = ['first_name', 'last_name', 'email']
 
     password = forms.CharField(
         max_length=128,
@@ -109,14 +109,12 @@ class RegisterForm(forms.ModelForm):
     def clean_password(self):
         first_name = self.cleaned_data['first_name']
         last_name = self.cleaned_data['last_name']
-        username = self.cleaned_data.get('username')
         email = self.cleaned_data.get('email')
         password = self.cleaned_data['password']
 
         user = AuthUser(
             first_name=first_name,
             last_name=last_name,
-            username=username,
             email=email
         )
         validate_password(password, user=user)

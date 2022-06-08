@@ -1,0 +1,3942 @@
+[
+  {
+    "model": "users.profile",
+    "pk": 1,
+    "fields": {
+      "user": 1,
+      "avatar": ""
+    }
+  },
+  {
+    "model": "users.profile",
+    "pk": 2,
+    "fields": {
+      "user": 2,
+      "avatar": "profile_images/intro_ball_U7nJ0O2.gif"
+    }
+  },
+  {
+    "model": "users.profile",
+    "pk": 3,
+    "fields": {
+      "user": 3,
+      "avatar": ""
+    }
+  },
+  {
+    "model": "users.profile",
+    "pk": 4,
+    "fields": {
+      "user": 4,
+      "avatar": ""
+    }
+  },
+  {
+    "model": "users.profile",
+    "pk": 5,
+    "fields": {
+      "user": 6,
+      "avatar": ""
+    }
+  },
+  {
+    "model": "users.profile",
+    "pk": 6,
+    "fields": {
+      "user": 7,
+      "avatar": ""
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 62,
+    "fields": {
+      "name": "Laptopuri"
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 63,
+    "fields": {
+      "name": "Laptopuri cu Windows"
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 64,
+    "fields": {
+      "name": "Laptopuri Gaming"
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 65,
+    "fields": {
+      "name": "New Category #01"
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 66,
+    "fields": {
+      "name": "New Category #02"
+    }
+  },
+  {
+    "model": "products.store",
+    "pk": 1,
+    "fields": {
+      "owner": 2,
+      "name": "cel.ro",
+      "logo": "stores/intro_ball_3SAtIup.gif"
+    }
+  },
+  {
+    "model": "products.store",
+    "pk": 2,
+    "fields": {
+      "owner": 3,
+      "name": "Flanco",
+      "logo": ""
+    }
+  },
+  {
+    "model": "products.store",
+    "pk": 3,
+    "fields": {
+      "owner": 4,
+      "name": "eMag",
+      "logo": ""
+    }
+  },
+  {
+    "model": "products.store",
+    "pk": 6,
+    "fields": {
+      "owner": 2,
+      "name": "Best PQ",
+      "logo": "stores/intro_ball_dsLZZmf.gif"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1265,
+    "fields": {
+      "category": 62,
+      "store": 1,
+      "name": "Laptop HP 250 G8 cu procesor Intel Celeron N4020, 15.6\", HD, 4GB, 256GB SSD, Intel UHD Graphics, Free DOS, Dark Ash Silver",
+      "normal_price": "3413.00",
+      "price": "3413.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 2,
+      "processor_technology": 14,
+      "memory_capacity": 4,
+      "memory_type": "DDR4",
+      "hdd_type": "SSD",
+      "weight": "1.74",
+      "stock": 1757,
+      "image": "products/af130ee4-f0ad-434c-90be-e7ed2460dbbf.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1266,
+    "fields": {
+      "category": 62,
+      "store": 1,
+      "name": "Laptop Apple MacBook Pro 13-inch, True Tone, procesor Apple M1, 8 nuclee CPU si 8 nuclee GPU, 8GB, 256GB SSD, Silver, INT KB",
+      "normal_price": "3230.00",
+      "price": "3230.00",
+      "processor_owner": "Apple",
+      "cores_number": 8,
+      "processor_technology": 5,
+      "memory_capacity": 8,
+      "memory_type": "LPDDR4X",
+      "hdd_type": "SSD",
+      "weight": "1.40",
+      "stock": 1265,
+      "image": ""
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1267,
+    "fields": {
+      "category": 62,
+      "store": 1,
+      "name": "Laptop Apple MacBook Air 13-inch, True Tone, procesor Apple M1 , 8 nuclee CPU si 7 nuclee GPU, 8GB, 256GB, Space Grey, INT KB",
+      "normal_price": "2505.00",
+      "price": "2505.00",
+      "processor_owner": "Apple",
+      "cores_number": 8,
+      "processor_technology": 5,
+      "memory_capacity": 8,
+      "memory_type": "LPDDR4X",
+      "hdd_type": "SSD",
+      "weight": "1.29",
+      "stock": 1547,
+      "image": "products/c2223070-a56f-4c1a-a81f-d64c8ccfb89a.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1268,
+    "fields": {
+      "category": 62,
+      "store": 1,
+      "name": "Laptop HP 17-cn0042nq cu procesor Intel Celeron N4020, 17.3\", Full HD, 4GB, 256GB SSD, Intel UHD Graphics, Windows 11 Home, Natural silver",
+      "normal_price": "4298.00",
+      "price": "4298.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 2,
+      "processor_technology": 14,
+      "memory_capacity": 4,
+      "memory_type": "DDR4",
+      "hdd_type": "SSD",
+      "weight": "2.05",
+      "stock": 1173,
+      "image": "products/579746c7-dcc3-4f7f-983e-7f983fdd74f6.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1269,
+    "fields": {
+      "category": 62,
+      "store": 1,
+      "name": "Laptop Huawei MateBook D14, Intel Core i5-1135G7 pana la 4.2GHz, 14\" Full HD, 8GB, SSD 512GB, Intel UHD Graphics, Windows 11 Home, Silver",
+      "normal_price": "8760.00",
+      "price": "8760.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 4,
+      "processor_technology": 10,
+      "memory_capacity": 8,
+      "memory_type": "DDR4",
+      "hdd_type": "SSD",
+      "weight": "1.38",
+      "stock": 1642,
+      "image": "products/9d8e0f12-af51-43aa-a2a8-eed3c5229de9.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1270,
+    "fields": {
+      "category": 62,
+      "store": 1,
+      "name": "Laptop Gaming ASUS ROG Strix G15 G513IC cu procesor AMD Ryzen\u2122 7 4800H, 15.6\", Full HD, 144Hz, 16GB, 512GB SSD, NVIDIA\u00ae GeForce RTX\u2122 3050 4GB, Free DOS, Eclipse Gray",
+      "normal_price": "1231.00",
+      "price": "1231.00",
+      "processor_owner": "AMD",
+      "cores_number": 8,
+      "processor_technology": 7,
+      "memory_capacity": 16,
+      "memory_type": "DDR4",
+      "hdd_type": "SSD",
+      "weight": "2.10",
+      "stock": 1793,
+      "image": "products/d359f1a7-f1fe-4aa3-a7e0-6efa969c21dc.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1271,
+    "fields": {
+      "category": 62,
+      "store": 1,
+      "name": "Laptop Apple MacBook Air 13-inch, True Tone, procesor Apple M1 , 8 nuclee CPU si 7 nuclee GPU, 8GB, 256GB, Gold, INT KB",
+      "normal_price": "4659.00",
+      "price": "4659.00",
+      "processor_owner": "Apple",
+      "cores_number": 8,
+      "processor_technology": 5,
+      "memory_capacity": 8,
+      "memory_type": "LPDDR4X",
+      "hdd_type": "SSD",
+      "weight": "1.29",
+      "stock": 1343,
+      "image": "products/d4f76df7-cd7c-47c1-8f15-7bea1a66f0aa.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1272,
+    "fields": {
+      "category": 62,
+      "store": 1,
+      "name": "Laptop ultraportabil Huawei MateBook D14 cu procesor Intel Core i5-10210U, 14\", Full HD, 8GB, 512GB SSD, Intel UHD Graphics, Windows 10 Home, Mystic Silver",
+      "normal_price": "7414.00",
+      "price": "7414.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 4,
+      "processor_technology": 14,
+      "memory_capacity": 8,
+      "memory_type": "DDR4",
+      "hdd_type": "SSD",
+      "weight": "1.38",
+      "stock": 1134,
+      "image": "products/d87ae07a-34b4-493e-a8a1-7e3105de6692.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1273,
+    "fields": {
+      "category": 62,
+      "store": 1,
+      "name": "Laptop HP 15-dw1018nq cu procesor Intel Celeron N4020 pana la 2.80 GHz, 15.6\", HD, 4GB, 256GB SSD, Intel UHD Graphics, Free DOS, Jet Black",
+      "normal_price": "8767.00",
+      "price": "8767.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 2,
+      "processor_technology": 14,
+      "memory_capacity": 4,
+      "memory_type": "DDR4",
+      "hdd_type": "SSD",
+      "weight": "1.78",
+      "stock": 1846,
+      "image": "products/62904ccd-7bd5-4712-91a2-11d6af439d35.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1274,
+    "fields": {
+      "category": 62,
+      "store": 1,
+      "name": "Laptop Huawei MateBook D15, Intel Core i3-10110U pana la 4.1GHz, 15.6\" Full HD, 8GB, SSD 256GB, Intel UHD Graphics, Windows 10 Home, Silver",
+      "normal_price": "5278.00",
+      "price": "5278.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 2,
+      "processor_technology": 14,
+      "memory_capacity": 8,
+      "memory_type": "DDR4",
+      "hdd_type": "SSD",
+      "weight": "1.62",
+      "stock": 1139,
+      "image": "products/1ba1a44a-6757-49ee-a888-17dd8c463ef7.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1275,
+    "fields": {
+      "category": 62,
+      "store": 1,
+      "name": "Laptop HP 15s-fq3033nq cu procesor Intel\u00ae Pentium\u00ae Silver N6000, 15.6\" HD, 4GB, 256GB SSD, Intel UHD Graphics, Windows 11 Home, Jet Black",
+      "normal_price": "2214.00",
+      "price": "2214.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 4,
+      "processor_technology": 10,
+      "memory_capacity": 4,
+      "memory_type": "DDR4",
+      "hdd_type": "SSD",
+      "weight": "1.65",
+      "stock": 520,
+      "image": "products/d5606141-276f-4e8b-b179-d9d34968b6e7.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1276,
+    "fields": {
+      "category": 62,
+      "store": 1,
+      "name": "Laptop HP Pavilion Laptop 15-eh1002nq cu procesor AMD Ryzen\u2122 7 5700U, 15.6\", Full HD, 16GB, 512GB SSD, AMD Radeon\u2122 Graphics, Windows 11 Home, Fog Blue",
+      "normal_price": "8552.00",
+      "price": "8552.00",
+      "processor_owner": "AMD",
+      "cores_number": 8,
+      "processor_technology": 7,
+      "memory_capacity": 16,
+      "memory_type": "DDR4",
+      "hdd_type": "SSD",
+      "weight": "1.75",
+      "stock": 508,
+      "image": "products/9a18a9e0-2fe3-4c7b-9fc0-c0f7f11e5d78.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1277,
+    "fields": {
+      "category": 62,
+      "store": 1,
+      "name": "Laptop Apple MacBook Air 13-inch, True Tone, procesor Apple M1 , 8 nuclee CPU si 7 nuclee GPU, 8GB, 256GB, Silver, INT KB",
+      "normal_price": "3447.00",
+      "price": "3447.00",
+      "processor_owner": "Apple",
+      "cores_number": 8,
+      "processor_technology": 5,
+      "memory_capacity": 8,
+      "memory_type": "LPDDR4X",
+      "hdd_type": "SSD",
+      "weight": "1.29",
+      "stock": 1854,
+      "image": "products/b04cfe1d-69f6-439c-a7db-a50f72f4f69d.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1278,
+    "fields": {
+      "category": 62,
+      "store": 1,
+      "name": "Laptop Lenovo IdeaPad 3 15IGL05 cu procesor Intel Celeron N4020, 15.6\", Full HD, 4GB, 256GB SSD, Intel UHD Graphics 600, No OS, Platinum Grey",
+      "normal_price": "1835.00",
+      "price": "1835.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 2,
+      "processor_technology": 14,
+      "memory_capacity": 4,
+      "memory_type": "DDR4",
+      "hdd_type": "SSD",
+      "weight": "1.70",
+      "stock": 716,
+      "image": "products/24c70c57-eca1-4f06-bc30-ec4ad129d651.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1279,
+    "fields": {
+      "category": 62,
+      "store": 1,
+      "name": "Laptop ultraportabil ASUS VivoBook 14 K413EA cu procesor Intel\u00ae Core\u2122 i5-1135G7, 14\", Full HD, 8GB, 512GB SSD, Intel Iris X\u1d49 Graphics, No OS, Indie Black",
+      "normal_price": "7647.00",
+      "price": "7647.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 4,
+      "processor_technology": 10,
+      "memory_capacity": 8,
+      "memory_type": "DDR4",
+      "hdd_type": "SSD",
+      "weight": "1.40",
+      "stock": 301,
+      "image": "products/5a6b10fb-ea5b-4ada-9fa8-4deef4bd453a.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1280,
+    "fields": {
+      "category": 62,
+      "store": 1,
+      "name": "Laptop ultraportabil Acer Aspire One 14 cu procesor Intel\u00ae Pentium\u00ae Gold 4415U 2.30 GHz, 14\", HD, 4GB, 1TB HDD, Intel\u00ae HD Graphics, Windows 10 Home, Silver",
+      "normal_price": "6493.00",
+      "price": "6493.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 2,
+      "processor_technology": 14,
+      "memory_capacity": 4,
+      "memory_type": "DDR4",
+      "hdd_type": "HDD",
+      "weight": "1.70",
+      "stock": 1472,
+      "image": "products/f947bf0c-54bd-44e4-9715-e1011150cf1f.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1281,
+    "fields": {
+      "category": 62,
+      "store": 1,
+      "name": "Laptop Huawei MateBook D15, Intel Core i5-10210U pana la 4.2GHz, 15.6\" Full HD, 8GB, SSD 512GB, Intel UHD Graphics, Windows 10 Home, Silver",
+      "normal_price": "4692.00",
+      "price": "4692.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 4,
+      "processor_technology": 14,
+      "memory_capacity": 8,
+      "memory_type": "DDR4",
+      "hdd_type": "SSD",
+      "weight": "1.62",
+      "stock": 1703,
+      "image": "products/fed65586-625b-4863-a408-b230b84b3b83.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1282,
+    "fields": {
+      "category": 62,
+      "store": 1,
+      "name": "Laptop Acer Aspire 3 A315-35 cu procesor Intel\u00ae Celeron\u00ae N4500, 15.6\", Full HD, 8GB, 256GB SSD, Intel UHD Graphics, Windows 10 Home, Blue",
+      "normal_price": "5320.00",
+      "price": "5320.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 2,
+      "processor_technology": 10,
+      "memory_capacity": 8,
+      "memory_type": "DDR4",
+      "hdd_type": "SSD",
+      "weight": "1.90",
+      "stock": 1223,
+      "image": "products/dc9f8067-79ab-476b-aed3-1f172ce1ab70.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1283,
+    "fields": {
+      "category": 62,
+      "store": 1,
+      "name": "Laptop Gaming ASUS ROG Strix G15 G513RC cu procesor AMD Ryzen\u2122 7 6800H, 15.6\", Full HD, 144Hz, 8GB RAM DDR5, 512GB SSD, NVIDIA\u00ae GeForce RTX\u2122 3050 4GB, No OS, Eclipse Gray",
+      "normal_price": "8163.00",
+      "price": "8163.00",
+      "processor_owner": "AMD",
+      "cores_number": 8,
+      "processor_technology": 6,
+      "memory_capacity": 8,
+      "memory_type": "DDR5",
+      "hdd_type": "SSD",
+      "weight": "2.10",
+      "stock": 1612,
+      "image": "products/a4bbefc2-a91d-4d48-b6c7-64c9b78e625c.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1284,
+    "fields": {
+      "category": 62,
+      "store": 1,
+      "name": "Laptop ASUS X515EA cu procesor Intel\u00ae Core\u2122 i3-1115G4, 15.6\", Full HD, 8GB, 256GB SSD, Intel\u00ae UHD Graphics, No OS, Transparent Silver",
+      "normal_price": "1331.00",
+      "price": "1331.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 2,
+      "processor_technology": 10,
+      "memory_capacity": 8,
+      "memory_type": "DDR4",
+      "hdd_type": "SSD",
+      "weight": "1.80",
+      "stock": 438,
+      "image": "products/6b2ca270-33a1-4238-bdf2-35517cde2d21.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1285,
+    "fields": {
+      "category": 62,
+      "store": 1,
+      "name": "Laptop Apple MacBook Air 13-inch, True Tone, procesor Apple M1 , 8 nuclee CPU si 8 nuclee GPU, 8GB, 512GB, Gold, INT KB",
+      "normal_price": "8139.00",
+      "price": "8139.00",
+      "processor_owner": "Apple",
+      "cores_number": 8,
+      "processor_technology": 5,
+      "memory_capacity": 8,
+      "memory_type": "LPDDR4X",
+      "hdd_type": "SSD",
+      "weight": "1.29",
+      "stock": 996,
+      "image": "products/1d784a5f-56ca-499f-a492-2ef9ad82cf3f.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1286,
+    "fields": {
+      "category": 62,
+      "store": 1,
+      "name": "Laptop Apple MacBook Pro 13-inch,True Tone, procesor Apple M1, 8 nuclee CPU si 8 nuclee GPU, 8GB, 256GB SSD, Space Grey, INT KB",
+      "normal_price": "1390.00",
+      "price": "1390.00",
+      "processor_owner": "Apple",
+      "cores_number": 8,
+      "processor_technology": 5,
+      "memory_capacity": 8,
+      "memory_type": "LPDDR4X",
+      "hdd_type": "SSD",
+      "weight": "1.40",
+      "stock": 1061,
+      "image": "products/177fc3fd-3b91-4099-a11f-7bb02e806b2c.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1287,
+    "fields": {
+      "category": 62,
+      "store": 1,
+      "name": "Laptop HP 255 G8 cu procesor AMD 3020e, 15.6\", Full HD, 8GB, 256GB SSD, AMD Radeon Graphcis, Free DOS, Black",
+      "normal_price": "5699.00",
+      "price": "5699.00",
+      "processor_owner": "AMD",
+      "cores_number": 2,
+      "processor_technology": 14,
+      "memory_capacity": 8,
+      "memory_type": "DDR4",
+      "hdd_type": "SSD",
+      "weight": "1.74",
+      "stock": 1287,
+      "image": "products/5c672309-a75e-41cf-a7b9-cd1b68b4bb1d.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1288,
+    "fields": {
+      "category": 62,
+      "store": 1,
+      "name": "Laptop Gaming Lenovo IdeaPad 3 15IHU6 cu procesor Intel Core i5-11300H, 15.6\", Full HD, 16GB, 512GB SSD, NVIDIA GeForce GTX 1650 4GB, No OS, Shadow Black",
+      "normal_price": "8298.00",
+      "price": "8298.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 4,
+      "processor_technology": 10,
+      "memory_capacity": 16,
+      "memory_type": "DDR4",
+      "hdd_type": "SSD",
+      "weight": "2.25",
+      "stock": 805,
+      "image": "products/195eada6-7216-435c-bb8f-f3f48c23fde0.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1289,
+    "fields": {
+      "category": 62,
+      "store": 1,
+      "name": "Laptop Lenovo IdeaPad 3 15ITL6 cu procesor Intel Celeron 6305, 15.6\", Full HD, IPS, 4GB, 256GB SSD, Intel UHD Graphics, No OS, Arctic Grey",
+      "normal_price": "2247.00",
+      "price": "2247.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 2,
+      "processor_technology": 10,
+      "memory_capacity": 4,
+      "memory_type": "DDR4",
+      "hdd_type": "SSD",
+      "weight": "1.65",
+      "stock": 507,
+      "image": "products/fdf0a8f8-e933-4c24-b1fb-b0f92de21816.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1290,
+    "fields": {
+      "category": 62,
+      "store": 1,
+      "name": "Laptop Gaming Acer Nitro 5 AN515-57 cu procesor Intel\u00ae Core\u2122 i5-11400H, 15.6\", Full HD, 8GB, 512GB SSD, NVIDIA\u00ae GeForce\u00ae RTX\u2122 3050Ti 4GB, No OS, Black",
+      "normal_price": "4197.00",
+      "price": "4197.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 6,
+      "processor_technology": 10,
+      "memory_capacity": 8,
+      "memory_type": "DDR4",
+      "hdd_type": "SSD",
+      "weight": "2.20",
+      "stock": 63,
+      "image": "products/725727a3-e0e8-46dc-a0d6-4da628262e8e.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1291,
+    "fields": {
+      "category": 62,
+      "store": 1,
+      "name": "Laptop ultraportabil ASUS X415EA cu procesor Intel\u00ae Core\u2122 i3-1115G4, 14\", Full HD, 8GB, 256GB, Intel\u00ae UHD Graphics, No OS, Slate Grey",
+      "normal_price": "5311.00",
+      "price": "5311.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 2,
+      "processor_technology": 10,
+      "memory_capacity": 8,
+      "memory_type": "DDR4",
+      "hdd_type": "SSD",
+      "weight": "1.60",
+      "stock": 1818,
+      "image": "products/5afeeb6e-75f9-4b3d-8486-38cf7bbdd7af.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1292,
+    "fields": {
+      "category": 62,
+      "store": 1,
+      "name": "Laptop Lenovo IdeaPad 3 15ITL6 cu procesor Intel Core i3-1115G4, 15.6\", Full HD, 8GB, 512GB SSD, Intel UHD Graphics, No OS, Sand",
+      "normal_price": "5748.00",
+      "price": "5748.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 2,
+      "processor_technology": 10,
+      "memory_capacity": 8,
+      "memory_type": "DDR4",
+      "hdd_type": "SSD",
+      "weight": "1.65",
+      "stock": 868,
+      "image": "products/ff89cd64-a2b4-494b-839c-27087a1cd122.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1293,
+    "fields": {
+      "category": 62,
+      "store": 1,
+      "name": "Laptop Huawei MateBook D15, Intel Core i5-1135G7 pana la 4.2GHz, 15.6\" Full HD, 8GB, SSD 512GB, Intel Iris Xe Graphics, Windows 11 Home, Silver",
+      "normal_price": "8050.00",
+      "price": "8050.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 4,
+      "processor_technology": 10,
+      "memory_capacity": 8,
+      "memory_type": "DDR4",
+      "hdd_type": "SSD",
+      "weight": "1.62",
+      "stock": 223,
+      "image": "products/99f0f591-4c98-4f69-a8c8-c20a3d521f78.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1294,
+    "fields": {
+      "category": 62,
+      "store": 1,
+      "name": "Laptop ASUS VivoBook 15 M513UA cu procesor AMD Ryzen\u2122 7 5700U, 15.6\", OLED, Full HD, 16GB, 512GB SSD, AMD Radeon\u2122 Graphics, Windows 11 Home, Indie Black",
+      "normal_price": "5856.00",
+      "price": "5856.00",
+      "processor_owner": "AMD",
+      "cores_number": 8,
+      "processor_technology": 7,
+      "memory_capacity": 16,
+      "memory_type": "DDR4",
+      "hdd_type": "SSD",
+      "weight": "1.80",
+      "stock": 1338,
+      "image": "products/2ee62cbe-5342-4955-b9f1-99d1a17d7c5c.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1295,
+    "fields": {
+      "category": 62,
+      "store": 1,
+      "name": "Laptop HP Pavilion 15-eg1003nq cu procesor Intel Core i7-1195G7 15.6\", Full HD, 16GB, 1TB SSD, Intel Iris Xe Graphics, Widows 11 Home, Natural silver",
+      "normal_price": "3859.00",
+      "price": "3859.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 4,
+      "processor_technology": 10,
+      "memory_capacity": 16,
+      "memory_type": "DDR4",
+      "hdd_type": "SSD",
+      "weight": "1.74",
+      "stock": 221,
+      "image": "products/8f96d306-8b77-4692-9b88-aafa7944dc20.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1296,
+    "fields": {
+      "category": 62,
+      "store": 1,
+      "name": "Laptop Gaming Lenovo IdeaPad 3 15ACH6 cu procesor AMD Ryzen 5 5600H pana la 4.2GHz, 15.6\", Full HD, IPS, 8GB, 512GB SSD, NVIDIA GeForce GTX 1650 4GB, No OS, Shadow Black",
+      "normal_price": "1241.00",
+      "price": "1241.00",
+      "processor_owner": "AMD",
+      "cores_number": 6,
+      "processor_technology": 7,
+      "memory_capacity": 8,
+      "memory_type": "DDR4",
+      "hdd_type": "SSD",
+      "weight": "2.25",
+      "stock": 582,
+      "image": "products/ec2c8b49-f152-492b-bf29-317b16969a89.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1297,
+    "fields": {
+      "category": 62,
+      "store": 1,
+      "name": "Laptop ultraportabil Lenovo IdeaPad 5 14ITL05 cu procesor Intel Core i7-1165G7, 14\", Full HD, 16GB, 512GB SSD, Intel Iris Xe Graphics, No OS, Platinum Grey",
+      "normal_price": "3991.00",
+      "price": "3991.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 4,
+      "processor_technology": 10,
+      "memory_capacity": 16,
+      "memory_type": "DDR4",
+      "hdd_type": "SSD",
+      "weight": "1.39",
+      "stock": 236,
+      "image": "products/b4709ef3-db3a-4c31-8e99-831d9b23f42c.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1298,
+    "fields": {
+      "category": 62,
+      "store": 1,
+      "name": "Laptop Huawei MateBook D15 cu procesor Intel\u00ae Core i3-10110U, 15.6\", Full HD, 8GB, 256GB SSD, Intel\u00ae UHD Graphics 620, Windows 10 Home, Silver",
+      "normal_price": "5845.00",
+      "price": "5845.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 2,
+      "processor_technology": 14,
+      "memory_capacity": 8,
+      "memory_type": "DDR4",
+      "hdd_type": "SSD",
+      "weight": "1.62",
+      "stock": 1281,
+      "image": "products/47d6e8a9-b3d4-4974-be53-ecc342b85a8f.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1299,
+    "fields": {
+      "category": 62,
+      "store": 1,
+      "name": "Laptop Apple MacBook Pro 14 (2021) cu procesor Apple M1 Pro, 10 nuclee CPU and 16 nuclee GPU, 16GB, 1TB SSD, Space Grey, Int KB",
+      "normal_price": "11999.99",
+      "price": "11999.99",
+      "processor_owner": "Apple",
+      "cores_number": 10,
+      "processor_technology": 5,
+      "memory_capacity": 16,
+      "memory_type": null,
+      "hdd_type": "SSD",
+      "weight": "1.60",
+      "stock": 1526,
+      "image": "products/cb03e395-6cbf-4205-abec-31940d72cd40.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1300,
+    "fields": {
+      "category": 62,
+      "store": 1,
+      "name": "Laptop HP 255 G8 cu procesor AMD Ryzen\u2122 3 3250U, 15.6\", Full HD, 8GB, 256Gb SSD, AMD Radeon Graphics, Free DOS, Dark Ash Silver",
+      "normal_price": "3251.00",
+      "price": "3251.00",
+      "processor_owner": "AMD",
+      "cores_number": 2,
+      "processor_technology": 14,
+      "memory_capacity": 8,
+      "memory_type": "DDR4",
+      "hdd_type": "SSD",
+      "weight": "1.74",
+      "stock": 64,
+      "image": "products/a05a6fc0-1603-4628-a276-77fef69b73a4.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1301,
+    "fields": {
+      "category": 62,
+      "store": 1,
+      "name": "Laptop Gaming ASUS TUF F17 FX706HE cu procesor Intel\u00ae Core\u2122 i7-11800H, 17.3\", Full HD, 144Hz, 16GB, 512GB SSD, NVIDIA\u00ae GeForce RTX\u2122 3050 Ti 4GB, No OS, Eclipse Gray",
+      "normal_price": "8434.00",
+      "price": "8434.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 8,
+      "processor_technology": 10,
+      "memory_capacity": 16,
+      "memory_type": "DDR4",
+      "hdd_type": "SSD",
+      "weight": null,
+      "stock": 727,
+      "image": "products/1701e8a6-28d7-4b72-bc5e-7370ea9eddd8.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1302,
+    "fields": {
+      "category": 62,
+      "store": 1,
+      "name": "Laptop Gaming HP Pavilion 15-ec2023nq cu procesor AMD Ryzen\u2122 7 5800H, 15.6\", Full HD, 8GB, 256GB SSD, NVIDIA GeForce GTX 1650 4GB, Free DOS, Shadow Black",
+      "normal_price": "3763.00",
+      "price": "3763.00",
+      "processor_owner": "AMD",
+      "cores_number": 8,
+      "processor_technology": 7,
+      "memory_capacity": 8,
+      "memory_type": "DDR4",
+      "hdd_type": "SSD",
+      "weight": "1.98",
+      "stock": 54,
+      "image": "products/b8842a27-d28e-4787-97e1-95c4d2ca5bc9.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1303,
+    "fields": {
+      "category": 62,
+      "store": 1,
+      "name": "Laptop ultraportabil Winnovo K146 cu procesor Intel\u00ae Celeron\u00ae N3350, 14\u201d, Full HD, 6GB, 64GB eMMC, 5G WiFi, Intel\u00ae HD Graphics 500, Windows 10 Home S, Argintiu",
+      "normal_price": "146.40",
+      "price": "146.40",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 2,
+      "processor_technology": 14,
+      "memory_capacity": 6,
+      "memory_type": "DDR4",
+      "hdd_type": "eMMC",
+      "weight": "2.02",
+      "stock": 1568,
+      "image": "products/072741c9-d68e-4caa-9b85-cb27bd164be8.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1304,
+    "fields": {
+      "category": 62,
+      "store": 1,
+      "name": "Laptop Lenovo IdeaPad 3 15ITL6 cu procesor Intel Core i5-1135G7, 15.6\", Full HD, 8GB, 512GB SSD,Intel Iris Xe Graphics, No OS, Arctic Grey",
+      "normal_price": "2533.00",
+      "price": "2533.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 4,
+      "processor_technology": 10,
+      "memory_capacity": 8,
+      "memory_type": "DDR4",
+      "hdd_type": "SSD",
+      "weight": "1.65",
+      "stock": 599,
+      "image": "products/3b219d88-8bc4-4328-a66d-1e1c5f26aa65.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1305,
+    "fields": {
+      "category": 62,
+      "store": 1,
+      "name": "Laptop ultraportabil Lenovo IdeaPad 3 15ITL6 cu procesor Intel Pentium Gold 7505, 15.6\", Full HD, 8GB, 256GB SSD, Intel UHD Graphics, Free DOS, Arctic Grey",
+      "normal_price": "7940.00",
+      "price": "7940.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 2,
+      "processor_technology": 10,
+      "memory_capacity": 8,
+      "memory_type": "DDR4",
+      "hdd_type": "SSD",
+      "weight": "1.65",
+      "stock": 656,
+      "image": "products/45edc4f7-57ca-4605-a3ee-394c09ce3ca3.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1306,
+    "fields": {
+      "category": 62,
+      "store": 1,
+      "name": "Laptop ultraportabil Lenovo IdeaPad 5 14ITL05 cu procesor Intel Core i5-1135G7, 14\", Full HD, 16GB, 512GB SSD, Intel Iris Xe Graphics, No OS, Platinum Grey",
+      "normal_price": "7363.00",
+      "price": "7363.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 4,
+      "processor_technology": 10,
+      "memory_capacity": 16,
+      "memory_type": "DDR4",
+      "hdd_type": "SSD",
+      "weight": "1.38",
+      "stock": 593,
+      "image": "products/77c3c7ff-4295-4b19-9e89-bd9521175cbc.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1307,
+    "fields": {
+      "category": 62,
+      "store": 1,
+      "name": "Laptop ultraportabil ASUS E210MA cu procesor Intel\u00ae Celeron\u00ae N4020, 11.6\", HD, 4GB, 128GB eMMC, Intel\u00ae UHD Graphics 600, Windows 11 Home S, Star Black",
+      "normal_price": "5480.00",
+      "price": "5480.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 2,
+      "processor_technology": 14,
+      "memory_capacity": 4,
+      "memory_type": "DDR4",
+      "hdd_type": "eMMC",
+      "weight": "1.05",
+      "stock": 1321,
+      "image": "products/58fd82df-a2d6-4abd-a0a1-306f0f9e29db.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1308,
+    "fields": {
+      "category": 62,
+      "store": 1,
+      "name": "Laptop ASUS X515MA cu procesor Intel\u00ae Celeron\u00ae N4020, 15.6\", Full HD, 4GB, 256GB SSD, Intel\u00ae UHD Graphics 600, No OS, Transparent Silver",
+      "normal_price": "5519.00",
+      "price": "5519.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 2,
+      "processor_technology": 14,
+      "memory_capacity": 4,
+      "memory_type": "DDR4",
+      "hdd_type": "SSD",
+      "weight": "1.80",
+      "stock": 54,
+      "image": "products/29a940fb-66b7-474f-854f-5147d959fc99.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1309,
+    "fields": {
+      "category": 62,
+      "store": 1,
+      "name": "Laptop HP 250 G8 cu procesor Intel\u00ae Celeron\u00ae N4020, 15.6\", Full HD, 8GB, 1TB HDD, Intel UHD Graphics 600, Free DOS, Black",
+      "normal_price": "1670.00",
+      "price": "1670.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 2,
+      "processor_technology": 14,
+      "memory_capacity": 8,
+      "memory_type": "DDR4",
+      "hdd_type": "HDD",
+      "weight": "1.74",
+      "stock": 1152,
+      "image": "products/584c3c5a-bf14-4376-93ed-b7d0edbdd1dd.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1310,
+    "fields": {
+      "category": 62,
+      "store": 1,
+      "name": "Laptop ultraportabil ASUS Vivobook 14 K413EA cu procesor Intel\u00ae Core\u2122 i5-1135G7, 14\", Full HD, 16GB, 512GB SSD, Intel Iris X\u1d49 Graphics, No OS, Indie Black",
+      "normal_price": "8551.00",
+      "price": "8551.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 4,
+      "processor_technology": 10,
+      "memory_capacity": 16,
+      "memory_type": "DDR4",
+      "hdd_type": "SSD",
+      "weight": "1.40",
+      "stock": 474,
+      "image": "products/7152db77-be0a-4ec2-8e08-9fe23bd3d6e3.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1311,
+    "fields": {
+      "category": 62,
+      "store": 1,
+      "name": "Laptop Apple MacBook Pro 14 (2021) cu procesor Apple M1 Pro, 8 nuclee CPU and 14 nuclee GPU, 16GB, 512GB SSD, Space Grey, Int KB",
+      "normal_price": "4263.00",
+      "price": "4263.00",
+      "processor_owner": "Apple",
+      "cores_number": 8,
+      "processor_technology": 5,
+      "memory_capacity": 16,
+      "memory_type": null,
+      "hdd_type": "SSD",
+      "weight": "1.60",
+      "stock": 731,
+      "image": "products/8329d204-6dd4-450c-8ac0-219795e4a7a1.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1312,
+    "fields": {
+      "category": 62,
+      "store": 1,
+      "name": "Laptop Lenovo V15 IML cu procesor Intel Core i3-10110U, 15.6\", Full HD, 8GB, 256GB SSD, Intel UHD Graphics, No OS, Iron Grey",
+      "normal_price": "7653.00",
+      "price": "7653.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 2,
+      "processor_technology": 14,
+      "memory_capacity": 8,
+      "memory_type": "DDR4",
+      "hdd_type": "SSD",
+      "weight": "1.85",
+      "stock": 1434,
+      "image": "products/75c125cf-a7d5-49fb-8ae6-9f8c46243a83.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1313,
+    "fields": {
+      "category": 62,
+      "store": 1,
+      "name": "Laptop Gaming ASUS TUF Dash F15 FX516PC cu procesor Intel\u00ae Core\u2122 i5-11300H, 15.6\", Full HD, 144Hz, 8GB, 512GB SSD, NVIDIA\u00ae GeForce RTX\u2122 3050 4GB, No OS, Eclipse Gray",
+      "normal_price": "8358.00",
+      "price": "8358.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 4,
+      "processor_technology": 10,
+      "memory_capacity": 8,
+      "memory_type": "DDR4",
+      "hdd_type": "SSD",
+      "weight": "2.00",
+      "stock": 983,
+      "image": "products/210539cc-9b4c-4ad6-b5a0-96313c5386e4.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1314,
+    "fields": {
+      "category": 62,
+      "store": 1,
+      "name": "Laptop ASUS X515KA cu procesor Intel\u00ae Pentium\u00ae Silver N6000, 15.6\", Full HD, 4GB, 256GB SSD, Intel\u00ae UHD Graphics, No OS, Slate Grey",
+      "normal_price": "6593.00",
+      "price": "6593.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 4,
+      "processor_technology": 10,
+      "memory_capacity": 4,
+      "memory_type": "DDR4",
+      "hdd_type": "SSD",
+      "weight": "1.80",
+      "stock": 1589,
+      "image": "products/f9d91ac5-ca13-4d4b-b272-f814f551af6b.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1315,
+    "fields": {
+      "category": 62,
+      "store": 1,
+      "name": "Laptop Gaming ASUS TUF Gaming F17 FX706HC cu procesor Intel\u00ae Core\u2122 i7-11800H, 17.3\", Full HD, 144Hz, 16GB, 1TB SSD, NVIDIA\u00ae GeForce RTX\u2122 3050 4GB, No OS, Graphite Black",
+      "normal_price": "2865.00",
+      "price": "2865.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 8,
+      "processor_technology": 10,
+      "memory_capacity": 16,
+      "memory_type": "DDR4",
+      "hdd_type": "SSD",
+      "weight": "2.60",
+      "stock": 1464,
+      "image": "products/0b3961e6-ba18-46b1-864c-42534f3f7e69.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1316,
+    "fields": {
+      "category": 62,
+      "store": 1,
+      "name": "Laptop Gaming Lenovo IdeaPad 3 15ACH6 cu procesor AMD Ryzen 5 5600H, 15.6\", Full HD, 16GB, 512GB SSD, NVIDIA GeForce RTX 3050 4GB No OS, Shadow Black",
+      "normal_price": "6217.00",
+      "price": "6217.00",
+      "processor_owner": "AMD",
+      "cores_number": 6,
+      "processor_technology": 27,
+      "memory_capacity": 95,
+      "memory_type": "",
+      "hdd_type": "SSD",
+      "weight": null,
+      "stock": 1239,
+      "image": "products/5a386eb3-ae58-4b84-91f8-c82672cde6e5.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1317,
+    "fields": {
+      "category": 62,
+      "store": 1,
+      "name": "Laptop HP 250 G8 cu procesor Intel Core i5-1135G7, 15.6\", Full HD, 8GB, 512GB SSD, Intel Iris Xe Graphics, Windows 10 Pro, Asteroid Silver",
+      "normal_price": "5627.00",
+      "price": "5627.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 4,
+      "processor_technology": 7,
+      "memory_capacity": 83,
+      "memory_type": "DDR4",
+      "hdd_type": "SSD",
+      "weight": "1.74",
+      "stock": 341,
+      "image": "products/aee0e203-2f0e-4ab9-a3f4-1ae6f37c1d6f.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1318,
+    "fields": {
+      "category": 62,
+      "store": 1,
+      "name": "Laptop Gaming ASUS ASUS TUF Dash F15 FX516PE cu procesor Intel\u00ae Core\u2122 i7-11370H pana la 4.80 GHz, 15.6\", Full HD, 144Hz, 16GB, 1TB SSD, NVIDIA\u00ae GeForce RTX\u2122 3050 Ti 4GB, Free DOS, Eclipse Gray",
+      "normal_price": "5467.00",
+      "price": "5467.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 4,
+      "processor_technology": 10,
+      "memory_capacity": 122,
+      "memory_type": "DDR4",
+      "hdd_type": "SSD",
+      "weight": null,
+      "stock": 353,
+      "image": "products/980b1775-9232-4911-af72-2dbbe97c4bd4.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1319,
+    "fields": {
+      "category": 62,
+      "store": 1,
+      "name": "Laptop ASUS Vivobook 15 M513UA cu procesor AMD Ryzen\u2122 5 5500U, 15.6\", Full HD, 8GB, 512GB SSD, AMD Radeon\u2122 Graphics, No OS, Hearty Gold",
+      "normal_price": "4889.00",
+      "price": "4889.00",
+      "processor_owner": "AMD",
+      "cores_number": 6,
+      "processor_technology": 24,
+      "memory_capacity": 5,
+      "memory_type": "DDR4",
+      "hdd_type": "SSD",
+      "weight": null,
+      "stock": 15,
+      "image": "products/3d762ca3-e935-45a2-b117-337892b74f43.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1320,
+    "fields": {
+      "category": 62,
+      "store": 1,
+      "name": "Laptop ultraportabil ASUS E410MA cu procesor Intel\u00ae Celeron\u00ae N4020, 14\", Full HD, 4GB, 256GB SSD, Intel\u00ae UHD Graphics 600, No OS, Peacock Blue",
+      "normal_price": "4527.00",
+      "price": "4527.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 2,
+      "processor_technology": 5,
+      "memory_capacity": 28,
+      "memory_type": "",
+      "hdd_type": "SSD",
+      "weight": null,
+      "stock": 1443,
+      "image": "products/6538a49b-3684-47ed-a9e1-4f067d13eb3b.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1321,
+    "fields": {
+      "category": 62,
+      "store": 1,
+      "name": "Laptop ASUS VivoBook 17 X712EA cu procesor Intel\u00ae Core\u2122 i5-1135G7, 17.3\", HD+, 16GB, 512GB SSD, Intel Iris X\u1d49 Graphics, No OS, Transparent Silver",
+      "normal_price": "4316.00",
+      "price": "4316.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 4,
+      "processor_technology": 10,
+      "memory_capacity": 22,
+      "memory_type": "DDR4",
+      "hdd_type": "SSD",
+      "weight": "2.30",
+      "stock": 541,
+      "image": "products/9367a281-067f-4501-b4fd-69a244424b73.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1322,
+    "fields": {
+      "category": 62,
+      "store": 1,
+      "name": "Laptop ASUS X515KA cu procesor Intel Celeron N4500, 15.6\", Full HD, 4GB, 256GB SSD, Intel UHD Graphics, No OS, Slate Grey",
+      "normal_price": "4213.00",
+      "price": "4213.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 2,
+      "processor_technology": 4,
+      "memory_capacity": 11,
+      "memory_type": "",
+      "hdd_type": "SSD",
+      "weight": null,
+      "stock": 1324,
+      "image": "products/1e98683e-fe64-4d69-a75b-d49fcd5efa7f.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1323,
+    "fields": {
+      "category": 62,
+      "store": 1,
+      "name": "Laptop Gaming Lenovo IdeaPad 3 15ACH6 cu procesor AMD Ryzen\u2122 7 5800H, 15.6\", Full HD, 165Hz, 16GB, 512GB SSD, NVIDIA GeForce RTX 3050 Ti 4GB, Free DOS, Shadow Black",
+      "normal_price": "2865.00",
+      "price": "2865.00",
+      "processor_owner": "AMD",
+      "cores_number": 8,
+      "processor_technology": 20,
+      "memory_capacity": 74,
+      "memory_type": "",
+      "hdd_type": "SSD",
+      "weight": null,
+      "stock": 309,
+      "image": "products/a9a5962c-183d-4a36-bc8f-a0e7cecedd46.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1324,
+    "fields": {
+      "category": 62,
+      "store": 1,
+      "name": "Laptop Gaming Lenovo Legion 5 17ITH6 cu procesor Intel Core i5-11400H, 17.3\", Full HD, 144Hz, 16GB, 1TB HDD + 256GB SSD, NVIDIA GeForce RTX 3050 4GB, No Os, Phantom Blue",
+      "normal_price": "7381.00",
+      "price": "7381.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 6,
+      "processor_technology": 10,
+      "memory_capacity": 16,
+      "memory_type": "DDR4",
+      "hdd_type": "HDD + SSD",
+      "weight": "2.98",
+      "stock": 1141,
+      "image": "products/3361d27e-4c05-415b-a2f4-d68089575508.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1325,
+    "fields": {
+      "category": 63,
+      "store": 2,
+      "name": "Laptop Gaming Acer Predator Helios 300 PH315-54 cu procesor Intel\u00ae Core\u2122 i9-11900H, 15.6\", Full HD, 144Hz, 16GB, 512GB SSD, NVIDIA\u00ae GeForce RTX\u2122 3070 8GB, Windows 11 Home, Black",
+      "normal_price": "13067.00",
+      "price": "13067.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 8,
+      "processor_technology": 5,
+      "memory_capacity": 106,
+      "memory_type": "",
+      "hdd_type": "",
+      "weight": null,
+      "stock": 1020,
+      "image": "products/bb40fcac-9cfb-4e70-b5aa-16c43d9106aa.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1326,
+    "fields": {
+      "category": 63,
+      "store": 2,
+      "name": "Laptop 2 in 1 Lenovo Yoga 6 13ALC6 cu procesor AMD Ryzen\u2122 5 5500U, 13.3\", Full HD, Touch, 16GB, 1TB SSD, AMD Radeon Graphics, Windows 10 Home, Abyss Blue",
+      "normal_price": "4445.00",
+      "price": "4445.00",
+      "processor_owner": "AMD",
+      "cores_number": 6,
+      "processor_technology": 14,
+      "memory_capacity": 32,
+      "memory_type": "",
+      "hdd_type": "",
+      "weight": null,
+      "stock": 896,
+      "image": "products/6e4bdf15-8d72-4680-bc52-8c2d1e4c0dd1.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1327,
+    "fields": {
+      "category": 63,
+      "store": 2,
+      "name": "Laptop ASUS Zenbook Pro Duo 15 OLED UX582HS cu procesor Intel\u00ae Core\u2122 i9-11900H, 15.6\", 4K, 32GB, 1TB SSD, NVIDIA\u00ae GeForce\u00ae RTX\u2122 3080 8GB, Windows 11 Pro, Celestial Blue",
+      "normal_price": "3418.00",
+      "price": "3418.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 8,
+      "processor_technology": 11,
+      "memory_capacity": 115,
+      "memory_type": "DDR4",
+      "hdd_type": "SSD",
+      "weight": "2.34",
+      "stock": 1807,
+      "image": "products/fe09459e-8fe9-4a73-b440-59605d976546.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1328,
+    "fields": {
+      "category": 63,
+      "store": 2,
+      "name": "Laptop ultraportabil Lenovo IdeaPad 3 14ITL6 cu procesor Intel Celeron 6305, 14\", Full HD, 4GB, 128GB SSD, Intel UHD Graphics, Windows 10 Home, Abyss Blue",
+      "normal_price": "4897.00",
+      "price": "4897.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 2,
+      "processor_technology": 10,
+      "memory_capacity": 15,
+      "memory_type": "DDR4",
+      "hdd_type": "SSD",
+      "weight": "1.41",
+      "stock": 614,
+      "image": "products/e02a2969-7485-4090-87e3-f5ccf9b5f8f0.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1329,
+    "fields": {
+      "category": 63,
+      "store": 2,
+      "name": "Laptop ultraportabil ASUS Vivobook Pro 14 K3400PH cu procesor Intel\u00ae Core\u2122 i5-11300H, 14\", 2.8K, OLED, 8GB, 512GB SSD, NVIDIA\u00ae GeForce\u00ae GTX 1650 4GB, Windows 10 Home, Quiet Blue",
+      "normal_price": "3935.00",
+      "price": "3935.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 4,
+      "processor_technology": 10,
+      "memory_capacity": 14,
+      "memory_type": "DDR4",
+      "hdd_type": "SSD",
+      "weight": null,
+      "stock": 1788,
+      "image": "products/1bcbd9fa-0eaa-4420-998e-47ddfed12313.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1330,
+    "fields": {
+      "category": 63,
+      "store": 2,
+      "name": "Laptop ultraportabil Dell Latitude 3410 cu procesor Intel Celeron 5205U, 14\u201d Full HD, Memorie RAM 4GB DDR4, Stocare 128GB SSD, Intel UHD Graphics, Windows 10 Pro, Grey",
+      "normal_price": "8191.00",
+      "price": "8191.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 2,
+      "processor_technology": 14,
+      "memory_capacity": 25,
+      "memory_type": "",
+      "hdd_type": "",
+      "weight": null,
+      "stock": 586,
+      "image": "products/5643ceb6-227c-4916-8302-8713c62d0cff.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1331,
+    "fields": {
+      "category": 63,
+      "store": 2,
+      "name": "Laptop ASUS X515FA cu procesor Intel\u00ae Core\u2122 i3-10110U, 15.6\", Full HD, 8GB, 256GB SSD, Intel\u00ae UHD Graphics, Windows 11 Home S, Slate grey",
+      "normal_price": "6280.00",
+      "price": "6280.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 2,
+      "processor_technology": 2,
+      "memory_capacity": 87,
+      "memory_type": "",
+      "hdd_type": "SSD",
+      "weight": "1.80",
+      "stock": 1856,
+      "image": "products/fff06ef9-270d-4a54-89d5-2b6a8e311782.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1332,
+    "fields": {
+      "category": 63,
+      "store": 2,
+      "name": "Laptop Gaming Acer Nitro 5 AN515-57 cu procesor Intel Core i7-11800H, 15\", QHD, 165Hz, 16GB, 1TB SSSD, Nvidia RTX 3060 6GB, Windows 11 Home, Shale Black",
+      "normal_price": "2112.00",
+      "price": "2112.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 8,
+      "processor_technology": 10,
+      "memory_capacity": 95,
+      "memory_type": "DDR4",
+      "hdd_type": "SSD",
+      "weight": "2.20",
+      "stock": 1835,
+      "image": "products/a3c6edc7-38ce-4bdb-9f2c-09db17bd39be.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1333,
+    "fields": {
+      "category": 63,
+      "store": 2,
+      "name": "Laptop HP 250 G8 cu procesor Intel Core i5-1135G7, 15.6\", Full HD , 16GB , 512GB SSD, Intel Iris Xe Graphics, Windows 10 Pro, Asteroid Silver",
+      "normal_price": "2139.00",
+      "price": "2139.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 4,
+      "processor_technology": 15,
+      "memory_capacity": 54,
+      "memory_type": "",
+      "hdd_type": "SSD",
+      "weight": "1.74",
+      "stock": 102,
+      "image": "products/9be57b74-2138-42e9-8798-f5b07c822c00.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1334,
+    "fields": {
+      "category": 63,
+      "store": 2,
+      "name": "Laptop ultraportabil Weigo cu procesor Intel Core i3-5005U 2.00 GHz, 14.1\" Full HD, 8GB, 256GB SSD, Intel HD Graphics 5500, Windows 10 Pro, Grey",
+      "normal_price": "6797.00",
+      "price": "6797.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 2,
+      "processor_technology": 14,
+      "memory_capacity": 18,
+      "memory_type": null,
+      "hdd_type": "SSD",
+      "weight": null,
+      "stock": 1656,
+      "image": "products/176f1f7a-e81b-4fed-8c7b-47bdc57a0e4d.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1335,
+    "fields": {
+      "category": 63,
+      "store": 2,
+      "name": "Laptop ultraportabil Lenovo IdeaPad 3 14ITL6 cu procesor Intel Pentium Gold 7505, 14\", Full HD, 4GB, 128GB SSD, Intel UHD Graphics, Windows 10 Home S, Sand",
+      "normal_price": "2791.00",
+      "price": "2791.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 2,
+      "processor_technology": 10,
+      "memory_capacity": 4,
+      "memory_type": "DDR4",
+      "hdd_type": "SSD",
+      "weight": null,
+      "stock": 387,
+      "image": "products/bce0e2e3-6d09-4537-85c2-8c1b6bb4af03.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1336,
+    "fields": {
+      "category": 63,
+      "store": 2,
+      "name": "Laptop ASUS Vivobook Pro 16X OLED N7600PC cu procesor Intel\u00ae Core\u2122 i7-11370H, 16\", 4K, 16GB, 1TB SSD, NVIDIA\u00ae GeForce\u00ae RTX\u2122 3050 4GB, Windows 11 Pro, Comet Grey",
+      "normal_price": "8181.00",
+      "price": "8181.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 4,
+      "processor_technology": 10,
+      "memory_capacity": 16,
+      "memory_type": "DDR4",
+      "hdd_type": "SSD",
+      "weight": "1.95",
+      "stock": 1291,
+      "image": "products/b7f20b20-ea95-49d4-99a5-d5e73b5f197f.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1337,
+    "fields": {
+      "category": 63,
+      "store": 2,
+      "name": "Laptop HP 17-cp0004nq cu procesor AMD Ryzen\u2122 7-5700U, 17.3\", Full HD, 8GB, 512GB SSD, AMD Radeon Integrated Graphics, Windows 11 Home, Natural silver",
+      "normal_price": "1786.00",
+      "price": "1786.00",
+      "processor_owner": "AMD",
+      "cores_number": 8,
+      "processor_technology": 7,
+      "memory_capacity": 8,
+      "memory_type": "DDR4",
+      "hdd_type": "SSD",
+      "weight": "2.07",
+      "stock": 1783,
+      "image": "products/04dba254-c3f9-4d71-9cef-5d1628a857e5.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1338,
+    "fields": {
+      "category": 63,
+      "store": 2,
+      "name": "Laptop ultraportabil ASUS K3400PH cu procesor Intel\u00ae Core\u2122 i7-11370H, 14\", OLED, 2.8K, 8GB, 512GB SSD, NVIDIA\u00ae GeForce\u00ae GTX 1650 4GB, Windows 10 Home, Quiet Blue",
+      "normal_price": "1249.00",
+      "price": "1249.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 4,
+      "processor_technology": 4,
+      "memory_capacity": 106,
+      "memory_type": "",
+      "hdd_type": "",
+      "weight": null,
+      "stock": 1687,
+      "image": "products/206244db-0c3e-45e4-a400-0f287339273f.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1339,
+    "fields": {
+      "category": 63,
+      "store": 2,
+      "name": "Laptop Lenovo IdeaPad 3 15ALC6 cu procesor AMD Ryzen 5 5500U, 15.6\", Full HD, 8GB, 512GB SSD, AMD Radeon Graphics, Windows 11 Home, Abyss Blue",
+      "normal_price": "6662.00",
+      "price": "6662.00",
+      "processor_owner": "AMD",
+      "cores_number": 6,
+      "processor_technology": 3,
+      "memory_capacity": 8,
+      "memory_type": "DDR4",
+      "hdd_type": "SSD",
+      "weight": "1.65",
+      "stock": 1459,
+      "image": "products/8f649abc-bc27-45ba-b3ab-2d7015a9fd9f.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1340,
+    "fields": {
+      "category": 63,
+      "store": 2,
+      "name": "Laptop Huawei MateBook 14, Intel Core i5-1135G7 pana la 4.8GHz, 14\" 2K, 16GB, SSD 512GB, Intel Iris Xe, Windows 11 Home, Gray",
+      "normal_price": "1881.00",
+      "price": "1881.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 4,
+      "processor_technology": 17,
+      "memory_capacity": 51,
+      "memory_type": "",
+      "hdd_type": "SSD",
+      "weight": "1.49",
+      "stock": 1086,
+      "image": "products/d29c58ae-b14b-4cd0-9034-31072fb2bb6e.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1341,
+    "fields": {
+      "category": 63,
+      "store": 2,
+      "name": "Laptop ultraportabil ASUS ZenBook 13 UX325EA cu procesor Intel\u00ae Core\u2122 i7-1165G7, 13.3\", Full HD, OLED, 8GB, 512GB SSD, Intel\u00ae Iris Xe Graphics, Windows 11 Home, Pine Grey",
+      "normal_price": "8692.00",
+      "price": "8692.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 4,
+      "processor_technology": 15,
+      "memory_capacity": 8,
+      "memory_type": "LPDDR4X",
+      "hdd_type": "SSD",
+      "weight": "1.14",
+      "stock": 488,
+      "image": "products/2d50ead0-fd8b-4992-befc-b48dba6beb63.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1342,
+    "fields": {
+      "category": 63,
+      "store": 2,
+      "name": "Laptop ASUS X515EA cu procesor cu procesor Intel\u00ae Core\u2122 i5-1135G7, 15.6\", Full HD, 8GB, 512GB SSD, Intel Iris X\u1d49 Graphics, Windows 11 Home, Slate Grey",
+      "normal_price": "3132.00",
+      "price": "3132.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 4,
+      "processor_technology": 5,
+      "memory_capacity": 18,
+      "memory_type": "DDR4",
+      "hdd_type": "SSD",
+      "weight": null,
+      "stock": 734,
+      "image": "products/b7d7bcf2-6600-4ec2-8499-b769f7cf4f5e.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1343,
+    "fields": {
+      "category": 63,
+      "store": 2,
+      "name": "Laptop HP 250 G8 cu procesor Intel Core i3-1005G1, 15.6\", Full HD, 8GB, 256GB SSD, Intel UHD Graphics, Windows 10 Home, Dark Ash",
+      "normal_price": "4025.00",
+      "price": "4025.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 2,
+      "processor_technology": 21,
+      "memory_capacity": 58,
+      "memory_type": "",
+      "hdd_type": "",
+      "weight": null,
+      "stock": 867,
+      "image": "products/39795c03-3e92-4127-8661-253376233e0b.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1344,
+    "fields": {
+      "category": 63,
+      "store": 2,
+      "name": "Laptop Gaming Acer Nitro 5 AN517-54 cu procesor Intel\u00ae Core\u2122 i7-11800H, 17.3\", Full HD, 144Hz, 16GB, 512GB SSD, NVIDIA\u00ae GeForce RTX\u2122 3070, No OS, Black",
+      "normal_price": "7237.00",
+      "price": "7237.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 8,
+      "processor_technology": 22,
+      "memory_capacity": 16,
+      "memory_type": "DDR4",
+      "hdd_type": "SSD",
+      "weight": "2.70",
+      "stock": 1683,
+      "image": "products/4363eec5-768c-4dd7-8e3d-4f9a24ad22f9.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1345,
+    "fields": {
+      "category": 63,
+      "store": 2,
+      "name": "Laptop ultraportabil ASUS ZenBook 13 UX325EA cu procesor Intel\u00ae Core\u2122 i7-1165G7, 13.3\", Full HD, OLED, 8GB, 512GB SSD, Intel\u00ae Iris Xe Graphics, Windows 11 Home, Lilac Mist",
+      "normal_price": "7223.00",
+      "price": "7223.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 4,
+      "processor_technology": 10,
+      "memory_capacity": 8,
+      "memory_type": "LPDDR4X",
+      "hdd_type": "SSD",
+      "weight": "1.14",
+      "stock": 519,
+      "image": "products/9d58a5c9-53ce-46e7-92f2-260feca85103.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1346,
+    "fields": {
+      "category": 63,
+      "store": 2,
+      "name": "Laptop Huawei Matebook 14s cu procesor Intel\u00ae Core\u2122 i5-11300H, 14\", 2.5K, Touch Display, 16 GB, 512GB SSD, Intel\u00ae Iris\u00ae Xe Graphics, Windows 10 Home, Grey",
+      "normal_price": "4255.00",
+      "price": "4255.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 4,
+      "processor_technology": 10,
+      "memory_capacity": 14,
+      "memory_type": "",
+      "hdd_type": "SSD",
+      "weight": null,
+      "stock": 492,
+      "image": "products/95cb5522-f9c4-478b-8ce0-b5759d00d0d1.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1347,
+    "fields": {
+      "category": 63,
+      "store": 2,
+      "name": "Laptop ultraportabil Lenovo Yoga Slim 7 Pro 14ACH5 cu procesor AMD Ryzen\u2122 7 5800H, 14\", 2.8K, OLED, 16GB, 1TB SSD, AMD Radeon Graphics, Windows 11 Pro, Light Silver",
+      "normal_price": "6708.00",
+      "price": "6708.00",
+      "processor_owner": "AMD",
+      "cores_number": 8,
+      "processor_technology": 13,
+      "memory_capacity": 6,
+      "memory_type": "DDR4",
+      "hdd_type": "SSD",
+      "weight": null,
+      "stock": 730,
+      "image": "products/7811d4a8-7d42-4776-a0de-28858d6828dd.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1348,
+    "fields": {
+      "category": 63,
+      "store": 2,
+      "name": "Laptop 2 in 1 ASUS Vivobook Go 14 Flip TP1400KA cu procesor Intel\u00ae Celeron\u00ae N4500, 14\", HD, 4GB, 256GB SSD, Intel\u00ae UHD Graphics, Windows 11 Home S, Quiet Blue",
+      "normal_price": "6360.00",
+      "price": "6360.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 2,
+      "processor_technology": 10,
+      "memory_capacity": 4,
+      "memory_type": "DDR4",
+      "hdd_type": "SSD",
+      "weight": "1.50",
+      "stock": 752,
+      "image": "products/34df9fca-091e-4f97-ab9c-236d2454c4ce.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1349,
+    "fields": {
+      "category": 63,
+      "store": 2,
+      "name": "Laptop 2 in 1 Lenovo IdeaPad Flex 5 14ITL05 cu procesor Intel Core i5-1135G7, 14\", Full HD, 16GB, 512GB SSD, Intel Iris Xe Graphics, Windows 11 Home, Platinum Grey",
+      "normal_price": "3096.00",
+      "price": "3096.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 4,
+      "processor_technology": 15,
+      "memory_capacity": 62,
+      "memory_type": "",
+      "hdd_type": "",
+      "weight": null,
+      "stock": 1881,
+      "image": "products/0ba0a9e6-1b0a-47e8-8852-c10d30b5c1b6.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1350,
+    "fields": {
+      "category": 63,
+      "store": 2,
+      "name": "Laptop ASUS ZenBook Pro 15 OLED UM5500QE cu procesor AMD Ryzen\u2122 7 5800H, 15.6\", Full HD, 16GB, 1TB SSD, NVIDIA\u00ae GeForce\u00ae RTX\u2122 3050 Ti, Windows 11 Pro, Pine Grey",
+      "normal_price": "6135.00",
+      "price": "6135.00",
+      "processor_owner": "AMD",
+      "cores_number": 8,
+      "processor_technology": 26,
+      "memory_capacity": 34,
+      "memory_type": "",
+      "hdd_type": "SSD",
+      "weight": "2.00",
+      "stock": 1496,
+      "image": "products/6126a6fb-c015-4430-9b08-c2c3e350a486.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1351,
+    "fields": {
+      "category": 63,
+      "store": 2,
+      "name": "Laptop Huawei MateBook D15, Ryzen 5 5500U pana la 4.0GHz, 15.6\" Full HD, 8GB, SSD 512GB, AMD Radeon\u2122 Graphics, Windows 11 Home, Silver",
+      "normal_price": "2521.00",
+      "price": "2521.00",
+      "processor_owner": "AMD",
+      "cores_number": 6,
+      "processor_technology": 7,
+      "memory_capacity": 98,
+      "memory_type": "DDR4",
+      "hdd_type": "SSD",
+      "weight": "1.62",
+      "stock": 1516,
+      "image": "products/93175abd-5520-41fb-9dcd-d3e3e700e36c.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1352,
+    "fields": {
+      "category": 63,
+      "store": 2,
+      "name": "Laptop ultraportabil ASUS Zenbook 14X OLED UX5400EA cu procesor Intel\u00ae Core\u2122 i7-1165G7, 16GB, 1TB SSD, 14\", 2.8K, Touch, 16GB, 1TB SSD, Intel Iris X\u1d49 Graphics, Windows 10 Pro, Pine grey",
+      "normal_price": "3016.00",
+      "price": "3016.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 4,
+      "processor_technology": 10,
+      "memory_capacity": 16,
+      "memory_type": "LPDDR4X",
+      "hdd_type": "SSD",
+      "weight": "1.40",
+      "stock": 565,
+      "image": "products/470c4683-fbe9-45b4-8dd4-a5a8ae81ad04.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1353,
+    "fields": {
+      "category": 63,
+      "store": 2,
+      "name": "Laptop Gaming Acer Nitro 5 AN515-57 cu procesor Intel\u00ae Core\u2122 i5-11400H, 15.6\", Full HD, 144Hz, 16GB, 512GB SSD, NVIDIA\u00ae GeForce\u00ae RTX\u2122 3050Ti 4GB, Windows 11 Home, Black",
+      "normal_price": "2605.00",
+      "price": "2605.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 6,
+      "processor_technology": 19,
+      "memory_capacity": 16,
+      "memory_type": "DDR4",
+      "hdd_type": "SSD",
+      "weight": "2.20",
+      "stock": 1297,
+      "image": "products/8eff2340-98f9-4665-9cfd-7b2948ee58b2.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1354,
+    "fields": {
+      "category": 63,
+      "store": 2,
+      "name": "Laptop 2 in 1 Lenovo Yoga 6 13ALC6 cu procesor AMD Ryzen\u2122 5 5500U, 13.3\", Full HD, 8GB, 512GB SSD, AMD Radeon Graphics, Abyss Blue, Windows 10 Home",
+      "normal_price": "4998.00",
+      "price": "4998.00",
+      "processor_owner": "AMD",
+      "cores_number": 6,
+      "processor_technology": 7,
+      "memory_capacity": 8,
+      "memory_type": "DDR4",
+      "hdd_type": "SSD",
+      "weight": null,
+      "stock": 724,
+      "image": "products/7146963d-1147-4734-a1b5-7c92ba6ae119.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1355,
+    "fields": {
+      "category": 63,
+      "store": 2,
+      "name": "Laptop ultraportabil ASUS Zenbook 14X OLED UX5400EG cu procesor Intel\u00ae Core\u2122 i7-1165G7, 14\", 2.8K, 16GB, 1TB SSD, NVIDIA\u00ae GeForce\u00ae MX450 2GB, Windows 10 Home, Pine Grey",
+      "normal_price": "8082.00",
+      "price": "8082.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 4,
+      "processor_technology": 10,
+      "memory_capacity": 118,
+      "memory_type": "",
+      "hdd_type": "",
+      "weight": null,
+      "stock": 654,
+      "image": "products/f4197b80-4404-4c00-a4c6-b787de62233e.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1356,
+    "fields": {
+      "category": 63,
+      "store": 2,
+      "name": "Laptop ultraportabil ASUS ZenBook Duo 14 UX482EA cu procesor Intel\u00ae Core\u2122 i7-1165G7, 14\", Full HD, 16GB, 1TB SSD, Intel Iris X\u1d49 Graphics, Windows 10 Pro, Celestial Blue",
+      "normal_price": "6859.97",
+      "price": "6859.97",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 4,
+      "processor_technology": 11,
+      "memory_capacity": 40,
+      "memory_type": "",
+      "hdd_type": "SSD",
+      "weight": null,
+      "stock": 1548,
+      "image": "products/26544f43-2241-4e75-a319-79b1ccd40980.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1357,
+    "fields": {
+      "category": 63,
+      "store": 2,
+      "name": "Laptop 2 in 1 Lenovo IdeaPad Flex 5 14ITL05 cu procesor Intel Core i5-1135G7, 14\", Full HD, 16GB, 512GB SSD, Intel Iris Xe Graphics, Windows 10 Home, Platinum Grey",
+      "normal_price": "6321.00",
+      "price": "6321.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 4,
+      "processor_technology": 3,
+      "memory_capacity": 53,
+      "memory_type": "",
+      "hdd_type": "",
+      "weight": null,
+      "stock": 1129,
+      "image": "products/a9cab916-5d69-45fc-83a9-318b6c5e787f.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1358,
+    "fields": {
+      "category": 63,
+      "store": 2,
+      "name": "Laptop ASUS Vivobook Pro 16X N7600PC cu procesor Intel\u00ae Core\u2122 i7-11370H, 16\", WQXGA, 120Hz, 16GB, 1TB SSD, NVIDIA\u00ae GeForce\u00ae RTX\u2122 3050 4GB, Windows 11 Pro, Cool Silver",
+      "normal_price": "5868.00",
+      "price": "5868.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 4,
+      "processor_technology": 12,
+      "memory_capacity": 99,
+      "memory_type": "DDR4",
+      "hdd_type": "SSD",
+      "weight": "1.95",
+      "stock": 1010,
+      "image": "products/ca10e9f8-e69d-4b83-a5a7-c79c90c95304.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1359,
+    "fields": {
+      "category": 63,
+      "store": 2,
+      "name": "Laptop ultraportabil HP 14s-dq2007nq cu procesor Intel Core i5-1135G7, 14\", Full HD, 8GB, 512GB SSD, Intel Iris Xe, Windows 11 Home, Natural silver",
+      "normal_price": "5878.00",
+      "price": "5878.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 4,
+      "processor_technology": 2,
+      "memory_capacity": 67,
+      "memory_type": "",
+      "hdd_type": "SSD",
+      "weight": null,
+      "stock": 93,
+      "image": "products/ebd0fd27-915c-4639-86c4-d1f379a5d78c.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1360,
+    "fields": {
+      "category": 63,
+      "store": 2,
+      "name": "Laptop Lenovo ThinkBook 15 G2 cu procesor Intel Core i5-1135G7 pana la 4.20 GHz, 15.6\", Full HD, 8GB, 512GB SSD, Intel Iris Xe Graphics, Windows 10 Pro, Mineral Grey",
+      "normal_price": "5915.00",
+      "price": "5915.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 4,
+      "processor_technology": 10,
+      "memory_capacity": 73,
+      "memory_type": "DDR4",
+      "hdd_type": "SSD",
+      "weight": null,
+      "stock": 1920,
+      "image": "products/9407918b-81a8-489d-9791-ab9727683297.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1361,
+    "fields": {
+      "category": 63,
+      "store": 2,
+      "name": "Laptop ASUS Vivobook Pro 16X OLED M7600QE cu procesor AMD Ryzen\u2122 7 5800H, 16\", 4K, 16GB, 1TB SSD, NVIDIA\u00ae GeForce\u00ae RTX\u2122 3050 Ti 4GB, Windows 11 Pro, Earl Grey",
+      "normal_price": "2293.00",
+      "price": "2293.00",
+      "processor_owner": "AMD",
+      "cores_number": 8,
+      "processor_technology": 23,
+      "memory_capacity": 126,
+      "memory_type": "",
+      "hdd_type": "",
+      "weight": null,
+      "stock": 168,
+      "image": "products/b4127ba9-f86d-42ef-99c1-8b84ccf46b43.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1362,
+    "fields": {
+      "category": 63,
+      "store": 2,
+      "name": "Laptop ultraportabil ASUS Zenbook 14X OLED UX5401EA cu procesor Intel\u00ae Core\u2122 i7-1165G7, 14\", 4K, 16GB, 1TB SSD, Intel\u00ae Iris Xe Graphics, Windows 11 Pro, Pine Grey",
+      "normal_price": "6959.97",
+      "price": "6959.97",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 4,
+      "processor_technology": 11,
+      "memory_capacity": 16,
+      "memory_type": "LPDDR4X",
+      "hdd_type": "SSD",
+      "weight": "1.40",
+      "stock": 1867,
+      "image": "products/86501d0a-c33e-43af-ba4e-a84aa9f5422e.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1363,
+    "fields": {
+      "category": 63,
+      "store": 2,
+      "name": "Laptop HP ENVY 17-ch1009nq cu procesor Intel\u00ae Core\u2122 i5-1155G7, 17.3\", Full HD, 16GB, 1TB SSD, Intel\u00ae Iris\u00ae X\u1d49 Graphics, Windows 11 Home, Silver",
+      "normal_price": "1958.00",
+      "price": "1958.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 4,
+      "processor_technology": 18,
+      "memory_capacity": 69,
+      "memory_type": "",
+      "hdd_type": "",
+      "weight": null,
+      "stock": 1232,
+      "image": "products/963e535f-9060-4972-8b41-8fd0c201e1db.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1364,
+    "fields": {
+      "category": 63,
+      "store": 2,
+      "name": "Laptop HP ENVY 17-ch1002nq cu procesor Intel Core i7-1195G7, 17.3\", Full HD, 16GB, 1TB SSD, Intel Iris Xe Graphics, Windows 11 Home, Natural silver",
+      "normal_price": "6444.97",
+      "price": "6444.97",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 4,
+      "processor_technology": 10,
+      "memory_capacity": 16,
+      "memory_type": "DDR4",
+      "hdd_type": "SSD",
+      "weight": "2.54",
+      "stock": 1173,
+      "image": "products/245cfd60-5c40-43b2-a5aa-30d9a3d3e3e1.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1365,
+    "fields": {
+      "category": 63,
+      "store": 2,
+      "name": "Laptop 2 in 1 Dell Inspiron 14 5406 cu procesor I3-1115G4, 14\" FHD Touch, 4GB, 256GB SSD, Intel UHD, Windows 10 Home S, Titan Grey",
+      "normal_price": "8786.00",
+      "price": "8786.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 2,
+      "processor_technology": 10,
+      "memory_capacity": 4,
+      "memory_type": "DDR4",
+      "hdd_type": "SSD",
+      "weight": "1.72",
+      "stock": 1673,
+      "image": "products/2374bb1c-7171-4fdf-9a2c-1647c8ccfeac.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1366,
+    "fields": {
+      "category": 63,
+      "store": 2,
+      "name": "Laptop Gaming Acer Predator Triton 300 PT315-53 cu procesor Intel\u00ae Core\u2122 i5-11400H, 15.6\", QHD, 165Hz, 16GB, 512GB SSD, NVIDIA\u00ae GeForce RTX\u2122 3060 6GB, Windows 10 Home, Black",
+      "normal_price": "5513.00",
+      "price": "5513.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 6,
+      "processor_technology": 10,
+      "memory_capacity": 16,
+      "memory_type": "DDR4",
+      "hdd_type": "SSD",
+      "weight": null,
+      "stock": 1002,
+      "image": "products/b5ef8615-d3f2-44ff-8483-d5c41ba3fccc.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1367,
+    "fields": {
+      "category": 63,
+      "store": 2,
+      "name": "Laptop ultraportabil Lenovo IdeaPad 5 14ITL05 cu procesor Intel Core i5-1135G7, 14\", Full HD, 16GB, 512GB SSD, Intel Iris Xe Graphics, Windows 10 Home, Abyss Blue",
+      "normal_price": "5568.00",
+      "price": "5568.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 4,
+      "processor_technology": 10,
+      "memory_capacity": 13,
+      "memory_type": "DDR4",
+      "hdd_type": "SSD",
+      "weight": "1.38",
+      "stock": 1337,
+      "image": "products/1a96e26e-1538-47d7-84cc-ea6254d9b34e.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1368,
+    "fields": {
+      "category": 63,
+      "store": 2,
+      "name": "Laptop Lenovo ThinkBook 15 G3 ACL cu procesor AMD Ryzen 7 5700U, 15.6\", Full HD, 16GB, 512GB SSD, AMD Radeon Graphics, Windows 10 Pro, Mineral Grey",
+      "normal_price": "6983.00",
+      "price": "6983.00",
+      "processor_owner": "AMD",
+      "cores_number": 8,
+      "processor_technology": 26,
+      "memory_capacity": 120,
+      "memory_type": "",
+      "hdd_type": "",
+      "weight": null,
+      "stock": 1493,
+      "image": "products/be82a7c9-ac40-4908-9de0-2dfd088b8802.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1369,
+    "fields": {
+      "category": 63,
+      "store": 2,
+      "name": "Laptop Gaming Acer Nitro 5 AN515-57 cu procesor Intel\u00ae Core\u2122 i7-11800H, 15.6\", Full HD, 16GB, 512GB SSD, NVIDIA\u00ae GeForce\u00ae RTX\u2122 3050Ti 4GB, Windows 11 Home, Black",
+      "normal_price": "5370.97",
+      "price": "5370.97",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 8,
+      "processor_technology": 10,
+      "memory_capacity": 18,
+      "memory_type": "DDR4",
+      "hdd_type": "SSD",
+      "weight": "2.20",
+      "stock": 598,
+      "image": "products/3281716c-c02c-4377-bd68-d2b72b8ee0f5.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1370,
+    "fields": {
+      "category": 64,
+      "store": 3,
+      "name": "Laptop Gaming HP Pavilion 15-dk2032nq cu procesor Core i5-11300H, 15.6\", Full HD, 144Hz, 8GB, 512GB SSD, NVIDIA GeForce RTX 3050 4GB, Free DOS, Shadow Black",
+      "normal_price": "146.40",
+      "price": "146.40",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 4,
+      "processor_technology": 10,
+      "memory_capacity": 31,
+      "memory_type": "DDR4",
+      "hdd_type": "SSD",
+      "weight": null,
+      "stock": 206,
+      "image": "products/210e5d5e-2fb2-42ef-a827-b016238f64bb.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1371,
+    "fields": {
+      "category": 64,
+      "store": 3,
+      "name": "Laptop Gaming Lenovo Legion 5 Pro 16ACH6H cu procesor AMD Ryzen 7 5800H, 16\", WQXGA, 165Hz, 16GB, 1TB SSD, NVIDIA GeForce RTX 3070 8GB, No OS, Stingray",
+      "normal_price": "7324.00",
+      "price": "7324.00",
+      "processor_owner": "AMD",
+      "cores_number": 8,
+      "processor_technology": 7,
+      "memory_capacity": 98,
+      "memory_type": "DDR4",
+      "hdd_type": "SSD",
+      "weight": "2.45",
+      "stock": 1290,
+      "image": "products/499d9277-4701-40ac-a4c5-02b355ecf072.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1372,
+    "fields": {
+      "category": 64,
+      "store": 3,
+      "name": "Laptop Gaming ASUS TUF A15 FA506IHR cu procesor AMD Ryzen\u2122 5 4600H, 15.6\", Full HD, 144Hz, 16GB, 512GB SSD, NVIDIA\u00ae GeForce GTX\u2122 1650 4GB, No OS, Graphite Black",
+      "normal_price": "5932.00",
+      "price": "5932.00",
+      "processor_owner": "AMD",
+      "cores_number": 6,
+      "processor_technology": 7,
+      "memory_capacity": 86,
+      "memory_type": "DDR4",
+      "hdd_type": "SSD",
+      "weight": null,
+      "stock": 658,
+      "image": "products/164b0461-f4c1-4197-8cd0-68b91770e653.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1373,
+    "fields": {
+      "category": 64,
+      "store": 3,
+      "name": "Laptop Gaming IdeaPad 3 15ACH6 cu procesor AMD Ryzen 7 5800H, 15.6\", Full HD, 120Hz, 8GB, 512GB SSD, NVIDIA GeForce RTX 3050 4GB, No OS, Shadow Black",
+      "normal_price": "3542.00",
+      "price": "3542.00",
+      "processor_owner": "AMD",
+      "cores_number": 8,
+      "processor_technology": 21,
+      "memory_capacity": 92,
+      "memory_type": "DDR4",
+      "hdd_type": "SSD",
+      "weight": "2.25",
+      "stock": 860,
+      "image": "products/c9bd941a-f55d-4d1d-abb6-2225f7a24dbf.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1374,
+    "fields": {
+      "category": 64,
+      "store": 3,
+      "name": "Laptop Gaming Lenovo IdeaPad 3 15IHU6 cu procesor Intel Core i5-11300H, 15.6\", Full HD, 8GB, 512GB SSD, NVIDIA GeForce GTX 1650 4GB, No OS, Shadow Black",
+      "normal_price": "3782.00",
+      "price": "3782.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 4,
+      "processor_technology": 2,
+      "memory_capacity": 40,
+      "memory_type": "DDR4",
+      "hdd_type": "SSD",
+      "weight": null,
+      "stock": 70,
+      "image": "products/09b11e5e-fddc-4984-9977-b0240071bcab.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1375,
+    "fields": {
+      "category": 64,
+      "store": 3,
+      "name": "Laptop Gaming Lenovo Legion 5 17ITH6 cu procesor Intel Core i7-11800H pana la 4.60 GHz, 17.3\", Full HD, 144 Hz, IPS, 8GB, 1TB HDD + 256 GB SSD, NVIDIA GeForce RTX 3050 4GB, Free DOS, Phantom Black",
+      "normal_price": "6617.00",
+      "price": "6617.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 8,
+      "processor_technology": 4,
+      "memory_capacity": 105,
+      "memory_type": "",
+      "hdd_type": "",
+      "weight": null,
+      "stock": 501,
+      "image": "products/2211a158-a9c5-4e7d-a999-1dd907b6c078.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1376,
+    "fields": {
+      "category": 64,
+      "store": 3,
+      "name": "Laptop Gaming Lenovo IdeaPad 3 15ACH6 cu procesor AMD Ryzen 5 5600H, 15.6\", Full HD, 8GB, 256GB SSD, NVIDIA GeForce GTX 1650 4GB, No OS, Shadow Black",
+      "normal_price": "3559.00",
+      "price": "3559.00",
+      "processor_owner": "AMD",
+      "cores_number": 6,
+      "processor_technology": 7,
+      "memory_capacity": 8,
+      "memory_type": "DDR4",
+      "hdd_type": "SSD",
+      "weight": "2.25",
+      "stock": 1143,
+      "image": "products/01475df4-30bf-4a5f-b2a5-3525cf52aae4.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1377,
+    "fields": {
+      "category": 64,
+      "store": 3,
+      "name": "Laptop Lenovo IdeaPad Gaming 3 15ACH6 cu procesor AMD Ryzen 5 5600H, 15.6\", Full HD, 8GB, 512GB SSD, NVIDIA GeForce RTX 3050 4GB, No OS, Shadow Black",
+      "normal_price": "6385.00",
+      "price": "6385.00",
+      "processor_owner": "AMD",
+      "cores_number": 6,
+      "processor_technology": 20,
+      "memory_capacity": 37,
+      "memory_type": "",
+      "hdd_type": "",
+      "weight": null,
+      "stock": 434,
+      "image": "products/6912882d-1ebf-4494-94b9-36833989ffc1.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1378,
+    "fields": {
+      "category": 64,
+      "store": 3,
+      "name": "Laptop Gaming Lenovo Legion 5 17ITH6H cu procesor Intel Core i5-11400H, 17.3\", Full HD, 144Hz, 16GB, 1TB SSD, NVIDIA GeForce RTX 3060 6GB, No OS, Phantom Blue",
+      "normal_price": "5726.00",
+      "price": "5726.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 6,
+      "processor_technology": 10,
+      "memory_capacity": 68,
+      "memory_type": "DDR4",
+      "hdd_type": "SSD",
+      "weight": null,
+      "stock": 751,
+      "image": "products/93bee106-06fb-4976-8f2b-372caa4b26a1.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1379,
+    "fields": {
+      "category": 64,
+      "store": 3,
+      "name": "Laptop Gaming Lenovo Legion 5 17ITH6H cu procesor Intel Core i7-11800H, 17.3\", Full HD, IPS, 144Hz, 16GB, 1TB SSD, NVIDIA GeForce RTX 3060 6GB, No OS, Phantom Blue",
+      "normal_price": "3859.00",
+      "price": "3859.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 8,
+      "processor_technology": 3,
+      "memory_capacity": 5,
+      "memory_type": "",
+      "hdd_type": "",
+      "weight": null,
+      "stock": 1129,
+      "image": "products/09d80842-6bb5-4e95-9ff5-038b75697e6e.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1380,
+    "fields": {
+      "category": 64,
+      "store": 3,
+      "name": "Laptop Gaming Lenovo IdeaPad 3 15ACH6 cu procesor AMD Ryzen 7 5800H, 15.6\", Full HD, 8GB, 512GB SSD, NVIDIA GeForce GTX 1650 4GB, No OS, Shadow Black",
+      "normal_price": "3442.00",
+      "price": "3442.00",
+      "processor_owner": "AMD",
+      "cores_number": 8,
+      "processor_technology": 7,
+      "memory_capacity": 8,
+      "memory_type": "DDR4",
+      "hdd_type": "SSD",
+      "weight": "2.25",
+      "stock": 989,
+      "image": "products/a55b67e0-7142-4160-9f79-a4969b326098.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1381,
+    "fields": {
+      "category": 64,
+      "store": 3,
+      "name": "Laptop Gaming OMEN by HP Laptop 17-ck0009nq cu procesor Intel\u00ae Core\u2122 i7-11800H, 17.3\", Full Hd, 144Hz, 16GB, 512GB SSD, NVIDIA\u00ae GeForce RTX\u2122 3060 6GB, Free DOS, Black",
+      "normal_price": "7425.00",
+      "price": "7425.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 8,
+      "processor_technology": 10,
+      "memory_capacity": 16,
+      "memory_type": "DDR4",
+      "hdd_type": "SSD",
+      "weight": null,
+      "stock": 1499,
+      "image": "products/19ba29f7-0c7b-4379-b904-6127153d651a.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1382,
+    "fields": {
+      "category": 64,
+      "store": 3,
+      "name": "Laptop Gaming MSI GF63 Thin 11UC-400XRO cu procesor Intel Core i5-11400H, 15.6\", Full HD, 144Hz, 8GB, 512GB SSD, NVIDIA\u00ae GeForce RTX\u2122 3050 4GB, No OS, Black",
+      "normal_price": "8924.00",
+      "price": "8924.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 6,
+      "processor_technology": 10,
+      "memory_capacity": 56,
+      "memory_type": "DDR4",
+      "hdd_type": "SSD",
+      "weight": null,
+      "stock": 981,
+      "image": "products/a352b97d-4d72-4a33-bc28-a89fc4c38d75.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1383,
+    "fields": {
+      "category": 64,
+      "store": 3,
+      "name": "Laptop Gaming Lenovo IdeaPad 3 15ACH cu procersor AMD Ryzen 5 5600H, 15.6\", Full HD, 8GB, 512GB SSD, NVIDIA GeForce RTX 3050 4GB, Free DOS, Shadow Black",
+      "normal_price": "6824.00",
+      "price": "6824.00",
+      "processor_owner": "AMD",
+      "cores_number": 6,
+      "processor_technology": 16,
+      "memory_capacity": 43,
+      "memory_type": "",
+      "hdd_type": "",
+      "weight": null,
+      "stock": 955,
+      "image": "products/de2067af-4b51-498a-871c-491b5da4bf7a.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1384,
+    "fields": {
+      "category": 64,
+      "store": 3,
+      "name": "Laptop Gaming HP Pavilion 15-ec2011nq cu procesor AMD Ryzen\u2122 5 5600H, 15.6\", Full HD, 144Hz, 8GB, 512GB SSD, NVIDIA\u00ae GeForce RTX\u2122 3050 Ti 4GB, Free DOS, Black",
+      "normal_price": "4397.00",
+      "price": "4397.00",
+      "processor_owner": "AMD",
+      "cores_number": 6,
+      "processor_technology": 15,
+      "memory_capacity": 6,
+      "memory_type": "DDR4",
+      "hdd_type": "SSD",
+      "weight": "1.98",
+      "stock": 262,
+      "image": "products/f69357d4-424f-4b09-b4dc-cc5410a176ad.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1385,
+    "fields": {
+      "category": 64,
+      "store": 3,
+      "name": "Laptop Gaming ASUS ROG Strix SCAR 17 G733ZW cu procesor Intel\u00ae Core\u2122 i9-12900H, 17.3\", Full HD, 360Hz, 32GB RAM DDR5, 1TB SSD, NVIDIA\u00ae GeForce RTX\u2122 3070 Ti 8GB, No OS, Off Black",
+      "normal_price": "7758.00",
+      "price": "7758.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 14,
+      "processor_technology": 2,
+      "memory_capacity": 75,
+      "memory_type": "DDR5",
+      "hdd_type": "SSD",
+      "weight": null,
+      "stock": 437,
+      "image": "products/9b414da0-89fe-47d3-a70c-971ba05f9a4d.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1386,
+    "fields": {
+      "category": 64,
+      "store": 3,
+      "name": "Laptop Gaming Lenovo Legion 5 17ITH6 cu procesor Intel Core i5-11400H, 17.3\", 144Hz, Full HD, 8GB, 1TB HDD + 256GB SSD, NVIDIA GeForce RTX 3050 4GB, No OS, Phantom Blue",
+      "normal_price": "1622.00",
+      "price": "1622.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 6,
+      "processor_technology": 10,
+      "memory_capacity": 117,
+      "memory_type": "DDR4",
+      "hdd_type": "HDD + SSD",
+      "weight": null,
+      "stock": 31,
+      "image": "products/18a38d11-b7db-4b92-9a29-a26bfe6f6cbd.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1387,
+    "fields": {
+      "category": 64,
+      "store": 3,
+      "name": "Laptop Gaming ASUS TUF Gaming A17 FA706IC cu procesor AMD Ryzen\u2122 7 4800H, 17.3\", Full HD, 144Hz, 16GB, 1TB SSD, NVIDIA\u00ae GeForce RTX\u2122 3050, No OS, Graphite Black",
+      "normal_price": "1784.00",
+      "price": "1784.00",
+      "processor_owner": "AMD",
+      "cores_number": 8,
+      "processor_technology": 6,
+      "memory_capacity": 78,
+      "memory_type": "DDR4",
+      "hdd_type": "SSD",
+      "weight": "2.60",
+      "stock": 436,
+      "image": "products/1a235904-a8ce-4ceb-bfb8-eeb4043f3d39.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1388,
+    "fields": {
+      "category": 64,
+      "store": 3,
+      "name": "Laptop Gaming Lenovo Legion 5 Pro 16ACH6H cu procesor AMD Ryzen 7 5800H, 16\", WQXGA, 165Hz, 16GB, 1TB SSD, NVIDIA GeForce RTX 3070 8GB, No OS, Storm Grey",
+      "normal_price": "8240.00",
+      "price": "8240.00",
+      "processor_owner": "AMD",
+      "cores_number": 8,
+      "processor_technology": 6,
+      "memory_capacity": 25,
+      "memory_type": "",
+      "hdd_type": "",
+      "weight": null,
+      "stock": 1511,
+      "image": "products/7e2180fd-63e8-491b-b4af-97aa2d9f77ec.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1389,
+    "fields": {
+      "category": 64,
+      "store": 3,
+      "name": "Laptop Gaming MSI GF63 Thin 11UD-298XRO cu procesor Intel Core i5-11400H, 15.6\", Full HD, 144Hz,8GB, 512GB SSD, NVIDIA\u00ae GeForce RTX\u2122 3050Ti 4GB, No OS, Black",
+      "normal_price": "8510.00",
+      "price": "8510.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 6,
+      "processor_technology": 9,
+      "memory_capacity": 38,
+      "memory_type": "",
+      "hdd_type": "SSD",
+      "weight": "1.86",
+      "stock": 486,
+      "image": "products/4cb2ff8a-0e18-4281-9356-4ab5a990af8a.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1390,
+    "fields": {
+      "category": 64,
+      "store": 3,
+      "name": "Laptop Gaming ASUS TUF F15 FX507ZM cu procesor Intel\u00ae Core\u2122 i7-12700H, 15.6\", Full HD, 144Hz, 16GB RAM DDR5, 512GB SSD, NVIDIA\u00ae GeForce RTX\u2122 3060 6GB, No OS, Jaeger Gray",
+      "normal_price": "5110.00",
+      "price": "5110.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 14,
+      "processor_technology": 10,
+      "memory_capacity": 50,
+      "memory_type": "DDR5",
+      "hdd_type": "SSD",
+      "weight": null,
+      "stock": 795,
+      "image": "products/cf0b2ec2-08b0-41d5-b991-74da3163d642.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1391,
+    "fields": {
+      "category": 64,
+      "store": 3,
+      "name": "Laptop Gaming ASUS TUF F17 FX706HCB cu procesor Intel\u00ae Core\u2122 i5-11400H, 17.3\"Full HD, 8GB, 1TB SSD, NVIDIA\u00ae GeForce RTX\u2122 3050 4GB, No OS, Eclipse Gray",
+      "normal_price": "2918.00",
+      "price": "2918.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 6,
+      "processor_technology": 12,
+      "memory_capacity": 36,
+      "memory_type": "DDR4",
+      "hdd_type": "SSD",
+      "weight": null,
+      "stock": 778,
+      "image": "products/17a81228-24b7-4ae7-8e86-9433548a3ddc.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1392,
+    "fields": {
+      "category": 64,
+      "store": 3,
+      "name": "Laptop Gaming Acer Nitro 5 AN515-45 cu procesor AMD Ryzen\u2122 7 5800H, 15.6\", Full HD, 144Hz, 16GB, 1TB SSD, NVIDIA\u00ae GeForce RTX\u2122 3060, No OS, Black",
+      "normal_price": "1980.00",
+      "price": "1980.00",
+      "processor_owner": "AMD",
+      "cores_number": 8,
+      "processor_technology": 25,
+      "memory_capacity": 65,
+      "memory_type": "DDR4",
+      "hdd_type": "SSD",
+      "weight": "2.30",
+      "stock": 1748,
+      "image": "products/eb2e868b-84ff-4911-ba52-32a7b7689295.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1393,
+    "fields": {
+      "category": 64,
+      "store": 3,
+      "name": "Laptop Gaming ASUS ROG Zephyrus G14 GA401IHR cu procesor AMD Ryzen\u2122 7 4800HS, 14\", WQHD, 120Hz, 8GB, 1TB SSD, NVIDIA\u00ae GeForce GTX\u2122 1650 4GB, No OS, Eclipse Gray",
+      "normal_price": "4455.00",
+      "price": "4455.00",
+      "processor_owner": "AMD",
+      "cores_number": 8,
+      "processor_technology": 7,
+      "memory_capacity": 8,
+      "memory_type": "DDR4",
+      "hdd_type": "SSD",
+      "weight": "1.60",
+      "stock": 1235,
+      "image": "products/7ce9ca6b-2572-4d3d-8812-21d49d1547af.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1394,
+    "fields": {
+      "category": 64,
+      "store": 3,
+      "name": "Laptop Gaming MSI Pulse GL66 11UEK-246XRO cu procesor Intel Core \u00ae i7-11800H, 15.6\u201d QHD 165Hz, 16 GB DDR4, 1TB SSD, RTX\u2122 3060 Laptop GPU 6GB GDDR6, MS DOS, Gray",
+      "normal_price": "5455.00",
+      "price": "5455.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 8,
+      "processor_technology": 11,
+      "memory_capacity": 40,
+      "memory_type": "",
+      "hdd_type": "",
+      "weight": null,
+      "stock": 461,
+      "image": "products/0d6e02c7-7813-42b7-98e7-4d3f4ee88bf1.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1395,
+    "fields": {
+      "category": 64,
+      "store": 3,
+      "name": "Laptop Gaming Lenovo Legion 5 Pro 16ACH6H cu procesor AMD Ryzen 5 5600H, 16\", WQXGA, 16GB, 512GB SSD, NVIDIA GeForce RTX 3060 6GB, No OS, Stingray",
+      "normal_price": "8913.00",
+      "price": "8913.00",
+      "processor_owner": "AMD",
+      "cores_number": 6,
+      "processor_technology": 7,
+      "memory_capacity": 16,
+      "memory_type": "DDR4",
+      "hdd_type": "SSD",
+      "weight": null,
+      "stock": 1603,
+      "image": "products/2e62eb0a-c923-483e-a2a0-324d26d47688.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1396,
+    "fields": {
+      "category": 64,
+      "store": 3,
+      "name": "Laptop Gaming HP Pavilion 15-dk2096nq cu procesor Intel\u00ae Core\u2122 i5-11300H, 15.6\", Full HD, 8GB, 1TB HDD + 256GB SSD, NVIDIA\u00ae GeForce RTX\u2122 3050 Ti 4GB, Free DOS, Black",
+      "normal_price": "3157.00",
+      "price": "3157.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 4,
+      "processor_technology": 3,
+      "memory_capacity": 60,
+      "memory_type": "",
+      "hdd_type": "",
+      "weight": "2.28",
+      "stock": 777,
+      "image": "products/b41dbb02-8b9c-48dd-973c-6c064c905852.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1397,
+    "fields": {
+      "category": 64,
+      "store": 3,
+      "name": "Laptop Gaming ASUS ROG Strix SCAR 15 G533ZS cu procesor Intel\u00ae Core\u2122 i9-12900H, 15.6\", WQHD, 240Hz, 32GB RAM DDR5, 1TB SSD, NVIDIA\u00ae GeForce RTX\u2122 3080 8GB, No OS, Off Black",
+      "normal_price": "1204.00",
+      "price": "1204.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 14,
+      "processor_technology": 10,
+      "memory_capacity": 92,
+      "memory_type": "DDR5",
+      "hdd_type": "SSD",
+      "weight": "2.30",
+      "stock": 1939,
+      "image": "products/70e9f900-f810-4bd1-b7da-82cb91f604a5.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1398,
+    "fields": {
+      "category": 64,
+      "store": 3,
+      "name": "Laptop Gaming ASUS ROG Zephyrus G14 GA402RK cu procesor AMD Ryzen 7 6800HS pana la 4.7GHz, 14\" WUXGA, 16GB, SSD 1TB, AMD Radeon RX 6800S 8GB, Free Dos, grey",
+      "normal_price": "5365.00",
+      "price": "5365.00",
+      "processor_owner": "AMD",
+      "cores_number": 8,
+      "processor_technology": 11,
+      "memory_capacity": 16,
+      "memory_type": "DDR5",
+      "hdd_type": "SSD",
+      "weight": "1.72",
+      "stock": 1688,
+      "image": "products/e39570f0-7e8a-45e6-b9ca-8ef200d7bff5.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1399,
+    "fields": {
+      "category": 64,
+      "store": 3,
+      "name": "Laptop Gaming ASUS TUF Gaming A17 FA706IE cu procesor AMD Ryzen\u2122 7 4800H , 17.3\", Full HD, 144Hz, 16GB, 1TB SSD, NVIDIA\u00ae GeForce RTX\u2122 3050 Ti, No OS, Graphite Black",
+      "normal_price": "6513.00",
+      "price": "6513.00",
+      "processor_owner": "AMD",
+      "cores_number": 8,
+      "processor_technology": 21,
+      "memory_capacity": 16,
+      "memory_type": "DDR4",
+      "hdd_type": "SSD",
+      "weight": "2.60",
+      "stock": 217,
+      "image": "products/578c234a-424f-4c95-a949-fd3485b5be00.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1400,
+    "fields": {
+      "category": 64,
+      "store": 3,
+      "name": "Laptop Gaming Acer Nitro 5 AN515-45 cu procesor AMD Ryzen\u2122 5 5600H, 15.6\", Full HD, 144Hz, 8GB, 512GB SSD, NVIDIA\u00ae GeForce RTX\u2122 3060, No OS, Black",
+      "normal_price": "3649.00",
+      "price": "3649.00",
+      "processor_owner": "AMD",
+      "cores_number": 6,
+      "processor_technology": 7,
+      "memory_capacity": 8,
+      "memory_type": "DDR4",
+      "hdd_type": "SSD",
+      "weight": "2.30",
+      "stock": 1632,
+      "image": "products/18e0993f-def5-4485-bb42-e24b9d6bd9cd.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1401,
+    "fields": {
+      "category": 64,
+      "store": 3,
+      "name": "Laptop Gaming Acer Nitro 5 AN515-57 cu procesor Intel\u00ae Core\u2122 i7-11800H, 15.6\" Full HD, 144Hz, 16GB, 1TB SSD, NVIDIA\u00ae GeForce RTX\u2122 3060, No OS, Black",
+      "normal_price": "2992.00",
+      "price": "2992.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 8,
+      "processor_technology": 18,
+      "memory_capacity": 112,
+      "memory_type": "",
+      "hdd_type": "",
+      "weight": null,
+      "stock": 1988,
+      "image": "products/17b7d267-d00e-42b5-88be-c1f7bc3b3282.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1402,
+    "fields": {
+      "category": 64,
+      "store": 3,
+      "name": "Laptop Gaming HP Omen cu procesor AMD Ryzen\u2122 9-5900H, 15.6\", Full HD, 16GB, 1TB SSD, NVIDIA GeForce RTX 3070 8GB, Free DOS, Mica Silver",
+      "normal_price": "7673.00",
+      "price": "7673.00",
+      "processor_owner": "AMD",
+      "cores_number": 8,
+      "processor_technology": 22,
+      "memory_capacity": 36,
+      "memory_type": "",
+      "hdd_type": "",
+      "weight": null,
+      "stock": 959,
+      "image": "products/07e0ee45-469b-456d-93d0-2d59aaa53729.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1403,
+    "fields": {
+      "category": 64,
+      "store": 3,
+      "name": "Laptop Gaming Lenovo Legion 5 15ACH6A cu procesor AMD Ryzen 7 5800H, 15.6\", Full HD, 16GB, 1TB SSD, AMD Radeon RX 6600M 8GB, No OS, Phantom Blue",
+      "normal_price": "4284.00",
+      "price": "4284.00",
+      "processor_owner": "AMD",
+      "cores_number": 8,
+      "processor_technology": 7,
+      "memory_capacity": 60,
+      "memory_type": "DDR4",
+      "hdd_type": "SSD",
+      "weight": null,
+      "stock": 453,
+      "image": "products/dc8d6ad2-824c-477c-925f-7ac8b0805825.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1404,
+    "fields": {
+      "category": 64,
+      "store": 3,
+      "name": "Laptop Gaming ASUS ROG Strix SCAR 15 G533ZW cu procesor Intel\u00ae Core\u2122 i9-12900H, 15.6\", WQHD 240Hz, 32GB RAM DDR5, 1TB SSD, NVIDIA\u00ae GeForce RTX\u2122 3070 Ti 8GB, NO OS, Black",
+      "normal_price": "8460.00",
+      "price": "8460.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 14,
+      "processor_technology": 7,
+      "memory_capacity": 25,
+      "memory_type": "DDR5",
+      "hdd_type": "SSD",
+      "weight": "2.30",
+      "stock": 937,
+      "image": "products/3c531ed8-1060-4512-8769-d7c60107f91f.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1405,
+    "fields": {
+      "category": 64,
+      "store": 3,
+      "name": "Laptop Gaming HP Pavilion 15-dk2042nq cu procesor Intel\u00ae Core\u2122 i7-11370H, 15.6\", Full HD, 8GB, 512GB SSD, NVIDIA\u00ae GeForce RTX\u2122 3050 4GB, Free DOS, Black",
+      "normal_price": "1796.00",
+      "price": "1796.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 4,
+      "processor_technology": 10,
+      "memory_capacity": 8,
+      "memory_type": "DDR4",
+      "hdd_type": "SSD",
+      "weight": "2.23",
+      "stock": 746,
+      "image": "products/5b36d6ce-7c63-4f71-a802-e135af25c485.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1406,
+    "fields": {
+      "category": 64,
+      "store": 3,
+      "name": "Laptop Gaming Lenovo Legion 5 17ITH6H cu procesor Intel Core i5-11400H, 17.3\", Full HD, 8GB, 512GB SSD, NVIDIA GeForce RTX 3060 6GB, Free DOS, Phantom Blue",
+      "normal_price": "5113.00",
+      "price": "5113.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 6,
+      "processor_technology": 10,
+      "memory_capacity": 18,
+      "memory_type": "DDR4",
+      "hdd_type": "SSD",
+      "weight": null,
+      "stock": 1841,
+      "image": "products/f8b18e34-177a-47f0-8045-dd2fa1c74268.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1407,
+    "fields": {
+      "category": 64,
+      "store": 3,
+      "name": "Laptop Gaming ASUS TUF Gaming A15 cu procesor AMD Ryzen\u2122 7 6800H, 15.6\", Full HD, 144Hz, 16GB RAM DDR5, 1TB SSD, NVIDIA\u00ae GeForce RTX\u2122 3050 Ti 4GB, No OS, Mecha Gray",
+      "normal_price": "5799.99",
+      "price": "5799.99",
+      "processor_owner": "AMD",
+      "cores_number": 8,
+      "processor_technology": 23,
+      "memory_capacity": 123,
+      "memory_type": "DDR5",
+      "hdd_type": "SSD",
+      "weight": "2.20",
+      "stock": 1209,
+      "image": "products/cd462693-0091-4856-aba5-73f0e01133cf.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1408,
+    "fields": {
+      "category": 64,
+      "store": 3,
+      "name": "Laptop Gaming Lenovo IdeaPad 3 15ACH6 cu procesor AMD Ryzen\u2122 5 5600H, 15.6\", Full HD, 8GB, 512GB SSD, NVIDIA GeForce RTX 3050 Ti 4GB, No OS, Shadow Black",
+      "normal_price": "5894.00",
+      "price": "5894.00",
+      "processor_owner": "AMD",
+      "cores_number": 6,
+      "processor_technology": 20,
+      "memory_capacity": 85,
+      "memory_type": "",
+      "hdd_type": "SSD",
+      "weight": "2.25",
+      "stock": 1919,
+      "image": "products/15cd797e-6df6-467c-a0cc-efa2e60563c4.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1409,
+    "fields": {
+      "category": 64,
+      "store": 3,
+      "name": "Laptop Gaming HP Pavilion 15-dk2031nq cu procesor Intel\u00ae Core\u2122 i5-11300H, 15.6\", 8GB, 256GB SSD, NVIDIA\u00ae GeForce RTX\u2122 3050 Ti 4GB, Free DOS, Black",
+      "normal_price": "7490.00",
+      "price": "7490.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 4,
+      "processor_technology": 27,
+      "memory_capacity": 95,
+      "memory_type": "",
+      "hdd_type": "",
+      "weight": "2.23",
+      "stock": 281,
+      "image": "products/6739ba6c-fc11-4d5b-beb3-863df8dd8bd5.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1410,
+    "fields": {
+      "category": 64,
+      "store": 3,
+      "name": "Laptop Gaming HP VICTUS 16-d0038nq cu procesor Intel Core i5-11400, Full Voltage, 16.1\", Full HD, 144Hz, 16GB, 512GB SSD, NVIDIA GeForce RTX 3050 4GB, Free DOS, Ceramic White",
+      "normal_price": "1600.00",
+      "price": "1600.00",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 6,
+      "processor_technology": 27,
+      "memory_capacity": 119,
+      "memory_type": "",
+      "hdd_type": "SSD",
+      "weight": "2.46",
+      "stock": 1744,
+      "image": "products/605a3fb8-e398-46a9-9430-ac311fad268a.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1411,
+    "fields": {
+      "category": 64,
+      "store": 3,
+      "name": "Laptop Gaming ASUS ROG Zephyrus M16 GU603ZE cu procesor Intel\u00ae Core\u2122 i7-12700H, 16\", WUXGA, 165Hz, 16GB RAM DDR5, 512GB SSD, NVIDIA\u00ae GeForce RTX\u2122 3050 Ti 4GB, Free DOS, Off Black",
+      "normal_price": "7499.88",
+      "price": "7499.88",
+      "processor_owner": "Intel\u00ae",
+      "cores_number": 14,
+      "processor_technology": 10,
+      "memory_capacity": 16,
+      "memory_type": "DDR5",
+      "hdd_type": "SSD",
+      "weight": "1.90",
+      "stock": 1955,
+      "image": "products/57ab0817-d798-4f95-b656-4a359af9b400.jpg"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+      "action_time": "2022-05-17T15:59:18.734Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "2",
+      "object_repr": "store_owner_1",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+      "action_time": "2022-05-17T15:59:58.003Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "2",
+      "object_repr": "store_owner_1",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\", \"Email address\", \"Staff status\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+      "action_time": "2022-05-17T16:00:09.907Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "3",
+      "object_repr": "store_owner_2",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+      "action_time": "2022-05-17T16:00:18.611Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "3",
+      "object_repr": "store_owner_2",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\", \"Email address\", \"Staff status\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+      "action_time": "2022-05-17T16:00:27.592Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "4",
+      "object_repr": "store_owner_3",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+      "action_time": "2022-05-17T16:00:38.190Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "4",
+      "object_repr": "store_owner_3",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\", \"Email address\", \"Staff status\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+      "action_time": "2022-05-31T17:08:29.081Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "Owners",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+      "action_time": "2022-05-31T17:09:41.102Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "2",
+      "object_repr": "store_owner_1",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+      "action_time": "2022-05-31T17:11:44.382Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "Owners",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+      "action_time": "2022-05-31T17:12:37.048Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "Owners",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+      "action_time": "2022-05-31T17:16:19.587Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "3",
+      "object_repr": "store_owner_2",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+      "action_time": "2022-05-31T17:16:29.535Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "4",
+      "object_repr": "store_owner_3",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+      "action_time": "2022-05-31T17:26:46.790Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "Owners",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+      "action_time": "2022-05-31T17:27:11.050Z",
+      "user": 2,
+      "content_type": 7,
+      "object_id": "65",
+      "object_repr": "New Category #1 (65)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+      "action_time": "2022-05-31T17:27:16.358Z",
+      "user": 2,
+      "content_type": 7,
+      "object_id": "65",
+      "object_repr": "New Category #01 (65)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+      "action_time": "2022-05-31T17:29:41.763Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "66",
+      "object_repr": "New Category #02 (66)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+      "action_time": "2022-06-06T13:13:10.026Z",
+      "user": 2,
+      "content_type": 8,
+      "object_id": "5",
+      "object_repr": "test store (5)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+      "action_time": "2022-06-06T13:13:17.724Z",
+      "user": 2,
+      "content_type": 8,
+      "object_id": "5",
+      "object_repr": "test store 1222 (5)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+      "action_time": "2022-06-06T13:13:40.642Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "5",
+      "object_repr": "test store 1222 (5)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+      "action_time": "2022-06-06T16:19:07.543Z",
+      "user": 2,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "cel.ro (1)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Logo\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+      "action_time": "2022-06-06T16:24:43.019Z",
+      "user": 2,
+      "content_type": 8,
+      "object_id": "6",
+      "object_repr": "Best PQ (6)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+      "name": "Can view log entry",
+      "content_type": 1,
+      "codename": "view_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+      "name": "Can add permission",
+      "content_type": 2,
+      "codename": "add_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+      "name": "Can change permission",
+      "content_type": 2,
+      "codename": "change_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+      "name": "Can delete permission",
+      "content_type": 2,
+      "codename": "delete_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+      "name": "Can view permission",
+      "content_type": 2,
+      "codename": "view_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+      "name": "Can add group",
+      "content_type": 3,
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+      "name": "Can change group",
+      "content_type": 3,
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+      "name": "Can delete group",
+      "content_type": 3,
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+      "name": "Can view group",
+      "content_type": 3,
+      "codename": "view_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+      "name": "Can add user",
+      "content_type": 4,
+      "codename": "add_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+      "name": "Can change user",
+      "content_type": 4,
+      "codename": "change_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+      "name": "Can delete user",
+      "content_type": 4,
+      "codename": "delete_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+      "name": "Can view user",
+      "content_type": 4,
+      "codename": "view_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+      "name": "Can add content type",
+      "content_type": 5,
+      "codename": "add_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+      "name": "Can change content type",
+      "content_type": 5,
+      "codename": "change_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+      "name": "Can delete content type",
+      "content_type": 5,
+      "codename": "delete_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+      "name": "Can view content type",
+      "content_type": 5,
+      "codename": "view_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+      "name": "Can add session",
+      "content_type": 6,
+      "codename": "add_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+      "name": "Can change session",
+      "content_type": 6,
+      "codename": "change_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+      "name": "Can delete session",
+      "content_type": 6,
+      "codename": "delete_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+      "name": "Can view session",
+      "content_type": 6,
+      "codename": "view_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+      "name": "Can add category",
+      "content_type": 7,
+      "codename": "add_category"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+      "name": "Can change category",
+      "content_type": 7,
+      "codename": "change_category"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+      "name": "Can delete category",
+      "content_type": 7,
+      "codename": "delete_category"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+      "name": "Can view category",
+      "content_type": 7,
+      "codename": "view_category"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+      "name": "Can add store",
+      "content_type": 8,
+      "codename": "add_store"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+      "name": "Can change store",
+      "content_type": 8,
+      "codename": "change_store"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+      "name": "Can delete store",
+      "content_type": 8,
+      "codename": "delete_store"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+      "name": "Can view store",
+      "content_type": 8,
+      "codename": "view_store"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+      "name": "Can add product",
+      "content_type": 9,
+      "codename": "add_product"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+      "name": "Can change product",
+      "content_type": 9,
+      "codename": "change_product"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+      "name": "Can delete product",
+      "content_type": 9,
+      "codename": "delete_product"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+      "name": "Can view product",
+      "content_type": 9,
+      "codename": "view_product"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+      "name": "Can add profile",
+      "content_type": 10,
+      "codename": "add_profile"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+      "name": "Can change profile",
+      "content_type": 10,
+      "codename": "change_profile"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+      "name": "Can delete profile",
+      "content_type": 10,
+      "codename": "delete_profile"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+      "name": "Can view profile",
+      "content_type": 10,
+      "codename": "view_profile"
+    }
+  },
+  {
+    "model": "auth.group",
+    "pk": 1,
+    "fields": {
+      "name": "Owners",
+      "permissions": [
+        25,
+        26,
+        28,
+        33,
+        34,
+        35,
+        36,
+        29,
+        30,
+        31,
+        32
+      ]
+    }
+  },
+  {
+    "model": "users.authuser",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$320000$4htQrVZ2nKQkk93T3siQh9$UZlylV7gXSffn/TkGg/jurFUZdPd0YS8BmICljkW4qo=",
+      "last_login": "2022-06-06T15:43:34.889Z",
+      "is_superuser": true,
+      "first_name": "M",
+      "last_name": "V",
+      "email": "vladuomihai@gmail.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2022-05-17T15:56:11.604Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.authuser",
+    "pk": 2,
+    "fields": {
+      "password": "pbkdf2_sha256$320000$TsYSRORzqvbK77XthxtdFT$r3FaQx2JrCBjEW24f3GLiM46R624tHBV7f0+Gfs0XDU=",
+      "last_login": "2022-06-06T12:59:52.164Z",
+      "is_superuser": false,
+      "first_name": "Store 1",
+      "last_name": "Owner",
+      "email": "a@gmail.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2022-05-17T15:59:18Z",
+      "groups": [
+        1
+      ],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.authuser",
+    "pk": 3,
+    "fields": {
+      "password": "pbkdf2_sha256$320000$CDFPxUUgqRkHdYwPr99X3w$VoUUm0KzrcEpYdddHzAq+OCQYtfbviilkqxXPKVZlnk=",
+      "last_login": null,
+      "is_superuser": false,
+      "first_name": "Store 2",
+      "last_name": "Owner",
+      "email": "b@gmail.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2022-05-17T16:00:09Z",
+      "groups": [
+        1
+      ],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.authuser",
+    "pk": 4,
+    "fields": {
+      "password": "pbkdf2_sha256$320000$vKqwKCqZTXKANc6XcTVqCW$eOGOvL44H14FP2VhdvJSCWzBV1a196vb1534ASptvW8=",
+      "last_login": null,
+      "is_superuser": false,
+      "first_name": "Store 3",
+      "last_name": "Owner",
+      "email": "c@gmail.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2022-05-17T16:00:27Z",
+      "groups": [
+        1
+      ],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.authuser",
+    "pk": 6,
+    "fields": {
+      "password": "pbkdf2_sha256$320000$R1nHLrdXfZaJKdsYp5aFnG$yVxTwSz+ncnTKBhBHRdbhK29IP44afboXBholkoa6tg=",
+      "last_login": "2022-05-31T15:43:17.127Z",
+      "is_superuser": false,
+      "first_name": "John",
+      "last_name": "Doe",
+      "email": "x@gmail.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2022-05-31T15:43:16.966Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.authuser",
+    "pk": 7,
+    "fields": {
+      "password": "pbkdf2_sha256$320000$GLLZpc1p7y2vjDqRdXDfm6$dCMsd38GcxYIoyW2MIRAoS5cRvhApTYsB35lCH8eEOc=",
+      "last_login": "2022-05-31T15:56:32.533Z",
+      "is_superuser": false,
+      "first_name": "Firstname",
+      "last_name": "lastname",
+      "email": "y@gmail.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2022-05-31T15:56:32.359Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+      "app_label": "admin",
+      "model": "logentry"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+      "app_label": "auth",
+      "model": "permission"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+      "app_label": "auth",
+      "model": "group"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+      "app_label": "auth",
+      "model": "user"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+      "app_label": "contenttypes",
+      "model": "contenttype"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+      "app_label": "sessions",
+      "model": "session"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+      "app_label": "products",
+      "model": "category"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+      "app_label": "products",
+      "model": "store"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+      "app_label": "products",
+      "model": "product"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+      "app_label": "users",
+      "model": "profile"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "0k90hwti68vzqzq45ot7d5ql8gjc0dx7",
+    "fields": {
+      "session_data": ".eJxVjMsOwiAQRf-FtSEzVB516b7fQAYYpGogKe3K-O_apAvd3nPOfQlP21r81nnxcxIXocTpdwsUH1x3kO5Ub03GVtdlDnJX5EG7nFri5_Vw_w4K9fKtR0xRoTXaqmEghwkhExEgg-VRs3KGMFOCM0dnrMsQskawMcQhAGjx_gDTbjez:1nyCKm:vcSljkkqcelp1s7n4pBHUfdrPJPOIHxvKYA3_WHpWDs",
+      "expire_date": "2022-06-20T12:59:52.173Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "2hqz3oh0b5ocqwdz0w3el3f56x5k6qrx",
+    "fields": {
+      "session_data": ".eJxVjEEOwiAQRe_C2pDCFOi4dO8ZyMCAVA0kpV0Z765NutDtf-_9l_C0rcVvPS1-ZnEWSpx-t0DxkeoO-E711mRsdV3mIHdFHrTLa-P0vBzu30GhXr41DmycTeDQZT1GG8yIE6pgmVM2HHV2QBSmAchZ6yChIs5AAGg1I4v3B912N_I:1nyEtC:ndAJEKQ0arO52IEDuPGAdWi1HK0aieUfAx48JEVXMsQ",
+      "expire_date": "2022-06-20T15:43:34.898Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "gxv29ztxuwnqa08mkvy7p8l369aigrcm",
+    "fields": {
+      "session_data": "e30:1ntYo0:Qn4TLryVhteUabVA3Qd5Fl51HuniqsqIUEbShiqkF0A",
+      "expire_date": "2022-06-07T17:58:52.634Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "rmopdvse6mxwkpihwcn8c3pbuch76bkz",
+    "fields": {
+      "session_data": ".eJxVjMsOwiAQRf-FtSEzVB516b7fQAYYpGogKe3K-O_apAvd3nPOfQlP21r81nnxcxIXocTpdwsUH1x3kO5Ub03GVtdlDnJX5EG7nFri5_Vw_w4K9fKtR0xRoTXaqmEghwkhExEgg-VRs3KGMFOCM0dnrMsQskawMcQhAGjx_gDTbjez:1nw5DD:eOh8uXyNMPFMNslyH5k35ArTl0PGFy2lAdSmqt8K7zM",
+      "expire_date": "2022-06-14T16:59:19.193Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "wf68tftlbh5yvy9dzkw3a9f5wsixmn3a",
+    "fields": {
+      "session_data": ".eJxVjEEOwiAQRe_C2pDCFOi4dO8ZyMCAVA0kpV0Z765NutDtf-_9l_C0rcVvPS1-ZnEWSpx-t0DxkeoO-E711mRsdV3mIHdFHrTLa-P0vBzu30GhXr41DmycTeDQZT1GG8yIE6pgmVM2HHV2QBSmAchZ6yChIs5AAGg1I4v3B912N_I:1nyCPq:U6_Z2rXFlSnSFEv6_6P2aEWyFy__D_lSmGcXnsKNRkw",
+      "expire_date": "2022-06-20T13:05:06.770Z"
+    }
+  }
+]

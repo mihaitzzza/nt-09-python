@@ -1,5 +1,5 @@
 from django.db import models
-from django.conf import global_settings
+from django.conf import settings
 from django.templatetags.static import static
 from django.utils.translation import gettext_lazy as _
 
@@ -16,7 +16,7 @@ class Category(models.Model):
 
 
 class Store(models.Model):
-    owner = models.ForeignKey(global_settings.AUTH_USER_MODEL, on_delete=models.CASCADE, related_name='stores')
+    owner = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE, related_name='stores')
     name = models.CharField(max_length=128, unique=True, null=False, blank=False)
     logo = models.ImageField(upload_to='stores/', null=True, default=None)
 
