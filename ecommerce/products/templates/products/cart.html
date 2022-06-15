@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% load cart %}
+
+{% block title %}Cart{% endblock %}
+
+{% block content %}
+    <h1>Cart page</h1>
+    <ul>
+        {% for product in products %}
+            <li>{{ product.id }}. {{ product.name }} - {{ request.session.cart | product_qty:product.id }}</li>
+        {% endfor %}
+    </ul>
+{% endblock %}

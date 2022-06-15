@@ -3,15 +3,34 @@
 {% block page_title %}Products page{% endblock %}
 
 {% block content %}
-    <h1>Available products</h1>
-    <ul>
-        {% for product in products %}
-            <li>
+    <h1>Available products ({{ products_page | length }}) _{{ request.session.cart }}_</h1>
+    <ul style="list-style-type: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap;">
+        {% for product in products_page %}
+            <li style="width: 50%;">
+                <img src="{{ product.image_url }}" width="100" />
                 {{ product.price  }}
                 -
                 {{ product.name }}
                 <a href="{% url 'products:product_details' product.id %}">View details</a>
+                <div>
+                    <form method="post" action="{% url 'products:add_to_cart' product.id %}?page={{ products_page.number }}">
+                        {% csrf_token %}
+                        {{ form }}
+                        <input type="submit" value="Add to Cart" />
+                    </form>
+                </div>
             </li>
         {% endfor %}
     </ul>
+    <p>
+        Page {{ products_page.number }} / {{ products_page.paginator.num_pages }} |
+    <a href="{% url 'products:all_products' %}?page=1">First page</a> |
+    {% if products_page.has_previous %}
+        <a href="{% url 'products:all_products' %}?page={{ products_page.previous_page_number }}">Previous page</a> |
+    {% endif %}
+    {% if products_page.has_next %}
+        <a href="{% url 'products:all_products' %}?page={{ products_page.next_page_number }}">Next page</a> |
+    {% endif %}
+    <a href="{% url 'products:all_products' %}?page={{ products_page.paginator.num_pages }}">Last page</a>
+    </p>
 {% endblock %}

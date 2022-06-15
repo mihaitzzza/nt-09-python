@@ -3,6 +3,7 @@
         <a href="/">Homepage</a>
         <a href="{% url 'products:all_products' %}">Products</a>
         <a href="{% url 'stores:all_stores' %}">Stores</a>
+        <a href="{% url 'cart' %}">Cart</a>
     </div>
     <div>
         {% if user.is_authenticated %}
