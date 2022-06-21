@@ -22,8 +22,6 @@ class CartForm(forms.Form):
     def save(self):
         # add Product with ID = <product_id> to cart in quantity = <quantity>
         quantity = self.cleaned_data['quantity']
-        print('--- quantity', quantity, type(quantity))
-        print('--- product', self._product)
 
         # if 'cart' in self._session:
         #     self._session['cart'][self._product.id] = quantity

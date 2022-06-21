@@ -17,6 +17,18 @@
         main {
             padding: 20px 20px;
         }
+
+        .actions-feedback .success {
+            color: green;
+        }
+
+        .actions-feedback .error {
+            color: red;
+        }
+
+        .actions-feedback .warning {
+            color: orange;
+        }
     </style>
 </head>
 <body>
@@ -29,6 +41,7 @@
     </div>
 </header>
 <main>
+    {% include 'actions_feedback.html' %}
     {% block content %}{% endblock %}
 </main>
 </body>

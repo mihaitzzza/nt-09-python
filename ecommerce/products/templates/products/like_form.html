@@ -1,0 +1,11 @@
+<p>
+    <strong>Likes:</strong> {{ likes }}
+</p>
+{% if is_authenticated %}
+    <p>
+        <form method="post" action="{{ path }}">
+            {% csrf_token %}
+            <input type="submit" value="Like/Unlike"/>
+        </form>
+    </p>
+{% endif %}

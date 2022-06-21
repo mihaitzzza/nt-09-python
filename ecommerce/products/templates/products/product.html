@@ -1,8 +1,11 @@
 {% extends 'base.html' %}
+{% load cart %}
 
 {% block page_title %}Product page{% endblock %}
 
 {% block content %}
-    <img src="{{ product.image_url }}" width="200" />
+    <img src="{{ product.image_url }}" width="200"/>
     <strong>Name: </strong> {{ product.name }}
+    {% url 'products:like' product.id as like_route %}
+    {% like_form product like_route %}
 {% endblock %}

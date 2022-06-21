@@ -3,7 +3,7 @@
 {% block page_title %}Products page{% endblock %}
 
 {% block content %}
-    <h1>Available products ({{ products_page | length }}) _{{ request.session.cart }}_</h1>
+    <h1>Available products</h1>
     <ul style="list-style-type: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap;">
         {% for product in products_page %}
             <li style="width: 50%;">

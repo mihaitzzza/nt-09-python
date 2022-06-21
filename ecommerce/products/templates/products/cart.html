@@ -7,7 +7,14 @@
     <h1>Cart page</h1>
     <ul>
         {% for product in products %}
-            <li>{{ product.id }}. {{ product.name }} - {{ request.session.cart | product_qty:product.id }}</li>
+            <li>
+                <p>
+                    Product: {{ product.name }}
+                </p>
+                <p>
+                    Quantity: {{ request.session.cart | product_qty:product.id }}
+                </p>
+            </li>
         {% endfor %}
     </ul>
 {% endblock %}

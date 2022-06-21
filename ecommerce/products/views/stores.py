@@ -1,5 +1,6 @@
-from django.shortcuts import render, Http404, get_object_or_404
-from products.models import Store
+from django.shortcuts import render, Http404, get_object_or_404, redirect, reverse
+from django.contrib.auth.decorators import login_required
+from products.models import Store, Like
 
 
 def get_all_stores(request):
@@ -21,3 +22,21 @@ def get_store(request, store_id):
     return render(request, 'products/store.html', {
         'store': store
     })
+
+
+@login_required
+def like_store(request, store_id):
+    if request.method != 'POST':
+        raise Http404('This method is not supported.')
+
+    store = get_object_or_404(Store, pk=store_id)
+    like = store.likes.filter(user=request.user).first()
+    if like is None:
+        Like.objects.create(
+            user=request.user,
+            content_object=store
+        )
+    else:
+        like.delete()
+
+    return redirect(reverse('stores:store_details', kwargs={'store_id': store.id}))

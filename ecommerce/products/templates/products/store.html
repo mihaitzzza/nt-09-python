@@ -1,4 +1,5 @@
 {% extends 'base.html' %}
+{% load cart %}
 
 {% block page_title %}Store {{ store.name }}{% endblock %}
 
@@ -12,4 +13,6 @@
         <strong>Contact:</strong>
         {{ store.owner.email }}
     </p>
+    {% url 'stores:like' store.id as like_route %}
+    {% like_form store like_route %}
 {% endblock %}

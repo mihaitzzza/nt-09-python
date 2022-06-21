@@ -1,6 +1,8 @@
 from django.shortcuts import render, Http404, get_object_or_404, redirect, reverse
 from django.core.paginator import Paginator
-from products.models import Product
+from django.contrib import messages
+from django.contrib.auth.decorators import login_required
+from products.models import Product, Like
 from products.forms import CartForm
 
 
@@ -39,6 +41,32 @@ def add_to_cart(request, product_id):
     if form.is_valid():
         form.save()
 
+        quantity = form.cleaned_data["quantity"]
+        messages.success(request, f'Product {product.name} was added to cart {quantity} times.')
+    else:
+        messages.error(request, f'Product {product.name} was not added to cart.')
+
     page = request.GET.get('page')
     return redirect(f"{reverse('products:all_products')}?page={page}")  # products/?page=<page_number>
 
+
+@login_required
+def like_product(request, product_id):
+    if request.method != 'POST':
+        raise Http404('This method is not supported.')
+
+    product = get_object_or_404(Product, pk=product_id)
+    like = product.likes.filter(user=request.user).first()
+    if like is None:
+        Like.objects.create(
+            user=request.user,
+            content_object=product
+        )
+    else:
+        like.delete()
+
+    print('\n' * 2)
+    print('like', like)
+    print('\n' * 2)
+
+    return redirect(reverse('products:product_details', kwargs={'product_id': product.id}))
