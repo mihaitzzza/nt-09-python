@@ -1,6 +1,7 @@
 from django.shortcuts import render, Http404, get_object_or_404, redirect, reverse
 from django.contrib.auth.decorators import login_required
-from products.models import Store, Like
+from products.models import Store
+from likes.models import Like
 
 
 def get_all_stores(request):

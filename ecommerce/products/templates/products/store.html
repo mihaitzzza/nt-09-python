@@ -13,6 +13,6 @@
         <strong>Contact:</strong>
         {{ store.owner.email }}
     </p>
-    {% url 'stores:like' store.id as like_route %}
+    {% url 'likes:like' 'stores' store.id as like_route %}
     {% like_form store like_route %}
 {% endblock %}

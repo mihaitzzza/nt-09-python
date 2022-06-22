@@ -31,6 +31,8 @@ ALLOWED_HOSTS = ['*']
 # Application definition
 
 INSTALLED_APPS = [
+    'orders.apps.OrdersConfig',
+    'likes.apps.LikesConfig',
     'users.apps.UsersConfig',
     'products.apps.ProductsConfig',
     'django.contrib.admin',
@@ -135,3 +137,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 LOGIN_URL = 'users:login'
 
 AUTH_USER_MODEL = 'users.AuthUser'
+
+STRIPE_PUBLIC_KEY = config('STRIPE_PUBLIC_KEY')
+STRIPE_SECRET_KEY = config('STRIPE_SECRET_KEY')

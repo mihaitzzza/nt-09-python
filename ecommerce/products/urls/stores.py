@@ -6,5 +6,5 @@ app_name = 'stores'
 urlpatterns = [
     path('', get_all_stores, name='all_stores'),
     path('<int:store_id>/', get_store, name='store_details'),
-    path('<int:store_id>/like/', like_store, name='like'),
+    path('<int:store_id>/like/', like_store, name='like'),  # /stores/<store_id>/like
 ]

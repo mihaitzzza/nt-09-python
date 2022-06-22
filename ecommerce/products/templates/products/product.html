@@ -6,6 +6,6 @@
 {% block content %}
     <img src="{{ product.image_url }}" width="200"/>
     <strong>Name: </strong> {{ product.name }}
-    {% url 'products:like' product.id as like_route %}
+    {% url 'likes:like' 'products' product.id as like_route %}
     {% like_form product like_route %}
 {% endblock %}

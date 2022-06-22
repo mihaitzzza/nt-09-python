@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>My saved cards</h1>
+    <ul>
+        {% for card in cards %}
+            <li>card details...</li>
+        {% empty %}
+            <p>You don't have any cards yet. Please add a card <a href="{% url 'orders:add_card' %}">here</a>.</p>
+        {% endfor %}
+    </ul>
+{% endblock %}
