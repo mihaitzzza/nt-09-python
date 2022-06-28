@@ -28,5 +28,12 @@ class StripeCustomer(models.Model):
 
 
 class StripeCard(models.Model):
-    stripe_customer = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE, related_name='cards')
+    stripe_customer = models.ForeignKey(StripeCustomer, on_delete=models.CASCADE, related_name='cards')
     stripe_id = models.CharField(max_length=256, null=False)
+    brand = models.CharField(max_length=20, null=True, default=None)
+    last4 = models.CharField(max_length=4, null=True, default=None)
+    exp_month = models.IntegerField(null=True, default=None)
+    exp_year = models.IntegerField(null=True, default=None)
+
+    def __str__(self):
+        return f'**** **** **** {self.last4}'

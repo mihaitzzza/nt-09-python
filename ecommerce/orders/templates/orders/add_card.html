@@ -22,7 +22,7 @@
           var form = document.getElementById('payment-form');
           var hiddenInput = document.createElement('input');
           hiddenInput.setAttribute('type', 'hidden');
-          hiddenInput.setAttribute('name', 'stripeToken');
+          hiddenInput.setAttribute('name', 'stripe_token');
           hiddenInput.setAttribute('value', token.id);
           form.appendChild(hiddenInput);
 
@@ -60,6 +60,6 @@
         <!-- We'll put the error messages in this element -->
         <div id="card-errors" role="alert"></div>
 
-        <button id="submit">Submit Payment</button>
+        <button type="submit">Add card</button>
     </form>
 {% endblock %}

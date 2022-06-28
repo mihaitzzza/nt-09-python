@@ -5,16 +5,27 @@
 
 {% block content %}
     <h1>Cart page</h1>
-    <ul>
-        {% for product in products %}
-            <li>
-                <p>
-                    Product: {{ product.name }}
-                </p>
-                <p>
-                    Quantity: {{ request.session.cart | product_qty:product.id }}
-                </p>
-            </li>
-        {% endfor %}
-    </ul>
+    {% if products|length == 0 %}
+        <p>You don't have any products in your cart.</p>
+    {% else %}
+        <ul>
+            {% for product in products %}
+                <li>
+                    <p>
+                        Product: {{ product.name }}
+                    </p>
+                    <p>
+                        Quantity: {{ request.session.cart | product_qty:product.id }}
+                    </p>
+                </li>
+            {% endfor %}
+        </ul>
+        <p>
+            <strong>Total price:</strong> {{ total_price }} RON
+        </p>
+        <form method="post" action="{% url 'orders:order' %}">
+            {% csrf_token %}
+            <input type="submit" value="Order" />
+        </form>
+    {% endif %}
 {% endblock %}

@@ -2,9 +2,24 @@
 
 {% block content %}
     <h1>My saved cards</h1>
+
+    {% if cards|length > 0 %}
+        <p>You can add a card <a href="{% url 'orders:add_card' %}">here</a>.</p>
+    {% endif %}
+
     <ul>
         {% for card in cards %}
-            <li>card details...</li>
+            <li>
+                <p>
+                    <strong>Brand:</strong> {{ card.brand }}
+                </p>
+                <p>
+                    <strong>Number:</strong> **** **** **** {{ card.last4 }}
+                </p>
+                <p>
+                    <strong>Expire date:</strong> {{ card.exp_month }}/{{ card.exp_year }}
+                </p>
+            </li>
         {% empty %}
             <p>You don't have any cards yet. Please add a card <a href="{% url 'orders:add_card' %}">here</a>.</p>
         {% endfor %}

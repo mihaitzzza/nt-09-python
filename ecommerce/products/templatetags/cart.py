@@ -1,5 +1,6 @@
 from django import template
 from products.models import Product
+from helpers.cart import get_total_price
 
 register = template.Library()
 
@@ -50,12 +51,7 @@ def get_cart_link(context):
     total_products = len(cart_data.keys())
     if total_products > 0:
         cart_products = Product.objects.filter(pk__in=cart_data.keys()).all()
-        total_price = sum(
-            [
-                product.price * cart_data[str(product.id)]
-                for product in cart_products
-            ]
-        )
+        total_price = get_total_price(cart_data, cart_products)
     else:
         total_price = 0
 
