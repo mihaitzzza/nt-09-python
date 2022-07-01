@@ -6,7 +6,7 @@ from orders.models import StripeCard
 class OrderForm(forms.ModelForm):
     class Meta:
         model = Order
-        exclude = ['user']
+        exclude = ['user', 'status']
 
     card = forms.ChoiceField(
         widget=forms.RadioSelect,

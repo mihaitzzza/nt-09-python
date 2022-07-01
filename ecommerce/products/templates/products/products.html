@@ -3,20 +3,29 @@
 {% block page_title %}Products page{% endblock %}
 
 {% block content %}
-    <h1>Available products</h1>
+    <h1>Available products ({{ total_products }})</h1>
+    <form method="get" action="{% url 'products:all_products' %}">
+        {% csrf_token %}
+        {{ filter_form.as_p }}
+        <input type="submit" value="Apply filters" />
+    </form>
     <ul style="list-style-type: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap;">
         {% for product in products_page %}
             <li style="width: 50%;">
-                <img src="{{ product.image_url }}" width="100" />
-                {{ product.price  }}
-                -
-                {{ product.name }}
+                <img src="{{ product.image_url }}" width="100"/>
+                <p>
+                    <strong>Price:</strong> {{ product.price }}
+                </p>
+                <p>
+                    <strong>Name:</strong> {{ product.name }}
+                </p>
                 <a href="{% url 'products:product_details' product.id %}">View details</a>
                 <div>
-                    <form method="post" action="{% url 'products:add_to_cart' product.id %}?page={{ products_page.number }}">
+                    <form method="post"
+                          action="{% url 'products:add_to_cart' product.id %}?page={{ products_page.number }}">
                         {% csrf_token %}
-                        {{ form }}
-                        <input type="submit" value="Add to Cart" />
+                        {{ cart_form }}
+                        <input type="submit" value="Add to Cart"/>
                     </form>
                 </div>
             </li>
@@ -24,13 +33,14 @@
     </ul>
     <p>
         Page {{ products_page.number }} / {{ products_page.paginator.num_pages }} |
-    <a href="{% url 'products:all_products' %}?page=1">First page</a> |
-    {% if products_page.has_previous %}
-        <a href="{% url 'products:all_products' %}?page={{ products_page.previous_page_number }}">Previous page</a> |
-    {% endif %}
-    {% if products_page.has_next %}
-        <a href="{% url 'products:all_products' %}?page={{ products_page.next_page_number }}">Next page</a> |
-    {% endif %}
-    <a href="{% url 'products:all_products' %}?page={{ products_page.paginator.num_pages }}">Last page</a>
+        <a href="{% url 'products:all_products' %}?page=1">First page</a> |
+        {% if products_page.has_previous %}
+            <a href="{% url 'products:all_products' %}?page={{ products_page.previous_page_number }}">Previous page</a>
+            |
+        {% endif %}
+        {% if products_page.has_next %}
+            <a href="{% url 'products:all_products' %}?page={{ products_page.next_page_number }}">Next page</a> |
+        {% endif %}
+        <a href="{% url 'products:all_products' %}?page={{ products_page.paginator.num_pages }}">Last page</a>
     </p>
 {% endblock %}

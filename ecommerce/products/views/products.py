@@ -3,23 +3,30 @@ from django.core.paginator import Paginator
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from products.models import Product
-from products.forms import CartForm
+from products.forms.cart import CartForm
+from products.forms.filter import SearchAndFilterForm
 from likes.models import Like
 
 
 def get_all_products(request):
-    products = Product.objects.order_by('-price').all()
+    filter_form = SearchAndFilterForm(request.GET)
+    if filter_form.is_valid():
+        products = filter_form.get_results()
+    else:
+        raise Http404('Search and filter form is invalid!')
 
     paginator = Paginator(products, 6)  # use 6 products per each page.
 
     page = request.GET.get('page', 1)
     products_page = paginator.get_page(page)
 
-    form = CartForm()
+    cart_form = CartForm()
 
     return render(request, 'products/products.html', {
         "products_page": products_page,
-        "form": form,
+        "cart_form": cart_form,
+        "filter_form": filter_form,
+        "total_products": len(products)
     })
 
 

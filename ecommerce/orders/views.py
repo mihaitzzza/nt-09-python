@@ -1,7 +1,8 @@
 import stripe
-from django.shortcuts import render, Http404, redirect, reverse
+from django.shortcuts import render, Http404, redirect, reverse, get_object_or_404, HttpResponse
 from django.conf import settings
-from orders.models import StripeCard
+from django.contrib import messages
+from orders.models import StripeCard, Order
 from products.models import Product
 from helpers.cart import get_total_price
 from orders.forms import OrderForm
@@ -58,30 +59,26 @@ def order(request):
     if is_card_available:
         form = OrderForm(request.POST, user=request.user, cart_data=cart_data, products=products)
         if form.is_valid():
+            order = form.save()
             card = form.cleaned_data['card']
+            process_payment_route = reverse('orders:process', kwargs={'order_id': order.id})
 
-            print('sum to be paid', float(total_price))
             payment_intent = stripe.PaymentIntent.create(
                 amount=int(float(total_price) * 100),
                 currency='ron',
                 customer=request.user.stripe_customer.stripe_id,
                 payment_method=card.stripe_id,
                 confirm=True,
-                return_url='/',
+                return_url=f'{settings.CURRENT_DOMAIN}{process_payment_route}',
                 api_key=settings.STRIPE_SECRET_KEY,
             )
 
             next_action = payment_intent.get('next_action')
-            print('--- next_action', next_action)
-            # print('---', next_action['redirect_to_url'])
 
             if next_action:
-                print("next_action['use_stripe_sdk']['stripe_js']", next_action['use_stripe_sdk']['stripe_js'])
-                return redirect(next_action['use_stripe_sdk']['stripe_js'])
+                return redirect(next_action['redirect_to_url']['url'])
 
-            # form.save()
-            # return redirect()
-            # pass
+            return redirect()
     else:
         form = OrderForm(user=request.user, cart_data=cart_data, products=products)
 
@@ -89,3 +86,28 @@ def order(request):
         'total_price': total_price,
         'form': form,
     })
+
+
+def process_payment(request, order_id):
+    order = get_object_or_404(Order, pk=order_id)
+    payment_intent_id = request.GET.get('payment_intent')
+
+    if not payment_intent_id:
+        raise Http404('Invalid payment intent ID.')
+
+    payment_intent = stripe.PaymentIntent.retrieve(
+        payment_intent_id,
+        api_key=settings.STRIPE_SECRET_KEY
+    )
+
+    payment_error = payment_intent['last_payment_error']
+    if payment_error is None:
+        order.status = Order.StatusChoices.COMPLETE
+        messages.success(request, 'Payment was completed.')
+    else:
+        order.status = Order.StatusChoices.INCOMPLETE
+        messages.error(request, 'Payment was incomplete.')
+
+    order.save()
+
+    return redirect(reverse('homepage'))

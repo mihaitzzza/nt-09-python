@@ -5,9 +5,15 @@ from products.models import Product
 
 
 class Order(models.Model):
+    class StatusChoices(models.IntegerChoices):
+        PENDING = 0
+        COMPLETE = 1
+        INCOMPLETE = 2
+
     user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE, null=True, default=None)
     billing_address = models.CharField(max_length=256, null=True, default=None)
     shipping_address = models.CharField(max_length=256, null=True, default=None)
+    status = models.IntegerField(choices=StatusChoices.choices, default=0, null=False)
 
 
 class OrderItem(models.Model):
