@@ -31,6 +31,9 @@ ALLOWED_HOSTS = ['*']
 # Application definition
 
 INSTALLED_APPS = [
+    'graphene_django',
+    'corsheaders',
+    'rest_framework',
     'orders.apps.OrdersConfig',
     'likes.apps.LikesConfig',
     'users.apps.UsersConfig',
@@ -46,6 +49,7 @@ INSTALLED_APPS = [
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+    "corsheaders.middleware.CorsMiddleware",
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
@@ -142,3 +146,16 @@ STRIPE_PUBLIC_KEY = config('STRIPE_PUBLIC_KEY')
 STRIPE_SECRET_KEY = config('STRIPE_SECRET_KEY')
 
 CURRENT_DOMAIN = config('CURRENT_DOMAIN')
+
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'rest_framework_simplejwt.authentication.JWTAuthentication',
+    )
+}
+
+# CORS_ALLOWED_ORIGINS = ['http://*', 'ftp://*']
+CORS_ALLOW_ALL_ORIGINS = True
+
+GRAPHENE = {
+    "SCHEMA": 'graphqlapi.schema.schema'
+}
