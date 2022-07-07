@@ -9,10 +9,7 @@ class SearchAndFilterForm(forms.Form):
         ('price_desc', 'Price descending'),
     )
 
-    category = forms.MultipleChoiceField(widget=forms.CheckboxSelectMultiple, required=False, choices=(
-        (category.id, category.name)
-        for category in Category.objects.all()
-    ))
+    category = forms.MultipleChoiceField(widget=forms.CheckboxSelectMultiple, required=False, choices=())
     name = forms.CharField(max_length=255, required=False)
     price_min = forms.IntegerField(min_value=0, required=False)
     price_max = forms.IntegerField(min_value=0, required=False)
@@ -25,6 +22,10 @@ class SearchAndFilterForm(forms.Form):
         available_memory_capacity = set(product.memory_capacity for product in Product.objects.all())
         self.fields['memory_capacity'].choices = (
             (data, f'{data} GB') for data in available_memory_capacity
+        )
+        self.fields['category'].choices = (
+            (category.id, category.name)
+            for category in Category.objects.all()
         )
 
     def get_results(self):
