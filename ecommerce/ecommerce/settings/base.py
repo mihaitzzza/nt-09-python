@@ -11,22 +11,21 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 """
 
 import os
+import django
+from django.utils.encoding import force_str
 from pathlib import Path
 from decouple import config
 
+django.utils.encoding.force_text = force_str
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
-BASE_DIR = Path(__file__).resolve().parent.parent
+BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = config('SECRET_KEY')
-
-# SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
-
-ALLOWED_HOSTS = ['*']
 
 # Application definition
 
@@ -78,20 +77,6 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'ecommerce.wsgi.application'
-
-# Database
-# https://docs.djangoproject.com/en/4.0/ref/settings/#databases
-
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'HOST': config('DB_HOST', 'localhost'),
-        'NAME': config('DB_NAME'),
-        'PORT': config('DB_PORT', 3306),
-        'USER': config('DB_USER'),
-        'PASSWORD': config('DB_PASS'),
-    }
-}
 
 # Password validation
 # https://docs.djangoproject.com/en/4.0/ref/settings/#auth-password-validators
@@ -152,9 +137,6 @@ REST_FRAMEWORK = {
         'rest_framework_simplejwt.authentication.JWTAuthentication',
     )
 }
-
-# CORS_ALLOWED_ORIGINS = ['http://*', 'ftp://*']
-CORS_ALLOW_ALL_ORIGINS = True
 
 GRAPHENE = {
     "SCHEMA": 'graphqlapi.schema.schema'
