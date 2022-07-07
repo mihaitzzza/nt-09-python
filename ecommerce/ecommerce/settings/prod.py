@@ -40,3 +40,5 @@ LOGGING = {
         },
     },
 }
+
+STATIC_ROUTE = os.path.join(BASE_DIR, 'static')
